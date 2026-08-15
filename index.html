@@ -3,53 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Dashboard thu nợ - kiểm soát vận hành</title>
+  <title>Dashboard Tổng hợp Thu nợ T8/2026</title>
   <style>
-    :root{--bg:#f4f6f9;--card:#fff;--text:#1c2b3a;--muted:#6b7a8c;--brand:#0f2a4a;--line:#e3e8ee;--blue:#1d6fb8;--red:#c0392b}
+    :root{--bg:#f4f6f9;--card:#fff;--text:#1c2b3a;--muted:#65758a;--brand:#0f2a4a;--line:#dfe7ef;--good:#178a52;--warn:#d99a00;--bad:#c0392b;--purple:#7d3c98}
     *{box-sizing:border-box} body{margin:0;padding:24px;font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
-    .wrap{max-width:1180px;margin:0 auto} header{border-bottom:3px solid var(--brand);padding-bottom:12px;margin-bottom:18px}
-    h1{margin:0;font-size:22px;color:var(--brand)} .sub,.note,footer{color:var(--muted);font-size:12.5px;line-height:1.5}
+    .wrap{max-width:1240px;margin:auto} header{border-bottom:3px solid var(--brand);padding-bottom:14px;margin-bottom:18px}
+    h1{margin:0 0 6px;font-size:24px;color:var(--brand)} .sub,.note,footer{font-size:12.5px;color:var(--muted);line-height:1.5}
     .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin:18px 0}
-    .card,.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;box-shadow:0 1px 3px rgba(15,42,74,.06)}
-    .card{padding:14px 16px} .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);margin-bottom:6px}
-    .val{font-size:22px;font-weight:700;color:var(--brand)} .panel{padding:16px 18px;margin:14px 0} h2{margin:0 0 6px;font-size:16px;color:var(--brand)}
-    table{width:100%;border-collapse:collapse;font-size:13px} th{background:var(--brand);color:#fff;text-align:left;padding:8px 10px;white-space:nowrap}
-    td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top} td.n{text-align:right;white-space:nowrap}
-    tr.tot td{font-weight:700;border-top:2px solid var(--brand);background:#f0f4f8} .tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700}
-    .tag.red{background:#fbe9e7;color:var(--red)} .tag.blue{background:#eaf2fb;color:var(--blue)} ul{margin:8px 0 0 18px;line-height:1.6} footer{text-align:right;margin-top:10px}
+    .card,.panel,details{background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 1px 3px rgba(15,42,74,.06)}
+    .card{padding:15px 16px} .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.45px;color:var(--muted);margin-bottom:6px}
+    .val{font-size:25px;font-weight:800;color:var(--brand)} .accent .val,.strong{color:var(--good);font-weight:800} .warn .val{color:var(--warn)}
+    .panel{padding:17px 18px;margin:14px 0} h2{margin:0 0 8px;font-size:17px;color:var(--brand)}
+    table{width:100%;border-collapse:collapse;font-size:13px;margin-top:10px} th{background:var(--brand);color:#fff;text-align:left;padding:9px 10px;white-space:nowrap}
+    td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top} td.n,th.n{text-align:right;white-space:nowrap}
+    tr.tot td{font-weight:800;background:#f0f4f8;border-top:2px solid var(--brand)} details{margin:12px 0;overflow:hidden}
+    summary{cursor:pointer;list-style:none;padding:13px 15px;font-weight:800;color:var(--brand);display:flex;justify-content:space-between;gap:12px;background:#f8fbfd}
+    summary span{font-weight:600;color:var(--muted);font-size:12.5px} details table{margin:0} .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:7px}
+    .xanh{background:var(--good)} .vàng{background:var(--warn)} .đỏ{background:var(--bad)} .tím{background:var(--purple)} .khác{background:#7f8c8d} ul{line-height:1.65;margin:8px 0 0 18px}
+    footer{text-align:right;margin-top:10px}
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>DASHBOARD QUẢN TRỊ THU NỢ - KIỂM SOÁT VẬN HÀNH</h1>
-      <div class="sub">Nguồn: Docs/EXPORT.XLSX + MD_Update.xlsx · Khóa dữ liệu: Mã shop + Mã khách · Cập nhật 15/08/2026 13:45</div>
+      <h1>Dashboard Tổng hợp Thu nợ — T8/2026</h1>
+      <div class="sub">Trọng tâm: kết quả thu hồi công nợ tổng của 2 CBLĐ Chu Thị Hoài Phương & Trần Đăng Nam · Nguồn: Docs/EXPORT.XLSX + Docs/MD.xlsx · Cập nhật 15/08/2026 16:22</div>
     </header>
     <div class="cards">
-      <div class="card"><div class="lbl">Giao dịch export</div><div class="val">175</div><div class="note">Dòng giao dịch hợp lệ</div></div>
-      <div class="card"><div class="lbl">Khóa shop + khách</div><div class="val">154</div><div class="note">Không gộp khách theo shop</div></div>
-      <div class="card"><div class="lbl">Tổng thu trong export</div><div class="val">2.385.280.615</div><div class="note">Tiền thu + bù trừ khác</div></div>
-      <div class="card"><div class="lbl">Thu riêng 300015101</div><div class="val">255.427.354</div><div class="note">Ghi nhận ngoài KPI</div></div>
+      <div class="card"><div class="lbl">Tổng KPI thu nợ</div><div class="val">18.132,9</div><div class="note">triệu · 553 GH thuộc 2 CBLĐ</div></div>
+      <div class="card accent"><div class="lbl">Thực thu · % KPI</div><div class="val">2.778,9 <span style="font-size:14px">(15,3%)</span></div><div class="note">Từ export mới nhất, tách theo Mã shop + Mã khách</div></div>
+      <div class="card"><div class="lbl">Nợ phát sinh</div><div class="val">4.152,4</div><div class="note">triệu · từ sheet Chi tiết</div></div>
+      <div class="card accent"><div class="lbl">Thu nợ PS · Tỷ lệ</div><div class="val">1.942,2 <span style="font-size:14px">(46,8%)</span></div><div class="note">Theo công thức Thu nợ PS của workbook</div></div>
+      <div class="card warn"><div class="lbl">Mapping bổ sung PS</div><div class="val">2</div><div class="note">11.172.001 đã ghi nhận vào Nam</div></div>
     </div>
     <div class="panel">
-      <h2>1 · PT2.TV-02 theo Mã shop + Mã khách</h2>
-      <div class="note">Hai khách thuê cùng vị trí được giữ riêng. Đây là kiểm soát trọng yếu của dashboard hiện tại.</div>
+      <h2>1 · Kết quả tổng theo 2 CBLĐ</h2>
+      <div class="note">Đây là màn hình chính. Dashboard tập trung ở cấp CBLĐ, không lấy CBNV hoặc case đơn lẻ làm trọng tâm.</div>
       <table>
-        <tr><th>Mã shop</th><th>Mã khách</th><th>Tên khách</th><th>CBLĐ</th><th>CSKH</th><th>Nhóm</th><th class="n">KPI</th><th class="n">Đã thu</th><th>Trạng thái</th></tr>
-        <tr><td>PT2.TV-02</td><td>300014502</td><td>HỘ KINH DOANH TẠ QUANG HƯNG 1986</td><td>Chu Thị Hoài Phương</td><td>Nguyễn Thị Quỳnh Hoa</td><td><span class='tag red'>Đỏ</span></td><td class='n'>726.769.099</td><td class='n'>21.947.936</td><td>Đang theo KPI</td></tr><tr><td>PT2.TV-02</td><td>300015101</td><td>CÔNG TY TNHH 1986 VIỆT NAM</td><td>Chu Thị Hoài Phương</td><td>Nguyễn Thị Quỳnh Hoa</td><td><span class='tag red'>Đỏ</span></td><td class='n'>0</td><td class='n'>255.427.354</td><td>Thu ngoài KPI</td></tr>
-        <tr class="tot"><td colspan="6">TỔNG PT2.TV-02</td><td class="n">726.769.099</td><td class="n">277.375.290</td><td>2 mã khách</td></tr>
+        <tr><th>CBLĐ</th><th class="n">GH</th><th class="n">KPI</th><th class="n">Thực thu</th><th class="n">% KPI</th><th class="n">Nợ PS</th><th class="n">Thu PS</th><th class="n">% PS</th></tr>
+        <tr><td>Chu Thị Hoài Phương</td><td class='n'>327</td><td class='n'>13.105,1</td><td class='n strong'>1.812,8</td><td class='n'>13,8%</td><td class='n'>2.413,5</td><td class='n strong'>1.106,4</td><td class='n'>45,8%</td></tr><tr><td>Trần Đăng Nam</td><td class='n'>226</td><td class='n'>5.027,8</td><td class='n strong'>966,1</td><td class='n'>19,2%</td><td class='n'>1.738,9</td><td class='n strong'>835,8</td><td class='n'>48,1%</td></tr>
+        <tr class="tot"><td>TỔNG 2 CBLĐ</td><td class="n">553</td><td class="n">18.132,9</td><td class="n">2.778,9</td><td class="n">15,3%</td><td class="n">4.152,4</td><td class="n">1.942,2</td><td class="n">46,8%</td></tr>
       </table>
     </div>
     <div class="panel">
-      <h2>2 · Trạng thái vận hành</h2>
-      <ul>
-        <li>MD_Update.xlsx đã được tạo lại từ Docs/MD.xlsx và dữ liệu mới trong Docs/EXPORT.XLSX.</li>
-        <li>Dashboard không còn phụ thuộc vào cache công thức Excel để hiển thị phần kiểm soát trọng yếu.</li>
-        <li>Không xóa MD.xlsx; file này vẫn là nền workbook để tạo MD_Update.xlsx.</li>
-        <li>GitHub Pages sẽ publish nếu môi trường GitHub có quyền ghi hợp lệ.</li>
-      </ul>
+      <h2>2 · CBLĐ → Nhóm màu</h2>
+      <div class="note">Bấm vào từng CBLĐ để xem cấu trúc Xanh/Vàng/Đỏ/Tím, gồm số lượng GH, KPI, thực thu, Nợ PS và Thu PS.</div>
+      <details open><summary>Chu Thị Hoài Phương <span>KPI 13.105,1tr · Thu 1.812,8tr · PS 45,8%</span></summary><table><tr><th>Nhóm màu</th><th class='n'>KPI</th><th class='n'>Thực thu</th><th class='n'>% KPI</th><th class='n'>Nợ PS</th><th class='n'>Thu PS</th><th class='n'>% PS</th></tr><tr><td><span class='dot xanh'></span>Xanh · 100 GH</td><td class='n'>36,1</td><td class='n'>102,8</td><td class='n'>284,8%</td><td class='n'>337,1</td><td class='n'>102,8</td><td class='n'>30,5%</td></tr><tr><td><span class='dot vàng'></span>Vàng · 47 GH</td><td class='n'>377,4</td><td class='n'>1.085,3</td><td class='n'>287,6%</td><td class='n'>1.378,2</td><td class='n'>655,2</td><td class='n'>47,5%</td></tr><tr><td><span class='dot đỏ'></span>Đỏ · 51 GH</td><td class='n'>2.668,9</td><td class='n'>594,5</td><td class='n'>22,3%</td><td class='n'>698,1</td><td class='n'>348,1</td><td class='n'>49,9%</td></tr><tr><td><span class='dot tím'></span>Tím · 131 GH</td><td class='n'>10.022,8</td><td class='n'>30,3</td><td class='n'>0,3%</td><td class='n'>0,0</td><td class='n'>0,3</td><td class='n'>—</td></tr><tr class='tot'><td>TỔNG Chu Thị Hoài Phương · 327 GH</td><td class='n'>13.105,1</td><td class='n'>1.812,8</td><td class='n'>13,8%</td><td class='n'>2.413,5</td><td class='n'>1.106,4</td><td class='n'>45,8%</td></tr></table></details><details open><summary>Trần Đăng Nam <span>KPI 5.027,8tr · Thu 966,1tr · PS 48,1%</span></summary><table><tr><th>Nhóm màu</th><th class='n'>KPI</th><th class='n'>Thực thu</th><th class='n'>% KPI</th><th class='n'>Nợ PS</th><th class='n'>Thu PS</th><th class='n'>% PS</th></tr><tr><td><span class='dot xanh'></span>Xanh · 73 GH</td><td class='n'>1.076,1</td><td class='n'>232,6</td><td class='n'>21,6%</td><td class='n'>275,4</td><td class='n'>267,3</td><td class='n'>97,1%</td></tr><tr><td><span class='dot vàng'></span>Vàng · 52 GH</td><td class='n'>2.342,6</td><td class='n'>229,7</td><td class='n'>9,8%</td><td class='n'>807,2</td><td class='n'>369,3</td><td class='n'>45,8%</td></tr><tr><td><span class='dot đỏ'></span>Đỏ · 40 GH</td><td class='n'>972,4</td><td class='n'>492,7</td><td class='n'>50,7%</td><td class='n'>656,4</td><td class='n'>188,0</td><td class='n'>28,6%</td></tr><tr><td><span class='dot tím'></span>Tím · 60 GH</td><td class='n'>636,7</td><td class='n'>0,0</td><td class='n'>0,0%</td><td class='n'>0,0</td><td class='n'>0,0</td><td class='n'>—</td></tr><tr><td><span class='dot khác'></span>Khác · 2 GH</td><td class='n'>0,0</td><td class='n'>11,2</td><td class='n'>—</td><td class='n'>0,0</td><td class='n'>11,2</td><td class='n'>—</td></tr><tr class='tot'><td>TỔNG Trần Đăng Nam · 226 GH</td><td class='n'>5.027,8</td><td class='n'>966,1</td><td class='n'>19,2%</td><td class='n'>1.738,9</td><td class='n'>835,8</td><td class='n'>48,1%</td></tr></table></details>
     </div>
-    <footer>SHA Export: 3f636e33d7a3b8f1 · SHA MD_Update: 22d61567b2c6b908</footer>
+    <div class="panel">
+      <h2>3 · Mapping bổ sung đã ghi nhận</h2>
+      <div class="note">Các dòng này không còn là ngoại lệ; đây là quy tắc mapping vận hành đã được phê duyệt cho báo cáo.</div>
+      <table><tr><th>Mã shop</th><th>Mã khách</th><th>CBLĐ</th><th>Nhóm</th><th class="n">Số tiền</th><th>Ghi chú</th></tr><tr><td>ĐLSH.KT-19</td><td>300013193</td><td>Trần Đăng Nam</td><td>Khác</td><td class='n'>6.012.000</td><td>Ghi nhận vào Thu nợ PS</td></tr><tr><td>ĐLSH.KT-20</td><td>300013193</td><td>Trần Đăng Nam</td><td>Khác</td><td class='n'>5.160.001</td><td>Ghi nhận vào Thu nợ PS</td></tr></table>
+    </div>
+    
+    <footer>SHA Export: b8f9d0e1088e72a2 · SHA MD_Update: aacc6ecd7b552070</footer>
   </div>
 </body>
 </html>
