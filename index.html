@@ -39,7 +39,7 @@
   <div class="wrap">
     <header>
       <h1>DASHBOARD QUẢN TRỊ THU NỢ</h1>
-      <div class="sub">Trọng tâm: kết quả 2 CBLĐ Chu Thị Hoài Phương &amp; Trần Đăng Nam · Lũy kế đến <b>31/08/2026</b> · Nguồn: Docs/EXPORT.XLSX + MD_Update.xlsx (KPI: sheet I. TH thu tiền / cột "KPI thu nợ tháng" tại Chi tiết) · Cập nhật 14/09/2026 09:05</div>
+      <div class="sub">Trọng tâm: kết quả 2 CBLĐ Chu Thị Hoài Phương &amp; Trần Đăng Nam · Baseline Nợ cũ: <b>31/08/2026</b> · Phát sinh/thu từ <b>03/09/2026</b> đến <b>12/09/2026</b> · Tình trạng lũy kế đến <b>12/09/2026</b> · Nguồn: Docs/EXPORT.XLSX + MD_Update.xlsx (KPI: sheet I. TH thu tiền / cột "KPI thu nợ tháng" tại Chi tiết) · Cập nhật 14/09/2026 10:09</div>
     </header>
     <div class="cards">
       <div class="card"><div class="lbl">Tổng KPI thu nợ</div><div class="val">6.204,2</div><div class="note">triệu · 561 GH thuộc 2 CBLĐ</div></div>
@@ -60,7 +60,7 @@
 
     <div class="panel"><h2>3 · Tỷ lệ thu nợ phát sinh theo CSKH</h2>
       <div class="note">Thu nợ PS / Nợ phát sinh — xanh lá: Chu Thị Hoài Phương · xanh dương: Trần Đăng Nam</div>
-      <div class="note tracker-note">Ngày quy đổi: 31/31 ngày · 100.0% — đường dọc thể hiện tỷ lệ thời gian đã đi qua trong tháng, dùng để so sánh nhanh với tỷ lệ thu PS.</div>
+      <div class="note tracker-note">PS/Thu tháng 09/2026 tính đến <b>12/09/2026</b> — Ngày quy đổi: 12/30 ngày · 40.0% — đường dọc thể hiện tỷ lệ thời gian đã đi qua trong tháng, dùng để so sánh nhanh với tỷ lệ thu PS.</div>
       <div class="chart-box"><canvas id="chartPS"></canvas></div>
     </div>
 
@@ -132,7 +132,7 @@
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, trackerLine: { ratio: 1.0, label: 'Ngày quy đổi: 31/31 ngày · 100.0%' }, tooltip: { callbacks: { label: c => ' ' + c.raw + '%' } } },
+      plugins: { legend: { display: false }, trackerLine: { ratio: 0.4, label: 'PS/Thu tháng 09/2026 tính đến <b>12/09/2026</b> — Ngày quy đổi: 12/30 ngày · 40.0%' }, tooltip: { callbacks: { label: c => ' ' + c.raw + '%' } } },
       scales: { x: { min: 0, max: 100, title: { display: true, text: '%' }, ticks: { callback: v => v + '%' } }, y: { ticks: { font: { size: 11 } } } }
     }
   });
