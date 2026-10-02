@@ -1,22 +1,25 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <!-- BUILD_RUN_ID=CN_20261001T110058_a3881e5b8f; SOURCE_WORKBOOK_SHA256=dfbd6900f1fa5f0ff2cd9d9b431e4f3d386f1c65ed828e1494a408ca15da9206; EXPORT_SHA256=72e8001ad1901953bf3a137612c78578767d0fce811a3cab4f55bf135bcf915b; AS_OF=2026-09-29T00:00:00 -->
+  <!-- BUILD_RUN_ID=CN_20261002T064715_74fa3f0388; SOURCE_WORKBOOK_SHA256=c068bb0bd153a6017bc98af7362593542bca56eae5d6b6cc969ba654dbc790a6; EXPORT_SHA256=72e8001ad1901953bf3a137612c78578767d0fce811a3cab4f55bf135bcf915b; AS_OF=2026-09-29T00:00:00 -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dashboard Quản trị Thu nợ</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
   <style>
-    :root{--bg:#f4f6f9;--card:#fff;--text:#1c2b3a;--muted:#65758a;--brand:#0f2a4a;--line:#dfe7ef;--good:#178a52;--warn:#d99a00;--bad:#c0392b;--purple:#7d3c98}
-    *{box-sizing:border-box} body{margin:0;padding:24px;font-family:Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text)}
-    .wrap{max-width:1240px;margin:auto} header{border-bottom:3px solid var(--brand);padding-bottom:14px;margin-bottom:18px}
-    h1{margin:0 0 6px;font-size:22px;color:var(--brand)} .sub,.note,footer{font-size:12.5px;color:var(--muted);line-height:1.5}
-    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:18px 0}
-    .card,.panel,details{background:var(--card);border:1px solid var(--line);border-radius:10px;box-shadow:0 1px 3px rgba(15,42,74,.06)}
-    .card{padding:14px 16px} .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.45px;color:var(--muted);margin-bottom:5px}
-    .val{font-size:21px;font-weight:800;color:var(--brand)} .accent .val{color:var(--good)} .neg .val{color:var(--bad)}
-    .panel{padding:17px 18px;margin:14px 0} h2.sec{margin:20px 2px 10px;font-size:16px;color:var(--brand)}
-    table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:8px} th{background:var(--brand);color:#fff;text-align:left;padding:7px 9px;white-space:nowrap}
+    :root{--bg:#eef3f8;--card:#fff;--text:#17283a;--muted:#647589;--brand:#0d2b4d;--brand-2:#164d7a;--line:#d9e3ed;--good:#178a52;--warn:#d99a00;--bad:#c0392b;--purple:#7d3c98;--actual:#0d5977;--forecast:#60417f}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;padding:24px;font-family:Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,#eaf1f7 0,#f7f9fb 35%,var(--bg) 100%);color:var(--text)}
+    .wrap{max-width:1240px;margin:auto} header{border-bottom:1px solid var(--line);padding:4px 0 16px;margin-bottom:14px}
+    h1{margin:0 0 4px;font-size:25px;letter-spacing:-.35px;color:var(--brand)} .project-subtitle{margin:0 0 7px;color:var(--muted);font-size:14px;font-weight:700;letter-spacing:.15px}.sub,.note,footer{font-size:12.5px;color:var(--muted);line-height:1.5}
+    .eyebrow{font-size:11px;font-weight:800;letter-spacing:1.2px;color:var(--brand-2);margin-bottom:7px}.header-row{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}.status-cluster{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end;padding-top:3px}.status-pill{border:1px solid #b9d2e5;background:#f6fbff;color:var(--brand-2);border-radius:999px;padding:5px 9px;font-size:11px;font-weight:800;white-space:nowrap}.status-pill.good{border-color:#b8dec9;background:#f2fbf5;color:#137443}
+    .info-trigger{display:inline-flex;align-items:center;gap:7px;margin-top:4px;border:1px solid #b9d2e5;background:#f6fbff;color:var(--brand-2);border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;cursor:pointer}.info-trigger .info-mark{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--brand-2);color:#fff;font-size:12px}.info-panel{margin:10px 0 18px;padding:14px 16px;border:1px solid #b9d2e5;border-radius:10px;background:#f7fbfe;color:var(--text);font-size:12.5px;line-height:1.6}.info-panel[hidden]{display:none}.info-panel .info-line{margin:0 0 7px}.info-panel .status-cluster{justify-content:flex-start;padding:0;margin-top:9px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:18px 0}.top-kpi-grid{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:16px}.top-kpi-grid .card{min-height:106px;display:flex;flex-direction:column}.top-kpi-grid .note{margin-top:auto}.sub-value{font-size:12px;font-weight:700;color:var(--muted);white-space:nowrap}
+    .card,.panel,details{background:rgba(255,255,255,.96);border:1px solid var(--line);border-radius:12px;box-shadow:0 2px 8px rgba(15,42,74,.06)}
+    .card{padding:15px 16px;position:relative;overflow:hidden}.card:before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:#c8d6e3}.actual-cash-kpi .card:before{background:var(--actual)}.forecast-outlook .card:before{background:var(--forecast)}.card.accent:before{background:var(--good)}.card.neg:before{background:var(--bad)} .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.55px;color:var(--muted);margin-bottom:6px}
+    .val{font-size:21px;font-weight:800;color:var(--brand)} .accent .val{color:var(--brand)} .neg .val{color:var(--bad)} .percentage,.rate-value{display:inline-block}.rate-good{color:var(--good)!important}.rate-neutral{color:var(--brand)!important;font-weight:700!important}
+    .panel{padding:18px;margin:14px 0;overflow:visible} .metric-panel{padding:14px 16px;margin:0 0 16px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.96);box-shadow:0 2px 8px rgba(15,42,74,.06)} h2.sec{margin:25px 2px 10px;font-size:15px;letter-spacing:.35px;color:var(--brand);display:flex;align-items:center;gap:9px} h2.sec:before{content:"";width:5px;height:18px;border-radius:3px;background:var(--brand-2)}
+    .section-context{font-size:11px;color:var(--muted);font-weight:600;margin:-3px 0 9px 16px}.management-note{border-left:4px solid var(--brand-2);background:#f5f9fc;padding:12px 14px;border-radius:8px;margin:0 0 14px}.management-note b{color:var(--brand)}
+    table{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;margin-top:8px} th{background:var(--brand);color:#fff;text-align:left;padding:8px 9px;white-space:nowrap;position:sticky;top:0;z-index:2}
     td{padding:6px 9px;border-bottom:1px solid var(--line);vertical-align:top} td.n,th.n{text-align:right;white-space:nowrap}
     th.ps-col{background:#654b82} td.ps-col{background:#f3edf8} tr.tot td{font-weight:800;background:#f0f4f8;border-top:2px solid var(--brand)} tr.tot td.ps-col{background:#e7dcf2}
     details{margin:10px 0;overflow:hidden} details.nested{margin:6px 0 6px 16px;box-shadow:none;border-color:#e8edf3}
@@ -29,26 +32,50 @@
     .strat-name{font-weight:800;color:var(--brand);font-size:14px;margin-bottom:8px}
     .direction-item{background:#eef4fa;border-left:4px solid var(--brand);padding:10px 14px;border-radius:6px;margin-bottom:8px;font-size:13px;line-height:1.6}
     .direction-item b{color:var(--brand)} .direction-item.cross{background:#fff8e6;border-left-color:var(--warn)}
-    .cbld-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start} .cbld-grid .cbld{margin:0;min-width:0} .cbld-grid>.cbld>summary{min-height:58px;align-items:center} .cbld-grid>.cbld>.body{padding-top:0;overflow-x:auto}
+    .cbld-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start} .cbld-grid .cbld{margin:0;min-width:0} .cbld-grid>.cbld>summary{min-height:58px;align-items:center} .cbld-grid>.cbld>.body{padding-top:0;overflow:visible}.cbld-grid>.cbld>.body table{width:100%;min-width:0;table-layout:fixed;font-size:11px}.cbld-grid>.cbld>.body th:first-child,.cbld-grid>.cbld>.body td:first-child{width:24%}.cbld-grid>.cbld>.body th,.cbld-grid>.cbld>.body td{padding:5px 4px;white-space:normal;overflow-wrap:anywhere}.cbld-grid>.cbld>.body td.n,.cbld-grid>.cbld>.body th.n{white-space:nowrap}
     .chart-box{position:relative;height:300px} .insights li{margin:0 0 9px 18px;font-size:13.5px;line-height:1.55} .warn-text{color:var(--bad)}
     .sort-btn{border:1px solid rgba(255,255,255,.65);background:transparent;color:#fff;border-radius:4px;cursor:pointer;margin-left:5px;padding:1px 5px;font-size:12px} .filter-label{font-size:12.5px;color:var(--muted);font-weight:600} .cskh-filter{margin:0 0 6px 5px;padding:5px 8px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--text)} .compact-note{margin:8px 0 4px}
-    @media (max-width:900px){.cbld-grid{grid-template-columns:1fr}}
-    footer{text-align:right;margin-top:10px}
+    .top10-viewport{max-height:420px;overflow:auto;border:1px solid var(--line);border-radius:8px;margin-top:8px}.top10-viewport table{min-width:760px;margin-top:0}.top10-viewport th{position:sticky;top:0;z-index:3}
+    .panel>table{min-width:0}.panel>#cskhTotalTable,.panel>#cskhPsTable{width:100%;table-layout:fixed}.panel>#cskhTotalTable th,.panel>#cskhTotalTable td,.panel>#cskhPsTable th,.panel>#cskhPsTable td{white-space:normal;overflow-wrap:anywhere}
+    .forecast-audit{padding:8px 11px;border:1px dashed #cdbfe0;border-radius:7px;background:#faf7fd;color:#60417f}.exception-disclosure{margin:10px 0}.exception-disclosure .info-trigger{margin-top:0}.disclosure-panel{max-height:min(70vh,420px);overflow:auto;margin:8px 0 0;font-size:12px}.exception-panel .info-line{margin-bottom:6px}.actual-cash-kpi,.forecast-outlook{margin-top:9px}.actual-cash-kpi .card,.forecast-outlook .card{min-height:102px}.actual-cash-kpi .val,.forecast-outlook .val{font-size:22px}.metric-panel.actual-panel{border-top:3px solid var(--actual)}.metric-panel.forecast-panel{border-top:3px solid var(--forecast)}.panel,.cbld-grid>details{scroll-margin-top:12px}.metric-panel .cards{margin:10px 0 0}
+    @media (max-width:900px){.top-kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cbld-grid{grid-template-columns:1fr}.header-row{display:block}.status-cluster{justify-content:flex-start;margin-top:10px}}
+    @media (max-width:600px){body{padding:14px}h1{font-size:21px}.project-subtitle{font-size:12.5px;margin-bottom:6px}.cards{grid-template-columns:1fr;gap:8px}.card{padding:12px 12px}.val{font-size:18px}.top-kpi-grid{grid-template-columns:1fr}.sub-value{font-size:11px}.actual-cash-kpi,.forecast-outlook{grid-template-columns:1fr}.info-trigger{min-height:40px}.info-panel{font-size:12px}.panel,.metric-panel{padding:12px}.panel>#cskhTotalTable,.panel>#cskhPsTable{font-size:10px}.panel>#cskhTotalTable td.n,.panel>#cskhTotalTable th.n,.panel>#cskhPsTable td.n,.panel>#cskhPsTable th.n{white-space:normal}.cbld-grid>.cbld>.body{overflow-x:auto;overflow-y:visible}.cbld-grid>.cbld>.body table{min-width:680px}.top10-viewport{max-height:360px}.top10-viewport table{min-width:760px}}
+    footer{text-align:right;margin-top:14px;padding-top:10px;border-top:1px solid var(--line)}
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>DASHBOARD QUẢN TRỊ THU NỢ</h1>
-      <div class="sub">Trọng tâm: kết quả 2 CBLĐ Chu Thị Hoài Phương &amp; Trần Đăng Nam · Baseline Nợ cũ: <b>30/09/2026</b> · Phát sinh/thu từ <b>02/09/2026</b> đến <b>29/09/2026</b> · Tình trạng lũy kế đến <b>29/09/2026</b> · Nguồn: Docs/EXPORT.XLSX + MD_Update.xlsx (KPI: sheet I. TH thu tiền / cột "KPI thu nợ tháng" tại Chi tiết) · Cập nhật 01/10/2026 11:05</div>
+      <div class="header-row"><div><h1>DASHBOARD QUẢN TRỊ THU NỢ</h1><div class="project-subtitle">BQL KPTM VCO Ocean City</div><button class="info-trigger" type="button" aria-expanded="false" aria-controls="reportInfo" onclick="toggleInfo()"><span class="info-mark">i</span><span>Thông tin kỳ báo cáo</span></button>
+      </div></div>
     </header>
-    <div class="cards">
+    <div id="reportInfo" class="info-panel" role="dialog" aria-labelledby="reportInfoTitle" hidden><div id="reportInfoTitle" class="info-line"><b>Kỳ báo cáo:</b> kết quả 2 CBLĐ Chu Thị Hoài Phương và Trần Đăng Nam · Baseline Nợ cũ: <b>30/09/2026</b> · Phát sinh/thu từ <b>02/09/2026</b> đến <b>29/09/2026</b> · Tình trạng lũy kế đến <b>29/09/2026</b>.</div><div class="info-line"><b>Nguồn:</b> Docs/EXPORT.XLSX + MD_Update.xlsx · KPI: sheet I. TH thu tiền / cột "KPI thu nợ tháng" tại Chi tiết · Cập nhật 02/10/2026 06:50.</div><div class="info-line"><b>Dấu vết nguồn:</b> Export SHA-256 <code>72e8001ad1901953bf3a137612c78578767d0fce811a3cab4f55bf135bcf915b</code> · MD SHA-256 <code>c068bb0bd153a6017bc98af7362593542bca56eae5d6b6cc969ba654dbc790a6</code>.</div><div class="status-cluster"><span class="status-pill good">Gắn với thực tế</span><span class="status-pill">Dự báo V1</span><span class="status-pill">Số liệu đến ngày: 29/09/2026</span></div></div>
+    <div class="cards top-kpi-grid">
       <div class="card"><div class="lbl">Tổng KPI thu nợ</div><div class="val">7.624,5</div><div class="note">triệu · 587 GH thuộc 2 CBLĐ</div></div>
-      <div class="card accent"><div class="lbl">Thực thu · % KPI</div><div class="val">3.573,3 <span style="font-size:13px">(46,9%)</span></div><div class="note">Theo tổng chính thức tại sheet I. TH thu tiền</div></div>
+      <div class="card accent"><div class="lbl">Thực thu · % KPI</div><div class="val">3.573,3 <span class="percentage" style="font-size:13px">(46,9%)</span></div><div class="note">Theo tổng chính thức tại sheet I. TH thu tiền</div></div>
       <div class="card neg"><div class="lbl">GH chưa phát sinh thu</div><div class="val">65/341</div><div class="note">trên tổng GH có KPI</div></div>
       <div class="card"><div class="lbl">Nợ phát sinh</div><div class="val">3.140,0</div><div class="note">triệu</div></div>
-      <div class="card accent"><div class="lbl">Thu nợ PS · Tỷ lệ</div><div class="val">2.815,1 <span style="font-size:13px">(89,7%)</span></div><div class="note">Thu nợ PS/Nợ PS</div></div>
+      <div class="card accent"><div class="lbl">Thu nợ PS · Tỷ lệ</div><div class="val">2.815,1 <span class="percentage" style="font-size:13px">(89,7%)</span></div><div class="note">Thu nợ PS/Nợ PS</div></div>
+      <div class="card accent"><div class="lbl">Tỷ lệ thu hồi Nợ PS dự kiến</div><div id="forecastRecoveryRate" class="val rate-value">—</div><div class="note">(Thực thu PS + phần dự kiến bổ sung) / Tổng KPI Nợ PS</div></div>
     </div>
+
+    
+    <h2 class="sec">THỰC THU / HIỆU QUẢ THU NỢ</h2>
+    <div class="metric-panel actual-panel"><div class="section-context">Kết quả kế toán chính thức · tiền mặt và cấn trừ được trình bày tách biệt</div><div class="cards actual-cash-kpi">
+      <div class="card"><div class="lbl">Tổng thu Nợ PS</div><div id="actualPsTotalValue" class="val">3.140,0</div><div class="note">triệu · số liệu kế toán chính thức</div></div>
+      <div class="card accent"><div class="lbl">Tiền thu thực tế</div><div class="val">2.961,3</div><div class="note">triệu · chỉ tiêu tiền mặt</div></div>
+      <div class="card"><div class="lbl">Cấn trừ/Bù trừ</div><div class="val">579,9</div><div class="note">triệu · disclosure, không vào tử số tiền mặt</div></div>
+      <div class="card accent"><div class="lbl">Tỷ lệ thu tiền mặt</div><div class="val">94.31%</div><div class="note">Tiền thu thực tế / Tổng thu Nợ PS</div></div>
+    </div></div>
+    <h2 class="sec">DỰ BÁO THU NỢ</h2>
+    <div class="metric-panel forecast-panel"><div class="section-context">Dự báo vận hành · không feed-back vào Actual hoặc Cash KPI</div><div class="cards forecast-outlook">
+      <div class="card"><div class="lbl">Tín hiệu thanh toán</div><div class="val">829,7</div><div class="note">triệu · Staff Input</div></div>
+      <div class="card accent"><div class="lbl">Dự kiến đã thu</div><div id="forecastCollectedTotalValue" class="val">2.944,6</div><div class="note">triệu · không thay Actual</div></div>
+      <div class="card"><div class="lbl">Nợ PS dự kiến</div><div class="val">195,4</div><div class="note">triệu</div></div>
+      <div class="card"><div class="lbl">Độ phủ kế hoạch</div><div class="val">26.18%</div><div class="note">Kế hoạch / Tổng còn phải thu</div></div>
+      <div class="card neg"><div class="lbl">Chưa có KHHĐ</div><div class="val">57 <span class="sub-value">· Cần đối chiếu: 14</span></div><div class="note">shop còn phải thu, chưa có kế hoạch</div></div>
+    </div><div class="note forecast-audit">Quy tắc dự báo hiện hành · đối chiếu ngang: ĐẠT</div><div class="note forecast-audit">Trường hợp cần đối chiếu: <b>SH1.KT-17</b> · trạng thái <b>UNMATCHED_SIGNAL_PENDING_RECONCILIATION</b> · còn đủ điều kiện: <b>4.521.473 đồng</b></div></div>
+    
 
     <h2 class="sec">1 · Chi tiết theo CBLĐ → CSKH → Nhóm màu</h2>
     <div class="note">Bấm vào từng CBLĐ hoặc CSKH để xổ xuống chi tiết theo nhóm màu.</div>
@@ -60,7 +87,7 @@
     
 
     <div class="panel"><h2>3 · Tỷ lệ thu nợ phát sinh theo CSKH</h2>
-      <div class="note">Thu nợ PS / Nợ phát sinh — xanh lá: Chu Thị Hoài Phương · xanh dương: Trần Đăng Nam</div>
+      <div class="note">Thu nợ PS / Nợ phát sinh — màu xanh khi tỷ lệ &gt;80%; màu trung tính khi tỷ lệ ≤80%.</div>
       <div class="note tracker-note">PS/Thu tháng 09/2026 tính đến <b>29/09/2026</b> — Ngày quy đổi: 29/30 ngày · 96.7% — đường dọc thể hiện tỷ lệ thời gian đã đi qua trong tháng, dùng để so sánh nhanh với tỷ lệ thu PS.</div>
       <div class="chart-box"><canvas id="chartPS"></canvas></div>
     </div>
@@ -74,13 +101,162 @@
 
     <div class="panel"><h2>5 · CSKH theo % hoàn thành Nợ phát sinh</h2>
       <div class="note">Danh sách CSKH được xếp theo tỷ lệ Thu PS / Nợ PS. Bấm nút tại cột % hoàn thành PS để sắp xếp tăng hoặc giảm.</div>
-      <div class='note warn-text' style='margin:10px 0;border:1px solid currentColor;padding:10px'><b>DISCLOSED_EXCEPTION / CHƯA KHỚP</b> — 3 giao dịch, tổng 44.229.280 đ. <b>EXCLUDED_FROM_KPI_PENDING_VERIFICATION</b>; lý do: CUSTOMER/CONTRACT_MAPPING_NOT_VERIFIED. Không tự mapping. ĐLBM.TV-28 + 300000606: 21.656.250 đ; ĐLBM.TV-26 + 300000606: 11.286.000 đ; ĐLBM.TV-04 + 300015291: 11.287.030 đ;</div>
+      <div class='exception-disclosure'><button class='info-trigger' type='button' aria-expanded='false' aria-controls='exceptionPanel' onclick="toggleDisclosure('exceptionPanel', this)"><span class='info-mark'>i</span><span>Ngoại lệ chưa đối chiếu</span></button><div id='exceptionPanel' class='info-panel disclosure-panel exception-panel' role='dialog' aria-labelledby='exceptionPanelTitle' hidden><div id='exceptionPanelTitle' class='info-line'><b>NGOẠI LỆ CHƯA ĐỐI CHIẾU</b></div><div class='info-line'><b>Số giao dịch:</b> 3</div><div class='info-line'><b>Tổng giá trị:</b> 44.229.280 đ</div><div class='info-line'><b>Trạng thái:</b> <code>EXCLUDED_FROM_KPI_PENDING_VERIFICATION</code></div><div class='info-line'><b>Lý do:</b> <code>CUSTOMER/CONTRACT_MAPPING_NOT_VERIFIED</code></div><div class='info-line'><b>Nguyên tắc:</b> Không tự động mapping.</div><div class='info-line'><b>Chi tiết:</b><br>1. ĐLBM.TV-28 + 300000606 — 21.656.250 đ<br>2. ĐLBM.TV-26 + 300000606 — 11.286.000 đ<br>3. ĐLBM.TV-04 + 300015291 — 11.287.030 đ</div></div></div>
       <table id='cskhPsTable'><thead><tr><th>CBLĐ</th><th>CSKH</th><th class='n'>GH</th><th class='n ps-col'>Nợ PS</th><th class='n ps-col'>Thu PS</th><th class='n ps-col'>% hoàn thành PS <button class='sort-btn' onclick="sortTable('cskhPsTable',5,this)">↕</button></th></tr></thead><tbody><tr><td>Trần Đăng Nam</td><td>Vũ Hương Giang</td><td class='n'>28</td><td class='n ps-col'>2,9</td><td class='n ps-col'>5,2</td><td class='n ps-col g' data-sort='178.92054183813443'>178,9%</td></tr><tr><td>Trần Đăng Nam</td><td>Phạm Thị Ngọc Duyên</td><td class='n'>56</td><td class='n ps-col'>400,5</td><td class='n ps-col'>503,4</td><td class='n ps-col g' data-sort='125.69794315789065'>125,7%</td></tr><tr><td>Chu Thị Hoài Phương</td><td>Phạm Thị Hoài Anh</td><td class='n'>56</td><td class='n ps-col'>117,6</td><td class='n ps-col'>119,4</td><td class='n ps-col g' data-sort='101.51137094071079'>101,5%</td></tr><tr><td>Chu Thị Hoài Phương</td><td>Nguyễn Thị Quỳnh Hoa</td><td class='n'>97</td><td class='n ps-col'>606,3</td><td class='n ps-col'>611,4</td><td class='n ps-col g' data-sort='100.84857973330782'>100,8%</td></tr><tr><td>Trần Đăng Nam</td><td>Nguyễn Minh Trang</td><td class='n'>40</td><td class='n ps-col'>123,2</td><td class='n ps-col'>123,2</td><td class='n ps-col g' data-sort='100.00607180436289'>100,0%</td></tr><tr><td>Chu Thị Hoài Phương</td><td>Nguyễn Thị Quỳnh Hương</td><td class='n'>53</td><td class='n ps-col'>187,9</td><td class='n ps-col'>179,3</td><td class='n ps-col g' data-sort='95.416144423126'>95,4%</td></tr><tr><td>Trần Đăng Nam</td><td>Võ Thị Nga</td><td class='n'>37</td><td class='n ps-col'>145,4</td><td class='n ps-col'>135,1</td><td class='n ps-col g' data-sort='92.88653204119225'>92,9%</td></tr><tr><td>Chu Thị Hoài Phương</td><td>Nguyễn Thị Hồng Anh</td><td class='n'>57</td><td class='n ps-col'>50,8</td><td class='n ps-col'>44,2</td><td class='n ps-col g' data-sort='87.08120867150514'>87,1%</td></tr><tr><td>Chu Thị Hoài Phương</td><td>Đỗ Xuân Nhật Anh</td><td class='n'>46</td><td class='n ps-col'>270,6</td><td class='n ps-col'>230,1</td><td class='n ps-col g' data-sort='85.02424113093447'>85,0%</td></tr><tr><td>Trần Đăng Nam</td><td>Bùi Mạnh Hùng</td><td class='n'>93</td><td class='n ps-col'>861,4</td><td class='n ps-col'>704,0</td><td class='n ps-col g' data-sort='81.73218192781684'>81,7%</td></tr><tr><td>Chu Thị Hoài Phương</td><td>Vũ Thị Thu Yến</td><td class='n'>24</td><td class='n ps-col'>201,8</td><td class='n ps-col'>159,7</td><td class='n ps-col g' data-sort='79.14402341677177'>79,1%</td></tr></tbody></table>
     </div>
 
-    <footer>SHA MD_Update (dashboard-only, không đọc Export.xlsx): 72e8001ad1901953 · SHA MD_Update: dfbd6900f1fa5f0f</footer>
   </div>
   <script>
+  function toggleInfo() {
+    const panel = document.getElementById('reportInfo');
+    const button = document.querySelector('.info-trigger');
+    const open = panel.hidden;
+    panel.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+  }
+  function toggleDisclosure(id, button) {
+    const panel = document.getElementById(id);
+    const open = panel.hidden;
+    panel.hidden = !open;
+    button.setAttribute('aria-expanded', String(open));
+  }
+  function parseViMillion(text) {
+    const raw = String(text || '').trim();
+    const token = raw.match(/[-+]?\d[\d.]*(?:,\d+)?/)?.[0];
+    if (!token) return NaN;
+    const value = token.includes(',')
+      ? token.replace(/\./g, '').replace(',', '.')
+      : token.replace(/\.(?=\d{3}(?:$|%))/g, '');
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : NaN;
+  }
+  function bindForecastRecoveryRate() {
+    const total = parseViMillion(document.getElementById('actualPsTotalValue')?.textContent);
+    const actualCard = Array.from(document.querySelectorAll('.card')).find(card => card.querySelector('.lbl')?.textContent.includes('Thu nợ PS'));
+    const actual = parseViMillion(actualCard?.querySelector('.val')?.textContent);
+    const forecastTotal = parseViMillion(document.getElementById('forecastCollectedTotalValue')?.textContent);
+    const output = document.getElementById('forecastRecoveryRate');
+    if (!output || !Number.isFinite(total) || !Number.isFinite(actual) || !Number.isFinite(forecastTotal) || total === 0) return;
+    const forecastIncrement = forecastTotal - actual;
+    output.textContent = (((actual + forecastIncrement) / total) * 100).toFixed(1).replace('.', ',') + '%';
+  }
+  function resetShopDetails() {
+    document.querySelectorAll('details.cbld').forEach(section => { section.open = false; });
+    document.querySelectorAll('details.nested').forEach(section => { section.open = false; section.hidden = false; });
+  }
+  const DISPLAY_NAME_MAP = Object.freeze({
+    'Chu Thị Hoài Phương': 'Chu Phương',
+    'Trần Đăng Nam': 'Đăng Nam',
+    'Nguyễn Minh Trang': 'Minh Trang',
+    'Nguyễn Thị Hồng Anh': 'Hồng Anh',
+    'Phạm Thị Hoài Anh': 'Hoài Anh',
+    'Vũ Hương Giang': 'Hương Giang',
+    'Võ Thị Nga': 'Thị Nga',
+    'Vũ Thị Thu Yến': 'Thu Yến',
+    'Nguyễn Thị Quỳnh Hoa': 'Quỳnh Hoa',
+    'Nguyễn Thị Quỳnh Hương': 'Quỳnh Hương',
+    'Đỗ Xuân Nhật Anh': 'Nhật Anh',
+    'Phạm Thị Ngọc Duyên': 'Ngọc Duyên',
+    'Bùi Mạnh Hùng': 'Mạnh Hùng'
+  });
+  function replaceDisplayNames(text) {
+    return Object.entries(DISPLAY_NAME_MAP).reduce((out, [full, short]) => {
+      return out.replaceAll(full, short).replaceAll(full.toUpperCase(), short.toUpperCase());
+    }, text);
+  }
+  function shortDisplayName(name) {
+    return DISPLAY_NAME_MAP[name] || name;
+  }
+  function applyDisplayNames() {
+    document.querySelectorAll('option').forEach(option => {
+      if (DISPLAY_NAME_MAP[option.value]) option.textContent = shortDisplayName(option.value);
+    });
+    document.querySelectorAll('details.cbld > summary').forEach(summary => {
+      summary.childNodes.forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE) node.textContent = replaceDisplayNames(node.textContent);
+      });
+    });
+    document.querySelectorAll('details.cbld .body .note').forEach(note => {
+      note.childNodes.forEach(node => {
+        if (node.nodeType === Node.TEXT_NODE) node.textContent = replaceDisplayNames(node.textContent);
+      });
+    });
+    document.querySelectorAll('details.nested > summary').forEach(summary => {
+      const textNode = Array.from(summary.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+      if (!textNode) return;
+      const sourceName = textNode.textContent.trim();
+      summary.parentElement.dataset.cskh = sourceName;
+      textNode.textContent = shortDisplayName(sourceName);
+    });
+    ['cskhTotalTable', 'cskhPsTable'].forEach(id => {
+      document.querySelectorAll(`#${id} tbody tr`).forEach(row => {
+        [0, 1].forEach(index => {
+          const cell = row.cells[index];
+          if (cell) cell.textContent = shortDisplayName(cell.textContent.trim());
+        });
+      });
+    });
+    document.querySelectorAll('#top10Table tbody tr').forEach(row => {
+      [1, 2].forEach(index => {
+        const cell = row.cells[index];
+        if (cell) cell.textContent = shortDisplayName(cell.textContent.trim());
+      });
+    });
+    document.querySelectorAll('.cbld-grid, .panel, .info-panel').forEach(root => {
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+      let node;
+      while ((node = walker.nextNode())) node.nodeValue = replaceDisplayNames(node.nodeValue);
+    });
+    document.querySelectorAll('.cbld-grid tr.tot td:first-child').forEach(cell => { cell.textContent = 'TỔNG'; });
+  }
+  function parsePercent(text) {
+    const match = String(text || '').match(/(-?\d+(?:[.,]\d+)?)\s*%/);
+    if (!match) return NaN;
+    const value = Number(match[1].replace(',', '.'));
+    return Number.isFinite(value) ? value : NaN;
+  }
+  function applyRateThresholds() {
+    document.querySelectorAll('.percentage,.rate-value,.val,td.g,td.m,td.l').forEach(element => {
+      const value = parsePercent(element.textContent);
+      if (!Number.isFinite(value)) return;
+      element.classList.toggle('rate-good', value > 80);
+      element.classList.toggle('rate-neutral', value <= 80);
+    });
+  }
+  function reorderReportSections() {
+    const summaryPanel = Array.from(document.querySelectorAll('.panel')).find(panel => panel.querySelector('h2')?.textContent.includes('Tóm tắt nhóm màu'));
+    const cskhPanel = Array.from(document.querySelectorAll('.panel')).find(panel => panel.querySelector('h2')?.textContent.includes('CSKH theo % hoàn thành'));
+    if (summaryPanel && cskhPanel) summaryPanel.parentNode.insertBefore(cskhPanel, summaryPanel);
+    let sectionNumber = 0;
+    document.querySelectorAll('h2.sec, .panel > h2').forEach(heading => {
+      if (!/^\s*\d+\s·/.test(heading.textContent)) return;
+      sectionNumber += 1;
+      heading.textContent = heading.textContent.replace(/^\s*\d+\s·/, `${sectionNumber} ·`);
+    });
+  }
+  function setupTop10Viewport() {
+    const table = document.getElementById('top10Table');
+    if (!table || table.parentElement.classList.contains('top10-viewport')) return;
+    const viewport = document.createElement('div');
+    viewport.className = 'top10-viewport';
+    table.parentNode.insertBefore(viewport, table);
+    viewport.appendChild(table);
+  }
+  function filterShopDetails(selected) {
+    document.querySelectorAll('details.cbld').forEach(parent => {
+      let hasMatch = false;
+      parent.querySelectorAll('details.nested').forEach(section => {
+        const summary = section.querySelector('summary');
+        const firstText = summary ? Array.from(summary.childNodes).find(node => node.nodeType === Node.TEXT_NODE)?.textContent.trim() : '';
+        const sourceKey = section.dataset.cskh || firstText;
+        const match = !selected || sourceKey === selected;
+        section.hidden = !match;
+        section.open = Boolean(selected && match);
+        hasMatch = hasMatch || match;
+      });
+      parent.open = Boolean(selected && hasMatch);
+    });
+  }
   function sortTable(id, col, button) {
     const table = document.getElementById(id);
     const body = table.querySelector('tbody');
@@ -104,7 +280,15 @@
     document.querySelectorAll('#top10Table tbody tr').forEach(row => {
       row.style.display = !selected || row.dataset.cskh === selected ? '' : 'none';
     });
+    filterShopDetails(selected);
+    if (!selected) resetShopDetails();
   }
+  applyDisplayNames();
+  reorderReportSections();
+  setupTop10Viewport();
+  resetShopDetails();
+  bindForecastRecoveryRate();
+  applyRateThresholds();
   const trackerPlugin = {
     id: 'trackerLine',
     afterDraw(chart) {
@@ -130,7 +314,7 @@
     type: 'bar',
     data: {
       labels: ["Thu Yến", "Quỳnh Hoa", "Nhật Anh", "Quỳnh Hương", "Hoài Anh", "Hồng Anh", "Mạnh Hùng", "Ngọc Duyên", "Thị Nga", "Minh Trang", "Hương Giang"],
-      datasets: [{ label: 'Tỷ lệ thu nợ PS (%)', data: [79.1, 100.8, 85.0, 95.4, 101.5, 87.1, 81.7, 125.7, 92.9, 100.0, 178.9], backgroundColor: ["#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#1d6fb8", "#1d6fb8", "#1d6fb8", "#1d6fb8", "#1d6fb8"] }]
+      datasets: [{ label: 'Tỷ lệ thu nợ PS (%)', data: [79.1, 100.8, 85.0, 95.4, 101.5, 87.1, 81.7, 125.7, 92.9, 100.0, 178.9], backgroundColor: ["#1d6fb8", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52", "#178a52"] }]
     },
     options: {
       indexAxis: 'y', responsive: true, maintainAspectRatio: false,
