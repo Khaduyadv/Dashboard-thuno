@@ -49,7 +49,7 @@
       <div class="header-row"><div><h1>DASHBOARD QUẢN TRỊ THU NỢ</h1><div class="project-subtitle">BQL KPTM VCO Ocean City</div><button class="info-trigger" type="button" aria-expanded="false" aria-controls="reportInfo" onclick="toggleInfo()"><span class="info-mark">i</span><span>Thông tin kỳ báo cáo</span></button>
       </div></div>
     </header>
-    <div id="reportInfo" class="info-panel" role="dialog" aria-labelledby="reportInfoTitle" hidden><div id="reportInfoTitle" class="info-line"><b>Kỳ báo cáo:</b> kết quả 2 CBLĐ Chu Thị Hoài Phương và Trần Đăng Nam · Baseline Nợ cũ: <b>07/10/2026</b> · Phát sinh/thu từ <b>01/10/2026</b> đến <b>07/10/2026</b> · Tình trạng lũy kế đến <b>07/10/2026</b>.</div><div class="info-line"><b>Nguồn:</b> Docs/EXPORT.XLSX + MD_Update.xlsx · KPI: sheet I. TH thu tiền / cột "KPI thu nợ tháng" tại Chi tiết · Cập nhật 08/10/2026 15:02.</div><div class="info-line"><b>Dấu vết nguồn:</b> Export SHA-256 <code>ef8a603e0e7f681a9a54ea231cc6a6a54b872794985e683b3791d303faf0072b</code> · MD SHA-256 <code>66463eba692c96c80f09bcf6312c9fedf824a88d5204c40e1772212b0891f83c</code>.</div><div class="status-cluster"><span class="status-pill good">Gắn với thực tế</span><span class="status-pill">Dự báo V1</span><span class="status-pill">Số liệu đến ngày: 07/10/2026</span></div></div>
+    <div id="reportInfo" class="info-panel" role="dialog" aria-labelledby="reportInfoTitle" hidden><div id="reportInfoTitle" class="info-line"><b>Kỳ báo cáo:</b> kết quả 2 CBLĐ Chu Thị Hoài Phương và Trần Đăng Nam · Baseline Nợ cũ: <b>07/10/2026</b> · Phát sinh/thu từ <b>01/10/2026</b> đến <b>07/10/2026</b> · Tình trạng lũy kế đến <b>07/10/2026</b>.</div><div class="info-line"><b>Nguồn:</b> Công nợ/INPUT/EXPORT.XLSX + Công nợ/INPUT/MD_Update.xlsx · KPI: sheet I. TH thu tiền / cột "KPI thu nợ tháng" tại Chi tiết · Cập nhật 09/10/2026 12:58.</div><div class="info-line"><b>Dấu vết nguồn:</b> Export SHA-256 <code>ef8a603e0e7f681a9a54ea231cc6a6a54b872794985e683b3791d303faf0072b</code> · MD SHA-256 <code>66463eba692c96c80f09bcf6312c9fedf824a88d5204c40e1772212b0891f83c</code>.</div><div class="status-cluster"><span class="status-pill good">Gắn với thực tế</span><span class="status-pill">Dự báo V1</span><span class="status-pill">Số liệu đến ngày: 07/10/2026</span></div></div>
     <div class="cards top-kpi-grid">
       <div class="card"><div class="lbl">Tổng KPI thu nợ</div><div class="val">7.552,7</div><div class="note">triệu · 587 GH thuộc 2 CBLĐ</div></div>
       <div class="card accent"><div class="lbl">Thực thu · % KPI</div><div class="val">627,7 <span class="percentage" style="font-size:13px">(8,3%)</span></div><div class="note">Theo tổng chính thức tại sheet I. TH thu tiền</div></div>
@@ -59,7 +59,23 @@
       <div class="card accent"><div class="lbl">Tỷ lệ thu hồi Nợ PS dự kiến</div><div id="forecastRecoveryRate" class="val rate-value">—</div><div class="note">(Thực thu PS + phần dự kiến bổ sung) / Tổng KPI Nợ PS</div></div>
     </div>
 
-    <h2 class='sec'>THỰC THU / HIỆU QUẢ THU NỢ</h2><div class='metric-panel actual-panel'><div class='section-context'>Kết quả kế toán chính thức · tiền mặt và cấn trừ được trình bày tách biệt</div><div class='note'>Actual vẫn hợp lệ theo accounting workbook hiện hành.</div></div><h2 class='sec'>DỰ BÁO THU NỢ</h2><div class='metric-panel forecast-panel'><div class='section-context'>Dự báo vận hành · không feed-back vào Actual hoặc Cash KPI</div><b class='warn-text'>FORECAST UNAVAILABLE</b><div class='note'>MasterSharedAdapterError: MASTER_SHARED_SNAPSHOT_SCHEDULE_STALE</div></div>
+    
+    <h2 class="sec">THỰC THU / HIỆU QUẢ THU NỢ</h2>
+    <div class="metric-panel actual-panel"><div class="section-context">Kết quả kế toán chính thức · tiền mặt và cấn trừ được trình bày tách biệt</div><div class="cards actual-cash-kpi">
+      <div class="card"><div class="lbl">Tổng thu Nợ PS</div><div id="actualPsTotalValue" class="val">3.511,5</div><div class="note">triệu · số liệu kế toán chính thức</div></div>
+      <div class="card accent"><div class="lbl">Tiền thu thực tế</div><div class="val">582,4</div><div class="note">triệu · cash only</div></div>
+      <div class="card"><div class="lbl">Cấn trừ/Bù trừ</div><div class="val">11,0</div><div class="note">triệu · disclosure, không vào cash numerator</div></div>
+      <div class="card accent"><div class="lbl">Tỷ lệ thu tiền mặt</div><div class="val">16.59%</div><div class="note">Tiền thu thực tế / Tổng thu Nợ PS</div></div>
+    </div></div>
+    <h2 class="sec">DỰ BÁO THU NỢ</h2>
+    <div class="metric-panel forecast-panel"><div class="section-context">Dự báo vận hành · không feed-back vào Actual hoặc Cash KPI</div><div class="cards forecast-outlook">
+      <div class="card"><div class="lbl">Tín hiệu thanh toán</div><div class="val">26,0</div><div class="note">triệu · Staff Input</div></div>
+      <div class="card accent"><div class="lbl">Dự kiến đã thu</div><div id="forecastCollectedTotalValue" class="val">623,8</div><div class="note">triệu · không thay Actual</div></div>
+      <div class="card"><div class="lbl">Nợ PS dự kiến</div><div class="val">2.887,8</div><div class="note">triệu</div></div>
+      <div class="card"><div class="lbl">Độ phủ kế hoạch</div><div class="val">1.30%</div><div class="note">Kế hoạch / Tổng còn phải thu</div></div>
+      <div class="card neg"><div class="lbl">Chưa có KHHĐ</div><div class="val">340 <span class="sub-value">· Cần đối chiếu: 0</span></div><div class="note">shop còn phải thu, chưa có kế hoạch</div></div>
+    </div><div class="note forecast-audit">Quy tắc FORECAST_RULE_CONTRACT_V1 · đối chiếu ngang: NOT_RUN</div></div>
+    
 
     <h2 class="sec">1 · Chi tiết theo CBLĐ → CSKH → Nhóm màu</h2>
     <div class="note">Bấm vào từng CBLĐ hoặc CSKH để xổ xuống chi tiết theo nhóm màu.</div>
