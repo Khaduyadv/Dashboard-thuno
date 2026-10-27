@@ -1,0 +1,68 @@
+{
+  "schema": "CONG_NO_COMPOSITE_DASHBOARD_RELEASE/1",
+  "domain": "CONG_NO",
+  "publication_target": {
+    "repository": "Khaduyadv/Dashboard-thuno",
+    "branch": "main",
+    "entrypoint": "index.html",
+    "pages_url": "https://khaduyadv.github.io/Dashboard-thuno/"
+  },
+  "authorization_basis": "DIRECTOR FINAL ORDER — RESTORE ONE-COMMAND AUTO-PUBLISH FOR /Cong no (2026-10-27)",
+  "run_id": "CN_20261027T024948_08d8549f87",
+  "actual": {
+    "status": "CERTIFIED",
+    "certificate_schema": "PRIMARY_ACTUAL_CERTIFICATE/1",
+    "certificate_sha256": "48ffa258e654d2bf5495221c8177c01c609efedcb612929e6ad2eba7335f9292",
+    "certified_dashboard_sha256": "1462db4b0283b26ae2e76f6b0f9160e8c8d02a8a2fc610d7d77623f63a6bc70b",
+    "artifact_path": "certified-actual/CN_20261027T024948_08d8549f87/index.html",
+    "source_md_sha256": "a9339bf42004158491b03ed497eae4d13b314efb25f6d2331b858690d97e32f8",
+    "source_export_sha256": "9d0b60342449c2c2c22a2a17a7be6da1c779d222f521ddbb2448777603773d06",
+    "post_b1_workbook_sha256": "45482ad10dd7d16f0b42920f57f7b059c1d6bf61d06bc0dcaa13ca28d92ac685",
+    "assignment_sha256": "4467165de04dfd4d24a7ce2330b265be10efb04d129320beb26b02b3a0163cb0",
+    "report_as_of": "SAP_REPORT_AS_OF_NOT_PROVEN",
+    "export_extracted_at": "NOT_PROVEN",
+    "transaction_max_date_semantics": "TRANSACTION_MAX_DATE_ONLY_NOT_REPORTING_CUTOFF"
+  },
+  "staff_input_plan_v1": {
+    "status": "PRESERVED_AS_APPROVED_STAFF_PLAN_DISPLAY",
+    "payload_path": "staff-input-plan-v1.json",
+    "payload_sha256": "fb87835cc16633e093cf247c5e30fe32c4452fe01b9843ce0457ce054e3a1346",
+    "display_path": "staff-plan-v1.html",
+    "display_sha256": "c99ec7be65d0e8307c3e5638f7dfed143c2338718595e727f9d6c11a95b68830",
+    "active_installments": 444,
+    "plan_total_vnd": 6052210162,
+    "assignment_mismatch_rows": 144,
+    "assignment_mismatch_amount_vnd": 2950968158,
+    "duplicate_shop_date_groups": 68,
+    "duplicate_extra_rows": 99,
+    "data_last_updated": "2026-10-09T17:27:57.443932+07:00",
+    "plan_type": "INTERNAL_PLAN_NOT_ACTUAL_NOT_CUSTOMER_COMMITMENT"
+  },
+  "composite": {
+    "entrypoint_path": "index.html",
+    "html_sha256": "c57a7f209d54957e8093d2009c8fe50786449ab0656bcdb6c8217416a8a4d65d",
+    "release_manifest_sha256_exclusion": "MANIFEST_HASH_RECORDED_IN_PUBLICATION_RECEIPT; this manifest does not embed its own hash",
+    "integrity_rule": "ACTUAL_CERTIFICATE_BINDS_ONLY_CERTIFIED_ACTUAL_ARTIFACT; composite HTML and manifest have separate hashes"
+  },
+  "predecessor": {
+    "expected_main_commit": "22e39d4bc0fad1be28914a6b27e516abd62f346c",
+    "no_force_push": true,
+    "atomic_commit": true
+  },
+  "publication_gates": [
+    "CERTIFICATE_SIGNATURE_AND_RUN_MANIFEST_VERIFIED",
+    "CERTIFIED_ACTUAL_ARTIFACT_SHA_EXACT",
+    "STAFF_PLAN_PAYLOAD_COUNTS_AND_TOTAL_VERIFIED",
+    "NO_SECRETS_OR_UNAPPROVED_FIELDS",
+    "REMOTE_PREDECESSOR_MATCH",
+    "GITHUB_RAW_READBACK",
+    "GITHUB_PAGES_READBACK"
+  ],
+  "does_not_grant": [
+    "AIOS_ACCEPT_OR_PROMOTE",
+    "DEBT_CURRENT_PROMOTION",
+    "FORECAST_ENGINE_CERTIFICATION",
+    "PUBLICATION_TO_OTHER_REPOSITORIES_OR_DOMAINS",
+    "SOURCE_SYSTEM_MUTATION"
+  ]
+}

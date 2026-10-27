@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Kế hoạch thu CSKH — Staff Input V1</title>
+  <style>
+    :root{font-family:Segoe UI,Arial,sans-serif;color:#183247;background:#f4f7fa}*{box-sizing:border-box}body{margin:0;padding:18px}.panel{background:#fff;border:1px solid #d7e0e8;border-radius:10px;padding:18px;box-shadow:0 2px 8px #1832470b}h2{margin:0 0 8px;color:#145b83;font-size:20px}.muted{color:#617384;font-size:12px}.warning{margin:12px 0;padding:11px 13px;border-left:4px solid #d99a18;background:#fff8e9;border-radius:6px;font-size:13px}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}.card{border:1px solid #d7e0e8;border-radius:8px;padding:12px}.label{font-size:11px;color:#617384}.value{font-size:19px;font-weight:700;margin-top:4px}.controls{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:8px;margin:14px 0}.controls label{display:block;font-size:11px;color:#617384;margin-bottom:4px}.controls select,.controls input{width:100%;padding:8px;border:1px solid #cbd6df;border-radius:6px;background:#fff;color:#183247}button{padding:7px 11px;border:1px solid #9badbb;border-radius:6px;background:#f8fbfd;cursor:pointer;color:#183247}.table-wrap{overflow:auto;max-height:480px;border:1px solid #d7e0e8;border-radius:7px;margin:8px 0 15px}table{border-collapse:collapse;width:100%;min-width:760px;font-size:12px}th,td{padding:8px 9px;border-bottom:1px solid #e7edf1;text-align:left}th{position:sticky;top:0;background:#edf3f7;z-index:1}.num{text-align:right;white-space:nowrap}.exception{color:#8a5b00;font-weight:700}h3{font-size:14px;margin:14px 0 6px}@media(max-width:800px){.cards{grid-template-columns:1fr 1fr}.controls{grid-template-columns:1fr 1fr}body{padding:10px}}
+  </style>
+</head>
+<body>
+  <main class="panel" id="planPanel">
+    <h2>Kế hoạch thu nợ CSKH — Staff Input V1</h2>
+    <div class="muted">Kế hoạch ghi nhận theo ngày dự kiến; độc lập với Actual, không phải tiền thực thu và không phải dự báo xác suất 7/15/30 ngày.</div>
+    <div class="warning"><strong>Dữ liệu kế hoạch Staff Input cập nhật gần nhất 09/10/2026 17:27:57 (giờ Việt Nam).</strong> Không xác nhận rằng khách hàng vẫn giữ kế hoạch ở thời điểm hiện tại. Chỉ hiển thị trường được duyệt; không có thông tin liên hệ hoặc ghi chú khách hàng.</div>
+    <div id="warnings"></div>
+    <div class="cards">
+      <article class="card"><div class="label">Tổng kế hoạch ghi nhận</div><div class="value" id="total">Đang tải…</div><div class="muted">Không phải số dư nợ hoặc Actual.</div></article>
+      <article class="card"><div class="label">Installment active</div><div class="value" id="count">—</div><div class="muted">Lịch sử sự kiện đã được gấp, không đếm phiên bản bị thay thế.</div></article>
+      <article class="card"><div class="label">Snapshot Staff Input</div><div class="value" id="snapshot">—</div><div class="muted" id="updated"></div></article>
+    </div>
+    <div class="controls" aria-label="Bộ lọc Staff Input">
+      <div><label for="cbld">CBLĐ</label><select id="cbld"><option value="">Tất cả</option></select></div>
+      <div><label for="assigned">CSKH phân công</label><select id="assigned"><option value="">Tất cả</option></select></div>
+      <div><label for="planCskh">CSKH ghi trong kế hoạch</label><select id="planCskh"><option value="">Tất cả</option></select></div>
+      <div><label for="month">Tháng dự kiến</label><select id="month"><option value="">Tất cả</option></select></div>
+      <div><label for="mapping">Đối chiếu phân công</label><select id="mapping"><option value="">Tất cả</option><option value="MATCH">Khớp</option><option value="CSKH_MISMATCH">Lệch</option></select></div>
+      <div><label for="shop">Tìm Shop</label><input id="shop" type="search" placeholder="Nhập Shop ID"></div>
+    </div>
+    <p><button id="reset" type="button">Đặt lại bộ lọc</button> <span id="result" aria-live="polite"></span></p>
+    <h3>Tổng hợp theo ngày dự kiến</h3><div class="table-wrap"><table><thead><tr><th>Ngày dự kiến</th><th>Trạng thái theo snapshot</th><th class="num">Installment</th><th class="num">Số tiền</th></tr></thead><tbody id="daily"></tbody></table></div>
+    <h3>CBLĐ → CSKH → Shop → ngày dự kiến</h3><div class="table-wrap"><table><thead><tr><th>CBLĐ</th><th>CSKH phân công</th><th>Shop</th><th>Ngày dự kiến</th><th>CSKH trong plan</th><th>Đối chiếu</th><th class="num">Installment</th><th class="num">Tổng tiền</th></tr></thead><tbody id="hierarchy"></tbody></table></div>
+    <details><summary>Chi tiết từng installment</summary><div class="table-wrap"><table><thead><tr><th>CBLĐ</th><th>CSKH phân công</th><th>CSKH trong plan</th><th>Shop</th><th>Ngày dự kiến</th><th>Trạng thái</th><th class="num">Số tiền</th></tr></thead><tbody id="details"></tbody></table></div></details>
+    <p class="muted" id="lineage"></p>
+  </main>
+  <script>
+  (()=>{
+    const $=id=>document.getElementById(id), fmt=new Intl.NumberFormat('vi-VN'), money=n=>fmt.format(Number(n||0))+' VND';
+    const date=s=>{if(!s)return '—';const [y,m,d]=s.slice(0,10).split('-');return `${d}/${m}/${y}`};
+    const addCell=(tr,v,cls='')=>{const td=document.createElement('td');td.textContent=v==null?'':String(v);if(cls)td.className=cls;tr.append(td)};
+    fetch('./staff-input-plan-v1.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('STAFF_PLAN_PAYLOAD_UNAVAILABLE');return r.json()}).then(data=>{
+      const rows=data.active_installments||[], snap=data.snapshot_as_of.slice(0,10), sum=rows.reduce((a,x)=>a+Number(x.amount_vnd),0);
+      if(rows.length!==444||sum!==6052210162||data.assignment_mismatch_rows!==144||data.duplicate_shop_date_groups!==68)throw Error('STAFF_PLAN_INTEGRITY_EXPECTATION_MISMATCH');
+      $('total').textContent=money(sum);$('count').textContent=fmt.format(rows.length);$('snapshot').textContent=date(data.snapshot_as_of);$('updated').textContent='Cập nhật gần nhất: '+new Intl.DateTimeFormat('vi-VN',{timeZone:'Asia/Ho_Chi_Minh',dateStyle:'short',timeStyle:'short'}).format(new Date(data.data_last_updated));
+      const warnings=$('warnings');for(const msg of [`${fmt.format(data.assignment_mismatch_rows)} dòng lệch phân công CSKH (${money(data.assignment_mismatch_amount_vnd)}); giữ nguyên cả hai nguồn, không tự sửa.`,`${fmt.format(data.duplicate_shop_date_groups)} nhóm Shop/ngày có nhiều installment (${fmt.format(data.duplicate_extra_rows)} dòng vượt một dòng/nhóm); chưa có căn cứ để kết luận trùng hoặc gộp.`]){const d=document.createElement('div');d.className='warning';d.textContent=msg;warnings.append(d)}
+      const controls={cbld:$('cbld'),assigned:$('assigned'),planCskh:$('planCskh'),month:$('month'),mapping:$('mapping'),shop:$('shop')};
+      for(const [key,field] of [['cbld','cbld'],['assigned','assigned_cskh'],['planCskh','plan_cskh'],['month','expected_date']])for(const v of [...new Set(rows.map(x=>key==='month'?x[field].slice(0,7):x[field]).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'vi'))){const o=document.createElement('option');o.value=v;o.textContent=key==='month'?v.slice(5,7)+'/'+v.slice(0,4):v;controls[key].append(o)}
+      const group=(list,keyFn)=>{const m=new Map();for(const x of list){const k=keyFn(x),v=m.get(k)||{rows:[],sum:0};v.rows.push(x);v.sum+=Number(x.amount_vnd);m.set(k,v)}return m};
+      function render(){const q=controls.shop.value.trim().toLocaleLowerCase('vi'), shown=rows.filter(x=>(!controls.cbld.value||x.cbld===controls.cbld.value)&&(!controls.assigned.value||x.assigned_cskh===controls.assigned.value)&&(!controls.planCskh.value||x.plan_cskh===controls.planCskh.value)&&(!controls.month.value||x.expected_date.slice(0,7)===controls.month.value)&&(!controls.mapping.value||x.assignment_status===controls.mapping.value)&&(!q||x.shop_id.toLocaleLowerCase('vi').includes(q)));$('result').textContent=`Hiển thị ${fmt.format(shown.length)} / ${fmt.format(rows.length)} installment · ${money(shown.reduce((a,x)=>a+Number(x.amount_vnd),0))}`;
+        const daily=$('daily');daily.replaceChildren();for(const [k,v] of [...group(shown,x=>x.expected_date)].sort((a,b)=>a[0].localeCompare(b[0]))){const tr=document.createElement('tr');addCell(tr,date(k));addCell(tr,k<snap?'Quá hạn theo snapshot':k===snap?'Ngày snapshot':'Ngày tương lai');addCell(tr,fmt.format(v.rows.length),'num');addCell(tr,money(v.sum),'num');daily.append(tr)}
+        const body=$('hierarchy');body.replaceChildren();const hk=x=>[x.cbld,x.assigned_cskh,x.shop_id,x.expected_date,x.plan_cskh,x.assignment_status].join('\u001f');for(const [,v] of [...group(shown,hk)].sort((a,b)=>a[0].localeCompare(b[0],'vi'))){const x=v.rows[0],tr=document.createElement('tr');addCell(tr,x.cbld);addCell(tr,x.assigned_cskh);addCell(tr,x.shop_id);addCell(tr,date(x.expected_date));addCell(tr,x.plan_cskh);addCell(tr,x.assignment_status==='MATCH'?'Khớp':'Lệch CSKH','exception');addCell(tr,fmt.format(v.rows.length),'num');addCell(tr,money(v.sum),'num');body.append(tr)}
+        const detail=$('details');detail.replaceChildren();for(const x of [...shown].sort((a,b)=>a.cbld.localeCompare(b.cbld,'vi')||a.assigned_cskh.localeCompare(b.assigned_cskh,'vi')||a.shop_id.localeCompare(b.shop_id,'vi')||a.expected_date.localeCompare(b.expected_date))){const tr=document.createElement('tr');addCell(tr,x.cbld);addCell(tr,x.assigned_cskh);addCell(tr,x.plan_cskh);addCell(tr,x.shop_id);addCell(tr,date(x.expected_date));addCell(tr,x.date_status_as_of_snapshot==='PAST'?'Quá hạn theo snapshot':x.date_status_as_of_snapshot==='TODAY'?'Ngày snapshot':'Ngày tương lai');addCell(tr,money(x.amount_vnd),'num');detail.append(tr)}
+      }
+      Object.values(controls).forEach(x=>{x.addEventListener('input',render);x.addEventListener('change',render)});$('reset').addEventListener('click',()=>{Object.values(controls).forEach(x=>x.value='');render()});render();$('lineage').textContent=`Nguồn: ${data.source_label}; snapshot ${data.snapshot_as_of}; Staff Input cập nhật cuối ${data.data_last_updated}. Kế hoạch nội bộ, không có trường cam kết khách hàng trong installment.`;
+    }).catch(e=>{$('total').textContent='Không khả dụng';const d=document.createElement('div');d.className='warning';d.textContent='Không thể xác minh dữ liệu kế hoạch: '+e.message;$('warnings').append(d)});
+  })();
+  </script>
+</body>
+</html>
