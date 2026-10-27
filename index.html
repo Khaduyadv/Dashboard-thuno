@@ -6,7 +6,7 @@
   <meta name="description" content="Dashboard quản trị thu nợ — Actual đã chứng nhận và kế hoạch Staff Input được trình bày tách biệt.">
   <title>Dashboard Quản trị Thu nợ — Actual + Kế hoạch CSKH</title>
   <style>
-    :root{font-family:Segoe UI,Arial,sans-serif;color:#173047;background:#eef3f7}*{box-sizing:border-box}body{margin:0;padding:18px}.wrap{max-width:1440px;margin:auto}.header{background:#fff;border:1px solid #d8e1e9;border-radius:12px;padding:18px 22px;margin-bottom:14px}.header h1{font-size:24px;margin:0;color:#145b83}.sub{color:#607487;font-size:13px;margin-top:5px}.card{background:#fff;border:1px solid #d8e1e9;border-radius:12px;padding:14px 16px;margin:14px 0;box-shadow:0 2px 8px #1730470a}.card h2{font-size:18px;margin:0 0 7px;color:#145b83}.notice{font-size:12px;color:#607487}.frame{width:100%;border:0;background:#fff;border-radius:8px}.actual-frame{height:1550px}.plan-frame{height:1600px}@media(max-width:700px){body{padding:8px}.header{padding:14px}.header h1{font-size:20px}.actual-frame{height:1500px}.plan-frame{height:1800px}}
+    :root{font-family:Segoe UI,Arial,sans-serif;color:#173047;background:#eef3f7}*{box-sizing:border-box}body{margin:0;padding:18px}.wrap{max-width:1440px;margin:auto}.header{background:#fff;border:1px solid #d8e1e9;border-radius:12px;padding:18px 22px;margin-bottom:14px}.header h1{font-size:24px;margin:0;color:#145b83}.sub{color:#607487;font-size:13px;margin-top:5px}.card{background:#fff;border:1px solid #d8e1e9;border-radius:12px;padding:14px 16px;margin:14px 0;box-shadow:0 2px 8px #1730470a}.card h2{font-size:18px;margin:0 0 7px;color:#145b83}.notice{font-size:12px;color:#607487}.frame{width:100%;border:0;background:#fff;border-radius:8px}.actual-frame{height:1550px}.assignment-frame{height:1400px}.plan-frame{height:1600px}@media(max-width:700px){body{padding:8px}.header{padding:14px}.header h1{font-size:20px}.actual-frame{height:1500px}.assignment-frame{height:1650px}.plan-frame{height:1800px}}
   </style>
 </head>
 <body>
@@ -14,12 +14,17 @@
     <header class="header"><h1>DASHBOARD QUẢN TRỊ THU NỢ</h1><div class="sub">BQL KPTM VCO Ocean City · Cùng một trang: Actual đã chứng nhận và kế hoạch thu CSKH Staff Input</div></header>
     <section class="card" aria-labelledby="actualTitle">
       <h2 id="actualTitle">ACTUAL — Kết quả thu SAP/Excel đã chứng nhận</h2>
-      <p class="notice">RUN_ID: CN_20261027T024948_08d8549f87 · Certificate: PRIMARY_ACTUAL_CERTIFICATE/1 · SHA-256: 48ffa258e654d2bf5495221c8177c01c609efedcb612929e6ad2eba7335f9292. Actual artifact được giữ nguyên; SHA của trang tổng hợp này được quản lý riêng trong manifest phát hành.</p>
+      <p class="notice">RUN_ID: CN_20261027T024948_08d8549f87 · Certificate: PRIMARY_ACTUAL_CERTIFICATE/1 · SHA-256: 48ffa258e654d2bf5495221c8177c01c609efedcb612929e6ad2eba7335f9292. Artifact và cách phân nhóm ghi trong certificate được giữ nguyên.</p>
       <iframe class="frame actual-frame" src="certified-actual/CN_20261027T024948_08d8549f87/index.html" title="Actual chi tiết đã chứng nhận — CN_20261027T024948_08d8549f87" loading="eager"></iframe>
+    </section>
+    <section class="card" aria-labelledby="assignmentTitle">
+      <h2 id="assignmentTitle">ACTUAL THEO PHÂN CÔNG HIỆN HÀNH — 27/10/2026</h2>
+      <p class="notice">Lớp hiển thị dẫn xuất theo Assignment SHA-256 5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2. Tổng theo Shop đối chiếu với Actual đã chứng nhận; phân bổ CBLĐ/CSKH dưới đây không thuộc nội dung được certificate chứng nhận và không thay đổi certificate.</p>
+      <iframe class="frame assignment-frame" src="current-assignment-actual-v1.html" title="Actual dẫn xuất theo phân công 27/10/2026 — CBLĐ, CSKH, Shop" loading="eager"></iframe>
     </section>
     <section class="card" aria-labelledby="planTitle">
       <h2 id="planTitle">KẾ HOẠCH THU CSKH — Staff Input Plan V1</h2>
-      <p class="notice">444 kỳ thu · 6.052.210.162 VND · Cập nhật gần nhất 09/10/2026. Đây là kế hoạch nội bộ cũ, không phải Actual, số dư nợ hay Forecast Engine được chứng nhận.</p>
+      <p class="notice">444 kỳ thu · 6.052.210.162 VND · Cập nhật gần nhất 09/10/2026. Đối chiếu phân công theo Assignment có hiệu lực 27/10/2026; dữ liệu kế hoạch gốc không bị sửa.</p>
       <iframe class="frame plan-frame" src="staff-plan-v1.html" title="Kế hoạch Staff Input theo CBLĐ, CSKH, Shop và ngày dự kiến" loading="eager"></iframe>
     </section>
   </main>
