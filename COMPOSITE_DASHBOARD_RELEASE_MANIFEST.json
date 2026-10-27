@@ -7,7 +7,7 @@
     "entrypoint": "index.html",
     "pages_url": "https://khaduyadv.github.io/Dashboard-thuno/"
   },
-  "authorization_basis": "DIRECTOR FINAL ORDER — DIRECT DASHBOARD UPDATE & GITHUB PUSH (2026-10-27); display-only publication for Dashboard-Thuno",
+  "authorization_basis": "DIRECTOR ORDER — FIX STALE CSKH NAMES ON LIVE DASHBOARD (2026-10-27); display-only derived regrouping for Dashboard-Thuno",
   "run_id": "CN_20261027T024948_08d8549f87",
   "actual": {
     "status": "CERTIFIED",
@@ -52,7 +52,7 @@
     "payload_path": "current-assignment-actual-v1.json",
     "payload_sha256": "d810f87fb638315441a676d19a3825aa5c10816376b6444cfad44e830bbd0922",
     "display_path": "current-assignment-actual-v1.html",
-    "display_sha256": "b434b0d0bceeb2d4c8c6f49081f6bc7889ef027a6790e25a2f722f89684ffa5f",
+    "display_sha256": "ff420f7454866b822b35e1e17a93863e2ed43d9c4fff5a7e36c7db40e11ad21b",
     "assignment_sha256": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
     "assignment_effective_date": "2026-10-27",
     "assignment_rows": 1402,
@@ -73,20 +73,48 @@
     "sap_report_as_of": "NOT_PROVEN",
     "certificate_and_actual_artifact_mutated": false
   },
+  "current_assignment_ps_display": {
+    "status": "DERIVED_DISPLAY_NOT_CERTIFICATE",
+    "payload_path": "current-assignment-ps-v1.json",
+    "payload_sha256": "a0ff68b042370f43251e93caefb675ebfb48d131fb2d739f35e0e0ad09c15aed",
+    "display_path": "current-assignment-actual-v1.html",
+    "display_sha256": "ff420f7454866b822b35e1e17a93863e2ed43d9c4fff5a7e36c7db40e11ad21b",
+    "assignment_sha256": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
+    "assignment_effective_date": "2026-10-27",
+    "assignment_shop_rows": 1402,
+    "actual_run_id": "CN_20261027T024948_08d8549f87",
+    "actual_certificate_sha256": "48ffa258e654d2bf5495221c8177c01c609efedcb612929e6ad2eba7335f9292",
+    "post_b1_workbook_sha256": "45482ad10dd7d16f0b42920f57f7b059c1d6bf61d06bc0dcaa13ca28d92ac685",
+    "shop_id_source": "Chi tiết!J16:J624",
+    "debt_ps_source": "Chi tiết!AT16:AT624",
+    "collected_ps_source": "Chi tiết!BD16:BD624",
+    "source_rows_scanned": 608,
+    "source_rows_with_shop_id": 600,
+    "unique_shop_ids": 587,
+    "current_cbld_cskh_groups": 8,
+    "source_debt_ps_vnd": 3546993089,
+    "source_collected_ps_vnd": 2158901826,
+    "identified_shop_debt_ps_vnd": 3536890240,
+    "identified_shop_collected_ps_vnd": 2158901826,
+    "unassigned_nonzero_rows": 1,
+    "unassigned_debt_ps_vnd": 10102849,
+    "reconciliation": "PASS; per-Shop aggregation, then current-assignment grouping; missing Shop amount excluded from CSKH rates"
+  },
   "composite": {
     "entrypoint_path": "index.html",
-    "html_sha256": "e84159d7bd6a6b4f4c6b5cb98861b9aaf6cde1a9f535f6aa3bb009c007a8e511",
+    "html_sha256": "4f46abec7effda4faed0fb60267598d647d923969e7a1ca588ec6c253b879a73",
     "release_manifest_sha256_exclusion": "MANIFEST_HASH_RECORDED_IN_PUBLICATION_RECEIPT; this manifest does not embed its own hash",
     "integrity_rule": "ACTUAL_CERTIFICATE_BINDS_ONLY_CERTIFIED_ACTUAL_ARTIFACT; composite HTML and manifest have separate hashes"
   },
   "predecessor": {
-    "expected_main_commit": "8b558facbf53bd12d92d38db992f6946ef95608b",
+    "expected_main_commit": "0329891d9ed85c5203d16ddc032911ffc6d2cb87",
     "no_force_push": true,
     "atomic_commit": true
   },
   "publication_gates": [
     "CERTIFICATE_SIGNATURE_AND_RUN_MANIFEST_VERIFIED",
     "CERTIFIED_ACTUAL_ARTIFACT_SHA_EXACT",
+    "CURRENT_ASSIGNMENT_PS_SOURCE_AND_SHOP_RECONCILIATION",
     "STAFF_PLAN_PAYLOAD_COUNTS_AND_TOTAL_VERIFIED",
     "NO_SECRETS_OR_UNAPPROVED_FIELDS",
     "REMOTE_PREDECESSOR_MATCH",
