@@ -75,7 +75,7 @@
   },
   "composite": {
     "entrypoint_path": "index.html",
-    "html_sha256": "580558251b099450879cfdef48e1d5c0ff3896dc44867f69c7d5cff1f2d74ea0",
+    "html_sha256": "e84159d7bd6a6b4f4c6b5cb98861b9aaf6cde1a9f535f6aa3bb009c007a8e511",
     "release_manifest_sha256_exclusion": "MANIFEST_HASH_RECORDED_IN_PUBLICATION_RECEIPT; this manifest does not embed its own hash",
     "integrity_rule": "ACTUAL_CERTIFICATE_BINDS_ONLY_CERTIFIED_ACTUAL_ARTIFACT; composite HTML and manifest have separate hashes"
   },
