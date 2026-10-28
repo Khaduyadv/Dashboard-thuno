@@ -38,8 +38,8 @@
   </main>
   <script>
   (()=>{
-    const ACTUAL_SHA='d810f87fb638315441a676d19a3825aa5c10816376b6444cfad44e830bbd0922';
-    const PS_SHA='a0ff68b042370f43251e93caefb675ebfb48d131fb2d739f35e0e0ad09c15aed';
+    const ACTUAL_SHA='94e5a3ccb3741234701f16df5cc645c68e411ef7ecf0bda92641175e920c673f';
+    const PS_SHA='1299843640b575fa4824f31521e47fa062772829b1f29441849f0feb1dcccce6';
     const $=id=>document.getElementById(id),fmt=new Intl.NumberFormat('vi-VN'),money=n=>fmt.format(Number(n||0))+' VND',pct=n=>n==null?'—':new Intl.NumberFormat('vi-VN',{style:'percent',maximumFractionDigits:1}).format(n);
     const add=(tr,v,cls='')=>{const td=document.createElement('td');td.textContent=v==null?'':String(v);if(cls)td.className=cls;tr.append(td);return td};
     async function verified(path,expected){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error('DATA_UNAVAILABLE:'+path);const b=await r.arrayBuffer(),sha=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');if(sha!==expected)throw Error('DATA_SHA_MISMATCH:'+path);return JSON.parse(new TextDecoder().decode(b))}
