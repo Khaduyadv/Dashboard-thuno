@@ -1,0 +1,5926 @@
+{
+  "assigned_totals_vnd": {
+    "actual": "2756829159",
+    "kpi": "7452678498.4788169442",
+    "ps_collected": "2484816811",
+    "ps_debt": "3538854269"
+  },
+  "assignment_effective_date": "2026-10-27",
+  "assignment_sha256": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
+  "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
+  "classification": "MD_OPERATIONAL_RESULT",
+  "export_extracted_at": "NOT_PROVEN",
+  "export_scope_cash_vnd": 2477531678,
+  "export_scope_offset_vnd": 279297481,
+  "kpi_period": "2026-10",
+  "md_sha256": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
+  "operational_release_id": "MD_OPERATIONAL_20261029_5e1442792a",
+  "outside_scope_export_only": [
+    {
+      "cash": "47850000",
+      "offset": "0",
+      "shop_id": "QUẢNG TRƯỜNG VENICE",
+      "stt": 252
+    }
+  ],
+  "outside_scope_within_md_vnd": 0,
+  "report_label": "2026-10-29",
+  "sap_report_as_of": "NOT_PROVEN",
+  "schema": "MD_OPERATIONAL_DISPLAY_V1",
+  "shop_count": 588,
+  "shops": [
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "96EVENKT05"
+    },
+    {
+      "actual": "529200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "529200",
+      "ps_collected": "529200",
+      "ps_debt": "529200",
+      "shop_id": "BX.SP1-02"
+    },
+    {
+      "actual": "10765000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "12241449.474193513",
+      "ps_collected": "10765000",
+      "ps_debt": "12241451",
+      "shop_id": "CL15.SP23-01"
+    },
+    {
+      "actual": "2931600",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2931600",
+      "ps_collected": "2931600",
+      "ps_debt": "2931600",
+      "shop_id": "CL15.SP23-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "4804800",
+      "ps_collected": "0",
+      "ps_debt": "2402400",
+      "shop_id": "CL15.SP23-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "9286920",
+      "ps_collected": "0",
+      "ps_debt": "9286920",
+      "shop_id": "CX1.SP1-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-17"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-18"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-19"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "4059000",
+      "ps_collected": "0",
+      "ps_debt": "4059000",
+      "shop_id": "CX1.SP1-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "7104960",
+      "ps_collected": "0",
+      "ps_debt": "7104960",
+      "shop_id": "CX1.SP1-21"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "CX1A.SP1-01"
+    },
+    {
+      "actual": "246960",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "246960",
+      "ps_collected": "246960",
+      "ps_debt": "246960",
+      "shop_id": "CX1A.SP1-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "7742520",
+      "ps_collected": "0",
+      "ps_debt": "7742520",
+      "shop_id": "CX1C.SP1-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "529200",
+      "ps_collected": "0",
+      "ps_debt": "529200",
+      "shop_id": "CX1C.SP1-03"
+    },
+    {
+      "actual": "63225",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "63225",
+      "ps_collected": "63225",
+      "ps_debt": "63225",
+      "shop_id": "CX1C.SP1-10"
+    },
+    {
+      "actual": "56904",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "56904",
+      "ps_collected": "56904",
+      "ps_debt": "56904",
+      "shop_id": "CX1C.SP1-16"
+    },
+    {
+      "actual": "547194",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "547194",
+      "ps_collected": "547194",
+      "ps_debt": "547194",
+      "shop_id": "CX1C.SP1-40"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Vũ Hương Giang",
+      "detail_rows": 1,
+      "kpi": "769896",
+      "ps_collected": "0",
+      "ps_debt": "769896",
+      "shop_id": "CX1C.SP1-42"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "145000000",
+      "ps_collected": "0",
+      "ps_debt": "16500000",
+      "shop_id": "GRANDWORLDHN.MACHINE.KTOWN.21"
+    },
+    {
+      "actual": "990000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "990000",
+      "ps_collected": "990000",
+      "ps_debt": "990000",
+      "shop_id": "GRANDWORLDHN.MACHINE.VENICE1.01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "37108000",
+      "ps_collected": "0",
+      "ps_debt": "11979000",
+      "shop_id": "GRANDWORLDHN.MACHINE.VENICE1.07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "303108",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "GRANDWORLDHN.OUT.EVENT.KTOWN.04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "73920000",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "GWHN.TV/0602/2024.ALTAMEDIA.QC"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "GWHN.TV/2404/2024.TUTUTRAIN.EV"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "GWHN.VENICE/0401/2025.TRANGIA.EV"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "5718556",
+      "ps_collected": "0",
+      "ps_debt": "5718556",
+      "shop_id": "K12"
+    },
+    {
+      "actual": "7434450",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "7434450",
+      "ps_collected": "7434450",
+      "ps_debt": "7434450",
+      "shop_id": "K13"
+    },
+    {
+      "actual": "4705250",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "4705250",
+      "ps_collected": "4705250",
+      "ps_debt": "4705250",
+      "shop_id": "K4"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "2563491.7",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "KIOSK THE VENICE 09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "1843054.5",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "KIOSK THE VENICE 10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "KIOSK THE VENICE 13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1A.SP14-12"
+    },
+    {
+      "actual": "2828100",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2828100",
+      "ps_collected": "2828100",
+      "ps_debt": "2828100",
+      "shop_id": "NT1B.SP14-02"
+    },
+    {
+      "actual": "2330936",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2330936",
+      "ps_collected": "2330936",
+      "ps_debt": "2330936",
+      "shop_id": "NT1B.SP14-32"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1B.SP14-40"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1B.SP14-42"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471450",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1B.SP14-50"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1B.SP14-52"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "4611006",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1B.SP14-54"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "NT1B.SP14-56"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PB19.TV-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "260651458",
+      "ps_collected": "0",
+      "ps_debt": "29257800",
+      "shop_id": "PB19.TV-133"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "260651458",
+      "ps_collected": "0",
+      "ps_debt": "29257800",
+      "shop_id": "PB19.TV-135"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PB19.TV-137"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "9000272",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PB19.TV-15"
+    },
+    {
+      "actual": "12757623",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "12757623",
+      "ps_collected": "12757623",
+      "ps_debt": "12757623",
+      "shop_id": "PB19.TV-19"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PB19.TV-21"
+    },
+    {
+      "actual": "3837900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3837900",
+      "ps_collected": "3837900",
+      "ps_debt": "3837900",
+      "shop_id": "PB19.TV-31"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PB19.TV-53"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-03"
+    },
+    {
+      "actual": "4594837",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4594837",
+      "ps_collected": "2304637",
+      "ps_debt": "2304637",
+      "shop_id": "PT.TV-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "6633000",
+      "ps_collected": "0",
+      "ps_debt": "3316500",
+      "shop_id": "PT.TV-100"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-106"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "14041403",
+      "ps_collected": "0",
+      "ps_debt": "14041403",
+      "shop_id": "PT.TV-112"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "5803050",
+      "ps_collected": "0",
+      "ps_debt": "5803050",
+      "shop_id": "PT.TV-114"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-128"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "10232845",
+      "ps_collected": "0",
+      "ps_debt": "10232845",
+      "shop_id": "PT.TV-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-130"
+    },
+    {
+      "actual": "19967409",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "39869636",
+      "ps_collected": "19967409",
+      "ps_debt": "19967409",
+      "shop_id": "PT.TV-134"
+    },
+    {
+      "actual": "4572150",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "69228209",
+      "ps_collected": "4572150",
+      "ps_debt": "22807207",
+      "shop_id": "PT.TV-138"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-140"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-142"
+    },
+    {
+      "actual": "9445008",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "9445008",
+      "ps_collected": "9445008",
+      "ps_debt": "9445008",
+      "shop_id": "PT.TV-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3586500",
+      "ps_collected": "0",
+      "ps_debt": "3586500",
+      "shop_id": "PT.TV-150"
+    },
+    {
+      "actual": "3586500",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3586500",
+      "ps_collected": "3586500",
+      "ps_debt": "3586500",
+      "shop_id": "PT.TV-156"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "46045499",
+      "ps_collected": "0",
+      "ps_debt": "46045499",
+      "shop_id": "PT.TV-166"
+    },
+    {
+      "actual": "3316500",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3316500",
+      "ps_collected": "3316500",
+      "ps_debt": "3316500",
+      "shop_id": "PT.TV-176"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-178"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-182"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "452892960.5591398",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-42"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "343536614",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-44"
+    },
+    {
+      "actual": "25000000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "191043101",
+      "ps_collected": "25000000",
+      "ps_debt": "42552310",
+      "shop_id": "PT.TV-48"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-66"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-68"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-78"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-80"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT.TV-92"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "145272676",
+      "ps_collected": "0",
+      "ps_debt": "6454656",
+      "shop_id": "PT.TV-94"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "5337827.967741907",
+      "ps_collected": "0",
+      "ps_debt": "3316500",
+      "shop_id": "PT.TV-96"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-01"
+    },
+    {
+      "actual": "10925155",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "10925155",
+      "ps_collected": "10925155",
+      "ps_debt": "10925155",
+      "shop_id": "PT1.TV-08"
+    },
+    {
+      "actual": "14835368",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "17860115.612903208",
+      "ps_collected": "14835368",
+      "ps_debt": "14835368",
+      "shop_id": "PT1.TV-10"
+    },
+    {
+      "actual": "2970000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "5616000",
+      "ps_collected": "2970000",
+      "ps_debt": "3499200",
+      "shop_id": "PT1.TV-11"
+    },
+    {
+      "actual": "17819175",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "17819175",
+      "ps_collected": "17819175",
+      "ps_debt": "17819175",
+      "shop_id": "PT1.TV-114"
+    },
+    {
+      "actual": "25838750",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "25838750",
+      "ps_collected": "25838750",
+      "ps_debt": "25838750",
+      "shop_id": "PT1.TV-116"
+    },
+    {
+      "actual": "3735600",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3735600",
+      "ps_collected": "3735600",
+      "ps_debt": "3735600",
+      "shop_id": "PT1.TV-120"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-128"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-132"
+    },
+    {
+      "actual": "10102849",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "10102849",
+      "ps_collected": "10102849",
+      "ps_debt": "10102849",
+      "shop_id": "PT1.TV-138"
+    },
+    {
+      "actual": "15023709",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "15023709",
+      "ps_collected": "15023709",
+      "ps_debt": "15023709",
+      "shop_id": "PT1.TV-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-142"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-146"
+    },
+    {
+      "actual": "10202124",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "10202124",
+      "ps_collected": "10202124",
+      "ps_debt": "10202124",
+      "shop_id": "PT1.TV-148"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-15"
+    },
+    {
+      "actual": "3654884",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3654884",
+      "ps_collected": "3654884",
+      "ps_debt": "3654884",
+      "shop_id": "PT1.TV-150"
+    },
+    {
+      "actual": "3648270",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3648270",
+      "ps_collected": "3648270",
+      "ps_debt": "3648270",
+      "shop_id": "PT1.TV-152"
+    },
+    {
+      "actual": "15000000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "33547144",
+      "ps_collected": "15000000",
+      "ps_debt": "33547144",
+      "shop_id": "PT1.TV-156"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-158"
+    },
+    {
+      "actual": "15263078",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "15263078",
+      "ps_collected": "15263078",
+      "ps_debt": "15263078",
+      "shop_id": "PT1.TV-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "10715988.26666665",
+      "ps_collected": "0",
+      "ps_debt": "10715989",
+      "shop_id": "PT1.TV-166"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-176"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "15680362",
+      "ps_collected": "0",
+      "ps_debt": "15680362",
+      "shop_id": "PT1.TV-178"
+    },
+    {
+      "actual": "3887400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "3887400",
+      "ps_collected": "3887400",
+      "ps_debt": "3887400",
+      "shop_id": "PT1.TV-180"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "11455317",
+      "ps_collected": "0",
+      "ps_debt": "11455317",
+      "shop_id": "PT1.TV-182"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "16828671",
+      "ps_collected": "0",
+      "ps_debt": "11136510",
+      "shop_id": "PT1.TV-184"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "38735596.419354826",
+      "ps_collected": "0",
+      "ps_debt": "14688345",
+      "shop_id": "PT1.TV-196"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3127222",
+      "ps_collected": "0",
+      "ps_debt": "3127222",
+      "shop_id": "PT1.TV-208"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "82346400",
+      "ps_collected": "0",
+      "ps_debt": "3412200",
+      "shop_id": "PT1.TV-210"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "6824400",
+      "ps_collected": "0",
+      "ps_debt": "3412200",
+      "shop_id": "PT1.TV-212"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-25"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3267000",
+      "ps_collected": "0",
+      "ps_debt": "3267000",
+      "shop_id": "PT1.TV-26"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-27"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT1.TV-29"
+    },
+    {
+      "actual": "6108300",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "6108300",
+      "ps_collected": "6108300",
+      "ps_debt": "6108300",
+      "shop_id": "PT1.TV-88"
+    },
+    {
+      "actual": "3392400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3392400",
+      "ps_collected": "3392400",
+      "ps_debt": "3392400",
+      "shop_id": "PT1.TV-90"
+    },
+    {
+      "actual": "3392400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3392400",
+      "ps_collected": "3392400",
+      "ps_debt": "3392400",
+      "shop_id": "PT1.TV-92"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "23080105",
+      "ps_collected": "0",
+      "ps_debt": "12050175",
+      "shop_id": "PT1.TV-94"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-00"
+    },
+    {
+      "actual": "94890068",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "96897203",
+      "ps_collected": "94890068",
+      "ps_debt": "94890068",
+      "shop_id": "PT2.TV-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-06"
+    },
+    {
+      "actual": "29347562",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "29347562",
+      "ps_collected": "29347562",
+      "ps_debt": "29347562",
+      "shop_id": "PT2.TV-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-10"
+    },
+    {
+      "actual": "1015200",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "1015200",
+      "ps_collected": "1015200",
+      "ps_debt": "1015200",
+      "shop_id": "PT2.TV-101"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-103"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-111"
+    },
+    {
+      "actual": "4687200",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "4687200",
+      "ps_collected": "4687200",
+      "ps_debt": "4687200",
+      "shop_id": "PT2.TV-117"
+    },
+    {
+      "actual": "4158000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "4158000",
+      "ps_collected": "4158000",
+      "ps_debt": "4158000",
+      "shop_id": "PT2.TV-119"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-121"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-123"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-125"
+    },
+    {
+      "actual": "34666692",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "34666692",
+      "ps_collected": "34666692",
+      "ps_debt": "34666692",
+      "shop_id": "PT2.TV-127"
+    },
+    {
+      "actual": "1000000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "92226400",
+      "ps_collected": "1000000",
+      "ps_debt": "3801600",
+      "shop_id": "PT2.TV-129"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "10651534",
+      "ps_collected": "0",
+      "ps_debt": "7340722",
+      "shop_id": "PT2.TV-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-131"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-133"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-135"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-137"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "10000000",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-139"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-141"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-143"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-145"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-147"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "27667975",
+      "ps_collected": "0",
+      "ps_debt": "15620340",
+      "shop_id": "PT2.TV-149"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "18842208",
+      "ps_collected": "0",
+      "ps_debt": "7406149",
+      "shop_id": "PT2.TV-15"
+    },
+    {
+      "actual": "584276",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "584276",
+      "ps_collected": "584276",
+      "ps_debt": "584276",
+      "shop_id": "PT2.TV-151"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-153"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "1958735.9677419066",
+      "ps_collected": "0",
+      "ps_debt": "1958736",
+      "shop_id": "PT2.TV-155"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "587271.9354838431",
+      "ps_collected": "0",
+      "ps_debt": "587272",
+      "shop_id": "PT2.TV-157"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-161"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "32139599.716129005",
+      "ps_collected": "0",
+      "ps_debt": "32139600",
+      "shop_id": "PT2.TV-163"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-165"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-167"
+    },
+    {
+      "actual": "14727258",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "14727258",
+      "ps_collected": "14727258",
+      "ps_debt": "14727258",
+      "shop_id": "PT2.TV-169"
+    },
+    {
+      "actual": "78088688",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "78088688",
+      "ps_collected": "78088688",
+      "ps_debt": "78088688",
+      "shop_id": "PT2.TV-171"
+    },
+    {
+      "actual": "76873088",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "76873088",
+      "ps_collected": "76873088",
+      "ps_debt": "76873088",
+      "shop_id": "PT2.TV-173"
+    },
+    {
+      "actual": "76886700",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "76886700",
+      "ps_collected": "76886700",
+      "ps_debt": "76886700",
+      "shop_id": "PT2.TV-175"
+    },
+    {
+      "actual": "75732525",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "75732525",
+      "ps_collected": "75732525",
+      "ps_debt": "75732525",
+      "shop_id": "PT2.TV-177"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-179"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-18"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-181"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-183"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-185"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "10009326",
+      "ps_collected": "0",
+      "ps_debt": "10009326",
+      "shop_id": "PT2.TV-189"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-191"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-197"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-199"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-201"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-203"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-205"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-207"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-209"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-211"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-24"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-26"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "15000000",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-28"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-30"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-32"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-34"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-36"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 2,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-38"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "28851439",
+      "ps_collected": "0",
+      "ps_debt": "28851439",
+      "shop_id": "PT2.TV-40"
+    },
+    {
+      "actual": "15000000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "40343974",
+      "ps_collected": "13164525",
+      "ps_debt": "13164525",
+      "shop_id": "PT2.TV-41"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "36277000",
+      "ps_collected": "0",
+      "ps_debt": "8245500",
+      "shop_id": "PT2.TV-42"
+    },
+    {
+      "actual": "26059128",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "26059128",
+      "ps_collected": "26059128",
+      "ps_debt": "26059128",
+      "shop_id": "PT2.TV-69"
+    },
+    {
+      "actual": "6184200",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "6184200",
+      "ps_collected": "6184200",
+      "ps_debt": "6184200",
+      "shop_id": "PT2.TV-71"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-79"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-81"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-83"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-85"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PT2.TV-91"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "14610633",
+      "ps_collected": "0",
+      "ps_debt": "7221450",
+      "shop_id": "PĐ.KT-01"
+    },
+    {
+      "actual": "2495124",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2495124",
+      "ps_collected": "2495124",
+      "ps_debt": "2495124",
+      "shop_id": "PĐ.KT-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "29945100",
+      "ps_collected": "0",
+      "ps_debt": "14972550",
+      "shop_id": "PĐ.KT-06"
+    },
+    {
+      "actual": "4700579",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "4700579",
+      "ps_collected": "4700579",
+      "ps_debt": "4700579",
+      "shop_id": "PĐ.KT-07"
+    },
+    {
+      "actual": "3742200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3742200",
+      "ps_collected": "3742200",
+      "ps_debt": "3742200",
+      "shop_id": "PĐ.KT-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-09"
+    },
+    {
+      "actual": "11807400",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "11807400",
+      "ps_collected": "11807400",
+      "ps_debt": "11807400",
+      "shop_id": "PĐ.KT-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-11"
+    },
+    {
+      "actual": "20276300",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "20276300",
+      "ps_collected": "20276300",
+      "ps_debt": "20276300",
+      "shop_id": "PĐ.KT-12"
+    },
+    {
+      "actual": "4616700",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "4616700",
+      "ps_collected": "4616700",
+      "ps_debt": "4616700",
+      "shop_id": "PĐ.KT-14"
+    },
+    {
+      "actual": "16133925",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "16133925",
+      "ps_collected": "16133925",
+      "ps_debt": "16133925",
+      "shop_id": "PĐ.KT-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "15632475",
+      "ps_collected": "0",
+      "ps_debt": "15632475",
+      "shop_id": "PĐ.KT-16"
+    },
+    {
+      "actual": "9000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "18533625",
+      "ps_collected": "9000000",
+      "ps_debt": "18533625",
+      "shop_id": "PĐ.KT-17"
+    },
+    {
+      "actual": "63611975",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "173996758",
+      "ps_collected": "31611975",
+      "ps_debt": "31611975",
+      "shop_id": "PĐ.KT-18"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-21"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-22"
+    },
+    {
+      "actual": "1884696",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "1884696",
+      "ps_collected": "1884696",
+      "ps_debt": "1884696",
+      "shop_id": "PĐ.KT-23"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-24"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-25"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-26"
+    },
+    {
+      "actual": "22160600",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "86596585",
+      "ps_collected": "22133875",
+      "ps_debt": "22133875",
+      "shop_id": "PĐ.KT-28"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "32604000",
+      "ps_collected": "0",
+      "ps_debt": "6520800",
+      "shop_id": "PĐ.KT-29"
+    },
+    {
+      "actual": "10785857",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10785857",
+      "ps_collected": "10785857",
+      "ps_debt": "10785857",
+      "shop_id": "PĐ.KT-38"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-39"
+    },
+    {
+      "actual": "58594000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "89274074",
+      "ps_collected": "12456162",
+      "ps_debt": "12456162",
+      "shop_id": "PĐ.KT-40"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-48"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-50"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-51"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-52"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-54"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-55"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-57"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-58"
+    },
+    {
+      "actual": "4006200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "4006200",
+      "ps_collected": "4006200",
+      "ps_debt": "4006200",
+      "shop_id": "PĐ.KT-59"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3946800",
+      "ps_collected": "0",
+      "ps_debt": "3946800",
+      "shop_id": "PĐ.KT-60"
+    },
+    {
+      "actual": "9303900",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "9303900",
+      "ps_collected": "9303900",
+      "ps_debt": "9303900",
+      "shop_id": "PĐ.KT-61"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-62"
+    },
+    {
+      "actual": "4512750",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "4512750",
+      "ps_collected": "4512750",
+      "ps_debt": "4512750",
+      "shop_id": "PĐ.KT-63"
+    },
+    {
+      "actual": "5383000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "5383500",
+      "ps_collected": "5383000",
+      "ps_debt": "5383500",
+      "shop_id": "PĐ.KT-64"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-65"
+    },
+    {
+      "actual": "18894562",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "18894562",
+      "ps_collected": "18894562",
+      "ps_debt": "18894562",
+      "shop_id": "PĐ.KT-66"
+    },
+    {
+      "actual": "18751425",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "18751425",
+      "ps_collected": "18751425",
+      "ps_debt": "18751425",
+      "shop_id": "PĐ.KT-67"
+    },
+    {
+      "actual": "3818100",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3818100",
+      "ps_collected": "3818100",
+      "ps_debt": "3818100",
+      "shop_id": "PĐ.KT-68"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3717450",
+      "ps_collected": "0",
+      "ps_debt": "3717450",
+      "shop_id": "PĐ.KT-69"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-70"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ.KT-71"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "9619528",
+      "ps_collected": "0",
+      "ps_debt": "8819700",
+      "shop_id": "PĐ.KT-75"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "18589399.666666687",
+      "ps_collected": "0",
+      "ps_debt": "18589400",
+      "shop_id": "PĐ1.KT-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "24668702",
+      "ps_collected": "0",
+      "ps_debt": "11192175",
+      "shop_id": "PĐ1.KT-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ1.KT-15"
+    },
+    {
+      "actual": "15330525",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "15330525",
+      "ps_collected": "15330525",
+      "ps_debt": "15330525",
+      "shop_id": "PĐ2.KT-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ2.KT-02"
+    },
+    {
+      "actual": "8876000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "8876000",
+      "ps_collected": "8876000",
+      "ps_debt": "8876000",
+      "shop_id": "PĐ2.KT-03"
+    },
+    {
+      "actual": "8280400",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "8280400",
+      "ps_collected": "8278600",
+      "ps_debt": "8278600",
+      "shop_id": "PĐ2.KT-05"
+    },
+    {
+      "actual": "2712000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "2712000",
+      "ps_collected": "2712000",
+      "ps_debt": "2712000",
+      "shop_id": "PĐ2.KT-27"
+    },
+    {
+      "actual": "7000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "25877719",
+      "ps_collected": "6547575",
+      "ps_debt": "6547575",
+      "shop_id": "PĐ2.KT-33"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "8289926",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-02"
+    },
+    {
+      "actual": "5686047",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "5686047",
+      "ps_collected": "5686047",
+      "ps_debt": "5686047",
+      "shop_id": "PĐ3.KT-04"
+    },
+    {
+      "actual": "8000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "31478938",
+      "ps_collected": "7749450",
+      "ps_debt": "7749450",
+      "shop_id": "PĐ3.KT-08"
+    },
+    {
+      "actual": "7801200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "7801200",
+      "ps_collected": "7800600",
+      "ps_debt": "7800600",
+      "shop_id": "PĐ3.KT-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "1777234",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "2684550",
+      "ps_collected": "0",
+      "ps_debt": "2684550",
+      "shop_id": "PĐ3.KT-13"
+    },
+    {
+      "actual": "7479450",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "7479450",
+      "ps_collected": "7479450",
+      "ps_debt": "7479450",
+      "shop_id": "PĐ3.KT-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "25232114",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "19564908",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-17"
+    },
+    {
+      "actual": "8000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "34858275",
+      "ps_collected": "7749450",
+      "ps_debt": "7749450",
+      "shop_id": "PĐ3.KT-19"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-22"
+    },
+    {
+      "actual": "7749450",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "7749450",
+      "ps_collected": "7749450",
+      "ps_debt": "7749450",
+      "shop_id": "PĐ3.KT-25"
+    },
+    {
+      "actual": "8000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "14373276",
+      "ps_collected": "8000000",
+      "ps_debt": "8008650",
+      "shop_id": "PĐ3.KT-26"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-27"
+    },
+    {
+      "actual": "7000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "15126411",
+      "ps_collected": "7000000",
+      "ps_debt": "7800600",
+      "shop_id": "PĐ3.KT-28"
+    },
+    {
+      "actual": "10000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "14387959",
+      "ps_collected": "9855400",
+      "ps_debt": "9855400",
+      "shop_id": "PĐ3.KT-30"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-31"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ3.KT-33"
+    },
+    {
+      "actual": "26000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "51025200",
+      "ps_collected": "4785000",
+      "ps_debt": "4785000",
+      "shop_id": "PĐ4.KT-01"
+    },
+    {
+      "actual": "6000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "6036972",
+      "ps_collected": "6000000",
+      "ps_debt": "6010400",
+      "shop_id": "PĐ4.KT-02"
+    },
+    {
+      "actual": "2680000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "2680000",
+      "ps_collected": "2680000",
+      "ps_debt": "2680000",
+      "shop_id": "PĐ4.KT-07"
+    },
+    {
+      "actual": "2684550",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "2684550",
+      "ps_collected": "2684550",
+      "ps_debt": "2684550",
+      "shop_id": "PĐ4.KT-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ4.KT-11"
+    },
+    {
+      "actual": "20828450",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "37549620",
+      "ps_collected": "10413150",
+      "ps_debt": "10413150",
+      "shop_id": "PĐ4.KT-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ5.KT-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ5.KT-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "7592400",
+      "ps_collected": "0",
+      "ps_debt": "3796200",
+      "shop_id": "PĐ5.KT-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ5.KT-24"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ5.KT-29"
+    },
+    {
+      "actual": "21700800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "59615252",
+      "ps_collected": "17068800",
+      "ps_debt": "17068800",
+      "shop_id": "PĐ6.KT-01"
+    },
+    {
+      "actual": "7125900",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "7125900",
+      "ps_collected": "7125900",
+      "ps_debt": "7125900",
+      "shop_id": "PĐ6.KT-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "114523025",
+      "ps_collected": "0",
+      "ps_debt": "12756150",
+      "shop_id": "PĐ6.KT-07"
+    },
+    {
+      "actual": "107144576",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "107144576",
+      "ps_collected": "22970162",
+      "ps_debt": "22970162",
+      "shop_id": "PĐ6.KT-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 2,
+      "kpi": "17301312.333333343",
+      "ps_collected": "0",
+      "ps_debt": "15273600",
+      "shop_id": "PĐ7.KT-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "8015070.3599999845",
+      "ps_collected": "0",
+      "ps_debt": "8015072",
+      "shop_id": "PĐ7.KT-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ7.KT-03"
+    },
+    {
+      "actual": "11378000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "11378000",
+      "ps_collected": "8378900",
+      "ps_debt": "8378900",
+      "shop_id": "PĐ7.KT-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ7.KT-06"
+    },
+    {
+      "actual": "6541650",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "6541650",
+      "ps_collected": "6541650",
+      "ps_debt": "6541650",
+      "shop_id": "PĐ7.KT-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "24237500",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ7.KT-08"
+    },
+    {
+      "actual": "2300000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "80848027",
+      "ps_collected": "2300000",
+      "ps_debt": "8383050",
+      "shop_id": "PĐ7.KT-09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ7.KT-12"
+    },
+    {
+      "actual": "3065896",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3065896",
+      "ps_collected": "3065896",
+      "ps_debt": "3065896",
+      "shop_id": "PĐ7.KT-13"
+    },
+    {
+      "actual": "6542700",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "6542700",
+      "ps_collected": "6542700",
+      "ps_debt": "6542700",
+      "shop_id": "PĐ8.KT-01"
+    },
+    {
+      "actual": "15273600",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "15273600",
+      "ps_collected": "15273600",
+      "ps_debt": "15273600",
+      "shop_id": "PĐ8.KT-02"
+    },
+    {
+      "actual": "3589200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3589200",
+      "ps_collected": "3589200",
+      "ps_debt": "3589200",
+      "shop_id": "PĐ8.KT-07"
+    },
+    {
+      "actual": "2574000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2574000",
+      "ps_collected": "2574000",
+      "ps_debt": "2574000",
+      "shop_id": "PĐ8.KT-09"
+    },
+    {
+      "actual": "2574000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2574000",
+      "ps_collected": "2574000",
+      "ps_debt": "2574000",
+      "shop_id": "PĐ8.KT-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "PĐ8.KT-12"
+    },
+    {
+      "actual": "2574000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2574000",
+      "ps_collected": "2574000",
+      "ps_debt": "2574000",
+      "shop_id": "PĐ8.KT-13"
+    },
+    {
+      "actual": "2574000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2574000",
+      "ps_collected": "2574000",
+      "ps_debt": "2574000",
+      "shop_id": "PĐ8.KT-15"
+    },
+    {
+      "actual": "2574000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2574000",
+      "ps_collected": "2574000",
+      "ps_debt": "2574000",
+      "shop_id": "PĐ8.KT-17"
+    },
+    {
+      "actual": "2475000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "2475000",
+      "ps_collected": "2475000",
+      "ps_debt": "2475000",
+      "shop_id": "PĐ8.KT-20"
+    },
+    {
+      "actual": "920896",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "920896",
+      "ps_collected": "920896",
+      "ps_debt": "920896",
+      "shop_id": "PĐ8.KT-22"
+    },
+    {
+      "actual": "920896",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "920896",
+      "ps_collected": "920896",
+      "ps_debt": "920896",
+      "shop_id": "PĐ8.KT-24"
+    },
+    {
+      "actual": "3065896",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "3065896",
+      "ps_collected": "3065896",
+      "ps_debt": "3065896",
+      "shop_id": "PĐ8.KT-26"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH.KT-01"
+    },
+    {
+      "actual": "84265434",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "84265434",
+      "ps_collected": "84265434",
+      "ps_debt": "84265434",
+      "shop_id": "SH.KT-02"
+    },
+    {
+      "actual": "84265434",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "84265434",
+      "ps_collected": "84265434",
+      "ps_debt": "84265434",
+      "shop_id": "SH.KT-03"
+    },
+    {
+      "actual": "13301025",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "13301025",
+      "ps_collected": "13301025",
+      "ps_debt": "13301025",
+      "shop_id": "SH1.KT-01"
+    },
+    {
+      "actual": "10777800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10777800",
+      "ps_collected": "10777800",
+      "ps_debt": "10777800",
+      "shop_id": "SH1.KT-03"
+    },
+    {
+      "actual": "10793200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10793200",
+      "ps_collected": "10793200",
+      "ps_debt": "10793200",
+      "shop_id": "SH1.KT-04"
+    },
+    {
+      "actual": "10793200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10793200",
+      "ps_collected": "10793200",
+      "ps_debt": "10793200",
+      "shop_id": "SH1.KT-05"
+    },
+    {
+      "actual": "11063200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "11063200",
+      "ps_collected": "11063200",
+      "ps_debt": "11063200",
+      "shop_id": "SH1.KT-06"
+    },
+    {
+      "actual": "10793200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10793200",
+      "ps_collected": "10793200",
+      "ps_debt": "10793200",
+      "shop_id": "SH1.KT-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH1.KT-08"
+    },
+    {
+      "actual": "13568175",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "13568175",
+      "ps_collected": "13568175",
+      "ps_debt": "13568175",
+      "shop_id": "SH1.KT-10"
+    },
+    {
+      "actual": "10000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "80815877",
+      "ps_collected": "10000000",
+      "ps_debt": "13568175",
+      "shop_id": "SH1.KT-11"
+    },
+    {
+      "actual": "11063200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "11063200",
+      "ps_collected": "11063200",
+      "ps_debt": "11063200",
+      "shop_id": "SH1.KT-12"
+    },
+    {
+      "actual": "14756400",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "14774400",
+      "ps_collected": "14756400",
+      "ps_debt": "14765400",
+      "shop_id": "SH1.KT-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "4106400",
+      "ps_collected": "0",
+      "ps_debt": "4106400",
+      "shop_id": "SH1.KT-17"
+    },
+    {
+      "actual": "10777800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "10777800",
+      "ps_collected": "10777800",
+      "ps_debt": "10777800",
+      "shop_id": "SH1.KT-18"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "21463200",
+      "ps_collected": "0",
+      "ps_debt": "3577200",
+      "shop_id": "SH1.KT-19"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH1.KT-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "110097448",
+      "ps_collected": "0",
+      "ps_debt": "16062975",
+      "shop_id": "SH1.KT-21"
+    },
+    {
+      "actual": "10000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "48848833",
+      "ps_collected": "10000000",
+      "ps_debt": "13785300",
+      "shop_id": "SH1.KT-22"
+    },
+    {
+      "actual": "10000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "58867851",
+      "ps_collected": "10000000",
+      "ps_debt": "13879350",
+      "shop_id": "SH1.KT-23"
+    },
+    {
+      "actual": "10000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "47728983",
+      "ps_collected": "10000000",
+      "ps_debt": "13350150",
+      "shop_id": "SH1.KT-24"
+    },
+    {
+      "actual": "13526100",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "13526100",
+      "ps_collected": "13526100",
+      "ps_debt": "13526100",
+      "shop_id": "SH1.KT-26"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH1.KT-29"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "13526100",
+      "ps_collected": "0",
+      "ps_debt": "13526100",
+      "shop_id": "SH1.KT-30"
+    },
+    {
+      "actual": "13620150",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Phạm Thị Ngọc Duyên",
+      "detail_rows": 1,
+      "kpi": "13620150",
+      "ps_collected": "13620150",
+      "ps_debt": "13620150",
+      "shop_id": "SH1.KT-31"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5391631",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5642750",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5642750",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5642750",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5642750",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5642750",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5642750",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "5426631",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "17540190",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "14699567.4",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH12.SP9-17"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8.SP9-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8.SP9-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8.SP9-16"
+    },
+    {
+      "actual": "2098",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "2098",
+      "ps_collected": "2098",
+      "ps_debt": "2098",
+      "shop_id": "SH8.SP9-27"
+    },
+    {
+      "actual": "2098",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "2098",
+      "ps_collected": "2098",
+      "ps_debt": "2098",
+      "shop_id": "SH8.SP9-28"
+    },
+    {
+      "actual": "2098",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "2098",
+      "ps_collected": "2098",
+      "ps_debt": "2098",
+      "shop_id": "SH8.SP9-29"
+    },
+    {
+      "actual": "2098",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "2098",
+      "ps_collected": "2098",
+      "ps_debt": "2098",
+      "shop_id": "SH8.SP9-30"
+    },
+    {
+      "actual": "3423",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "3423",
+      "ps_collected": "3423",
+      "ps_debt": "3423",
+      "shop_id": "SH8.SP9-31"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8A.SP9-28"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8A.SP9-30"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "9826199.516129017",
+      "ps_collected": "0",
+      "ps_debt": "9826200",
+      "shop_id": "SH8A.SP9-32"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "8756550",
+      "ps_collected": "0",
+      "ps_debt": "8756550",
+      "shop_id": "SH8A.SP9-34"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8A.SP9-38"
+    },
+    {
+      "actual": "15254700",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "15254700",
+      "ps_collected": "15254700",
+      "ps_debt": "15254700",
+      "shop_id": "SH8A.SP9-46"
+    },
+    {
+      "actual": "14239500",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "14239500",
+      "ps_collected": "14239500",
+      "ps_debt": "14239500",
+      "shop_id": "SH8A.SP9-48"
+    },
+    {
+      "actual": "5695800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "14130600",
+      "ps_collected": "5695800",
+      "ps_debt": "14130600",
+      "shop_id": "SH8A.SP9-50"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "14130600",
+      "ps_collected": "0",
+      "ps_debt": "14130600",
+      "shop_id": "SH8A.SP9-52"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "22203225",
+      "ps_collected": "0",
+      "ps_debt": "22203225",
+      "shop_id": "SH8A.SP9-54"
+    },
+    {
+      "actual": "12282050",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "12282050",
+      "ps_collected": "12282050",
+      "ps_debt": "12282050",
+      "shop_id": "SH8B.SP9-05"
+    },
+    {
+      "actual": "12368950",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "12368950",
+      "ps_collected": "12368950",
+      "ps_debt": "12368950",
+      "shop_id": "SH8B.SP9-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-27"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-29"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Lý Thị Hồng Vân",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "SH8B.SP9-31"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "TĐ14.SP12-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "TĐ14.SP12-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2820840",
+      "ps_collected": "0",
+      "ps_debt": "2820840",
+      "shop_id": "TĐ14.SP12-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2820840",
+      "ps_collected": "0",
+      "ps_debt": "2820840",
+      "shop_id": "TĐ14.SP12-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "TĐ14.SP12-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "TĐ14.SP12-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2820752",
+      "ps_collected": "0",
+      "ps_debt": "2820752",
+      "shop_id": "TĐ14.SP12-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3598650",
+      "ps_collected": "0",
+      "ps_debt": "3598650",
+      "shop_id": "TĐ14.SP12-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2238148",
+      "ps_collected": "0",
+      "ps_debt": "2238148",
+      "shop_id": "TĐ15A.SP12-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2226752",
+      "ps_collected": "0",
+      "ps_debt": "2226752",
+      "shop_id": "TĐ15A.SP12-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2226752",
+      "ps_collected": "0",
+      "ps_debt": "2226752",
+      "shop_id": "TĐ15A.SP12-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2226752",
+      "ps_collected": "0",
+      "ps_debt": "2226752",
+      "shop_id": "TĐ15A.SP12-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2226752",
+      "ps_collected": "0",
+      "ps_debt": "2226752",
+      "shop_id": "TĐ15A.SP12-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4607592",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "TĐ15A.SP12-06"
+    },
+    {
+      "actual": "2226840",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2226840",
+      "ps_collected": "2226840",
+      "ps_debt": "2226840",
+      "shop_id": "TĐ15A.SP12-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "2640000",
+      "ps_collected": "0",
+      "ps_debt": "2640000",
+      "shop_id": "TĐ15A.SP12-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "5805030",
+      "ps_collected": "0",
+      "ps_debt": "5805030",
+      "shop_id": "TĐ15B.SP12-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3608880",
+      "ps_collected": "0",
+      "ps_debt": "3608880",
+      "shop_id": "TĐ15B.SP12-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3608880",
+      "ps_collected": "0",
+      "ps_debt": "3608880",
+      "shop_id": "TĐ15B.SP12-03"
+    },
+    {
+      "actual": "2707363",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "6160153",
+      "ps_collected": "2707363",
+      "ps_debt": "3452790",
+      "shop_id": "TĐ15B.SP12-04"
+    },
+    {
+      "actual": "2704393",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "6154873",
+      "ps_collected": "2704393",
+      "ps_debt": "3450480",
+      "shop_id": "TĐ15B.SP12-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3036473",
+      "ps_collected": "0",
+      "ps_debt": "3036473",
+      "shop_id": "TĐ15B.SP12-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3023273",
+      "ps_collected": "0",
+      "ps_debt": "3023273",
+      "shop_id": "TĐ15B.SP12-07"
+    },
+    {
+      "actual": "4150194",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4150194",
+      "ps_collected": "4150194",
+      "ps_debt": "4150194",
+      "shop_id": "TĐ15B.SP12-08"
+    },
+    {
+      "actual": "4320928",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4320928",
+      "ps_collected": "4320928",
+      "ps_debt": "4320928",
+      "shop_id": "TĐ15B.SP12-09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4177800",
+      "ps_collected": "0",
+      "ps_debt": "4177800",
+      "shop_id": "TĐ15B.SP12-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3126770",
+      "ps_collected": "0",
+      "ps_debt": "2858790",
+      "shop_id": "TĐ15B.SP12-11"
+    },
+    {
+      "actual": "2113363",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4972153",
+      "ps_collected": "2113363",
+      "ps_debt": "2858790",
+      "shop_id": "TĐ15B.SP12-12"
+    },
+    {
+      "actual": "2113373",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "4970173",
+      "ps_collected": "2113373",
+      "ps_debt": "2857800",
+      "shop_id": "TĐ15B.SP12-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hương",
+      "detail_rows": 1,
+      "kpi": "3430680",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "TĐ15B.SP12-14"
+    },
+    {
+      "actual": "50747139",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "58109463",
+      "ps_collected": "50747139",
+      "ps_debt": "58109463",
+      "shop_id": "VN-01"
+    },
+    {
+      "actual": "27500000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "27500000",
+      "ps_collected": "27500000",
+      "ps_debt": "27500000",
+      "shop_id": "VN-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "VTĐ8.TV-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "8643871",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "VTĐ8.TV-39"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "8643871",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "VTĐ8.TV-41"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "10101871",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "VTĐ8.TV-43"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "VTĐ8.TV-47"
+    },
+    {
+      "actual": "13695720",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "13695720",
+      "ps_collected": "13695720",
+      "ps_debt": "13695720",
+      "shop_id": "VTĐ8.TV-87"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "VTĐ8.TV-89"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "25475511",
+      "ps_collected": "0",
+      "ps_debt": "13561300",
+      "shop_id": "ĐD1.SP21-01"
+    },
+    {
+      "actual": "2508000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2508000",
+      "ps_collected": "2508000",
+      "ps_debt": "2508000",
+      "shop_id": "ĐD1.SP21-02"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD1.SP21-03"
+    },
+    {
+      "actual": "2507400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2507400",
+      "ps_collected": "2507400",
+      "ps_debt": "2507400",
+      "shop_id": "ĐD1.SP21-04"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD1.SP21-05"
+    },
+    {
+      "actual": "6934318",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "6934318",
+      "ps_collected": "6934318",
+      "ps_debt": "6934318",
+      "shop_id": "ĐD1.SP21-06"
+    },
+    {
+      "actual": "2507400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2507400",
+      "ps_collected": "2507400",
+      "ps_debt": "2507400",
+      "shop_id": "ĐD1.SP21-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "0",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD1.SP21-08"
+    },
+    {
+      "actual": "2515245",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2515245",
+      "ps_collected": "2515245",
+      "ps_debt": "2515245",
+      "shop_id": "ĐD1.SP21-09"
+    },
+    {
+      "actual": "2238464",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2238464",
+      "ps_collected": "2238464",
+      "ps_debt": "2238464",
+      "shop_id": "ĐD1.SP21-10"
+    },
+    {
+      "actual": "2507400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2507400",
+      "ps_collected": "2507400",
+      "ps_debt": "2507400",
+      "shop_id": "ĐD1.SP21-11"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD1.SP21-12"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD1.SP21-13"
+    },
+    {
+      "actual": "2507000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "8473942",
+      "ps_collected": "2507000",
+      "ps_debt": "8473942",
+      "shop_id": "ĐD1.SP21-14"
+    },
+    {
+      "actual": "11380607",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "11380607",
+      "ps_collected": "11380607",
+      "ps_debt": "11380607",
+      "shop_id": "ĐD1.SP21-15"
+    },
+    {
+      "actual": "9811965",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "9811965",
+      "ps_collected": "9811965",
+      "ps_debt": "9811965",
+      "shop_id": "ĐD2.SP21-01"
+    },
+    {
+      "actual": "433045",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "433045",
+      "ps_collected": "433045",
+      "ps_debt": "433045",
+      "shop_id": "ĐD2.SP21-02"
+    },
+    {
+      "actual": "433045",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "433045",
+      "ps_collected": "433045",
+      "ps_debt": "433045",
+      "shop_id": "ĐD2.SP21-03"
+    },
+    {
+      "actual": "433045",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "433045",
+      "ps_collected": "433045",
+      "ps_debt": "433045",
+      "shop_id": "ĐD2.SP21-04"
+    },
+    {
+      "actual": "433045",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "433045",
+      "ps_collected": "433045",
+      "ps_debt": "433045",
+      "shop_id": "ĐD2.SP21-05"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD2.SP21-10"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐD2.SP21-12"
+    },
+    {
+      "actual": "2181300",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2226300",
+      "ps_collected": "2181300",
+      "ps_debt": "2181300",
+      "shop_id": "ĐD2.SP21-21"
+    },
+    {
+      "actual": "2072400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2072400",
+      "ps_collected": "2072400",
+      "ps_debt": "2072400",
+      "shop_id": "ĐD2.SP21-22"
+    },
+    {
+      "actual": "2088900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2088900",
+      "ps_collected": "2088900",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-23"
+    },
+    {
+      "actual": "2088900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2088900",
+      "ps_collected": "2088900",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-24"
+    },
+    {
+      "actual": "2088900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2088900",
+      "ps_collected": "2088900",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-25"
+    },
+    {
+      "actual": "2088900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2088900",
+      "ps_collected": "2088900",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-26"
+    },
+    {
+      "actual": "2088900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2088900",
+      "ps_collected": "2088900",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-27"
+    },
+    {
+      "actual": "2088900",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2088900",
+      "ps_collected": "2088900",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-28"
+    },
+    {
+      "actual": "404303",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "404303",
+      "ps_collected": "404303",
+      "ps_debt": "404303",
+      "shop_id": "ĐD2.SP21-29"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "3092179",
+      "ps_collected": "0",
+      "ps_debt": "2088900",
+      "shop_id": "ĐD2.SP21-30"
+    },
+    {
+      "actual": "404303",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "404303",
+      "ps_collected": "404303",
+      "ps_debt": "404303",
+      "shop_id": "ĐD2.SP21-31"
+    },
+    {
+      "actual": "404303",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "404303",
+      "ps_collected": "404303",
+      "ps_debt": "404303",
+      "shop_id": "ĐD2.SP21-32"
+    },
+    {
+      "actual": "404303",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "404303",
+      "ps_collected": "404303",
+      "ps_debt": "404303",
+      "shop_id": "ĐD2.SP21-33"
+    },
+    {
+      "actual": "8794868",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "8794868",
+      "ps_collected": "8794868",
+      "ps_debt": "8794868",
+      "shop_id": "ĐD2.SP21-34"
+    },
+    {
+      "actual": "77295892",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "77295892",
+      "ps_collected": "77295892",
+      "ps_debt": "77295892",
+      "shop_id": "ĐLBM.TV-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3759940",
+      "ps_collected": "0",
+      "ps_debt": "3759940",
+      "shop_id": "ĐLBM.TV-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "3762000",
+      "ps_collected": "0",
+      "ps_debt": "3762000",
+      "shop_id": "ĐLBM.TV-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "91494000",
+      "ps_collected": "0",
+      "ps_debt": "3762000",
+      "shop_id": "ĐLBM.TV-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLBM.TV-14"
+    },
+    {
+      "actual": "5404200",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "96178116",
+      "ps_collected": "5404200",
+      "ps_debt": "31562643",
+      "shop_id": "ĐLBM.TV-16"
+    },
+    {
+      "actual": "3762000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "41862784",
+      "ps_collected": "3762000",
+      "ps_debt": "3762000",
+      "shop_id": "ĐLBM.TV-18"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLBM.TV-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLBM.TV-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLBM.TV-24"
+    },
+    {
+      "actual": "7524000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "7524000",
+      "ps_collected": "3762000",
+      "ps_debt": "3762000",
+      "shop_id": "ĐLBM.TV-26"
+    },
+    {
+      "actual": "14437500",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "detail_rows": 1,
+      "kpi": "14508141",
+      "ps_collected": "7218750",
+      "ps_debt": "7218750",
+      "shop_id": "ĐLBM.TV-28"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "15863550",
+      "ps_collected": "0",
+      "ps_debt": "15863550",
+      "shop_id": "ĐLNT.SP14-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-09"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP14-13"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "6494400",
+      "ps_collected": "0",
+      "ps_debt": "6494400",
+      "shop_id": "ĐLNT.SP14-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "3659700",
+      "ps_collected": "0",
+      "ps_debt": "3659700",
+      "shop_id": "ĐLNT.SP14-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "4395600",
+      "ps_collected": "0",
+      "ps_debt": "4395600",
+      "shop_id": "ĐLNT.SP14-17"
+    },
+    {
+      "actual": "2507000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2507400",
+      "ps_collected": "2507000",
+      "ps_debt": "2507400",
+      "shop_id": "ĐLNT.SP21-17"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP21-20"
+    },
+    {
+      "actual": "2507400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2507400",
+      "ps_collected": "2507400",
+      "ps_debt": "2507400",
+      "shop_id": "ĐLNT.SP21-21"
+    },
+    {
+      "actual": "2508000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2508000",
+      "ps_collected": "2508000",
+      "ps_debt": "2508000",
+      "shop_id": "ĐLNT.SP21-22"
+    },
+    {
+      "actual": "2238000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2238000",
+      "ps_collected": "2238000",
+      "ps_debt": "2238000",
+      "shop_id": "ĐLNT.SP21-23"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2766600",
+      "ps_collected": "0",
+      "ps_debt": "2766600",
+      "shop_id": "ĐLNT.SP21-24"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP21-25"
+    },
+    {
+      "actual": "2507400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2507400",
+      "ps_collected": "2507400",
+      "ps_debt": "2507400",
+      "shop_id": "ĐLNT.SP21-26"
+    },
+    {
+      "actual": "16878400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "16878400",
+      "ps_collected": "16878400",
+      "ps_debt": "16878400",
+      "shop_id": "ĐLNT.SP21-27"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLNT.SP23-05"
+    },
+    {
+      "actual": "15007800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "15007800",
+      "ps_collected": "7239300",
+      "ps_debt": "7239300",
+      "shop_id": "ĐLSH.KT-01"
+    },
+    {
+      "actual": "25000000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "26337690.666666627",
+      "ps_collected": "15148100",
+      "ps_debt": "15148100",
+      "shop_id": "ĐLSH.KT-02"
+    },
+    {
+      "actual": "27787546",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "27787546",
+      "ps_collected": "27787546",
+      "ps_debt": "27787546",
+      "shop_id": "ĐLSH.KT-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "36011250",
+      "ps_collected": "0",
+      "ps_debt": "4001250",
+      "shop_id": "ĐLSH.KT-05"
+    },
+    {
+      "actual": "4507800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "4507800",
+      "ps_collected": "4507800",
+      "ps_debt": "4507800",
+      "shop_id": "ĐLSH.KT-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLSH.KT-08"
+    },
+    {
+      "actual": "3016438",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "3016438",
+      "ps_collected": "3016438",
+      "ps_debt": "3016438",
+      "shop_id": "ĐLSH.KT-09"
+    },
+    {
+      "actual": "11500000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "11500000",
+      "ps_collected": "11500000",
+      "ps_debt": "11500000",
+      "shop_id": "ĐLSH.KT-10"
+    },
+    {
+      "actual": "11500000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "11500000",
+      "ps_collected": "11500000",
+      "ps_debt": "11500000",
+      "shop_id": "ĐLSH.KT-11"
+    },
+    {
+      "actual": "22469800",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "22469800",
+      "ps_collected": "22469800",
+      "ps_debt": "22469800",
+      "shop_id": "ĐLSH.KT-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "15016199.666666627",
+      "ps_collected": "0",
+      "ps_debt": "15016200",
+      "shop_id": "ĐLSH.KT-13"
+    },
+    {
+      "actual": "14875547",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "14875547",
+      "ps_collected": "14875547",
+      "ps_debt": "14875547",
+      "shop_id": "ĐLSH.KT-14"
+    },
+    {
+      "actual": "10936425",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10936425",
+      "ps_collected": "10936425",
+      "ps_debt": "10936425",
+      "shop_id": "ĐLSH.KT-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "3026100",
+      "ps_collected": "0",
+      "ps_debt": "3026100",
+      "shop_id": "ĐLSH.KT-16"
+    },
+    {
+      "actual": "11030200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "11030200",
+      "ps_collected": "11030200",
+      "ps_debt": "11030200",
+      "shop_id": "ĐLSH.KT-17"
+    },
+    {
+      "actual": "2947819",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "2947819",
+      "ps_collected": "2947819",
+      "ps_debt": "2947819",
+      "shop_id": "ĐLSH.KT-19"
+    },
+    {
+      "actual": "3299818",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "3299818",
+      "ps_collected": "3299818",
+      "ps_debt": "3299818",
+      "shop_id": "ĐLSH.KT-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐLSH.KT-21"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "24254046.75",
+      "ps_collected": "0",
+      "ps_debt": "14346337",
+      "shop_id": "ĐLSH.KT-22"
+    },
+    {
+      "actual": "10937000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "10937000",
+      "ps_collected": "10937000",
+      "ps_debt": "10937000",
+      "shop_id": "ĐLSH.KT-23"
+    },
+    {
+      "actual": "0",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "92550230",
+      "ps_collected": "0",
+      "ps_debt": "5817900",
+      "shop_id": "ĐLSH.KT-24"
+    },
+    {
+      "actual": "20764600",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "20764600",
+      "ps_collected": "20764600",
+      "ps_debt": "20764600",
+      "shop_id": "ĐLSH.KT-25"
+    },
+    {
+      "actual": "3630000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "3630000",
+      "ps_collected": "3630000",
+      "ps_debt": "3630000",
+      "shop_id": "ĐLSH.KT-26"
+    },
+    {
+      "actual": "4645200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "4645200",
+      "ps_collected": "4645200",
+      "ps_debt": "4645200",
+      "shop_id": "ĐLSH.KT-27"
+    },
+    {
+      "actual": "3630000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "3630000",
+      "ps_collected": "3630000",
+      "ps_debt": "3630000",
+      "shop_id": "ĐLSH.KT-28"
+    },
+    {
+      "actual": "4645200",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "4645200",
+      "ps_collected": "4645200",
+      "ps_debt": "4645200",
+      "shop_id": "ĐLSH.KT-29"
+    },
+    {
+      "actual": "3630000",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "3630000",
+      "ps_collected": "3630000",
+      "ps_debt": "3630000",
+      "shop_id": "ĐLSH.KT-30"
+    },
+    {
+      "actual": "37046953",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "37046953",
+      "ps_collected": "37046953",
+      "ps_debt": "37046953",
+      "shop_id": "ĐLSH.KT-31"
+    },
+    {
+      "actual": "37046953",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "37046953",
+      "ps_collected": "37046953",
+      "ps_debt": "37046953",
+      "shop_id": "ĐLSH.KT-32"
+    },
+    {
+      "actual": "73169242",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "73169242",
+      "ps_collected": "36584621",
+      "ps_debt": "36584621",
+      "shop_id": "ĐLSH.KT-33"
+    },
+    {
+      "actual": "37599821",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "37599821",
+      "ps_collected": "37599821",
+      "ps_debt": "37599821",
+      "shop_id": "ĐLSH.KT-34"
+    },
+    {
+      "actual": "27499252",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "27499252",
+      "ps_collected": "27499252",
+      "ps_debt": "27499252",
+      "shop_id": "ĐLSH.KT-35"
+    },
+    {
+      "actual": "28514452",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "28514452",
+      "ps_collected": "28514452",
+      "ps_debt": "28514452",
+      "shop_id": "ĐLSH.KT-36"
+    },
+    {
+      "actual": "30444629",
+      "cbld": "Phạm Thị Hoài Anh",
+      "cskh": "Võ Thị Nga",
+      "detail_rows": 1,
+      "kpi": "30444629",
+      "ps_collected": "30444629",
+      "ps_debt": "30444629",
+      "shop_id": "ĐLSH.KT-37"
+    },
+    {
+      "actual": "2725800",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2725800",
+      "ps_collected": "2725800",
+      "ps_debt": "2725800",
+      "shop_id": "ĐĐD.SP14-01"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐĐD.SP14-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2741100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-03"
+    },
+    {
+      "actual": "2471000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "2471000",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-04"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-05"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2201100",
+      "ps_collected": "0",
+      "ps_debt": "2201100",
+      "shop_id": "ĐĐD.SP14-07"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐĐD.SP14-08"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-09"
+    },
+    {
+      "actual": "2200000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "2200000",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-10"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-11"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "6374937",
+      "ps_collected": "0",
+      "ps_debt": "2201100",
+      "shop_id": "ĐĐD.SP14-12"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-13"
+    },
+    {
+      "actual": "2471000",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "2471000",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-14"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-15"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2201100",
+      "ps_collected": "0",
+      "ps_debt": "2201100",
+      "shop_id": "ĐĐD.SP14-16"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-17"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2741100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-18"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-19"
+    },
+    {
+      "actual": "2471100",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2471100",
+      "ps_collected": "2471100",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-20"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2741100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-21"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2741100",
+      "ps_collected": "0",
+      "ps_debt": "2471100",
+      "shop_id": "ĐĐD.SP14-22"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐĐD.SP14-24"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2272047",
+      "ps_collected": "0",
+      "ps_debt": "2272047",
+      "shop_id": "ĐĐD.SP14-25"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2643769",
+      "ps_collected": "0",
+      "ps_debt": "2560800",
+      "shop_id": "ĐĐD.SP14-26"
+    },
+    {
+      "actual": "3121800",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "3121800",
+      "ps_collected": "3121800",
+      "ps_debt": "3121800",
+      "shop_id": "ĐĐD.SP21-01"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐĐD.SP21-02"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "0",
+      "ps_debt": "2237400",
+      "shop_id": "ĐĐD.SP21-03"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐĐD.SP21-04"
+    },
+    {
+      "actual": "2237400",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "2237400",
+      "ps_collected": "2237400",
+      "ps_debt": "2237400",
+      "shop_id": "ĐĐD.SP21-05"
+    },
+    {
+      "actual": "3262199",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "3262199",
+      "ps_collected": "3262199",
+      "ps_debt": "3262199",
+      "shop_id": "ĐĐD.SP21-06"
+    },
+    {
+      "actual": "0",
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Phạm Thị Hoài Anh",
+      "detail_rows": 1,
+      "kpi": "0",
+      "ps_collected": "0",
+      "ps_debt": "0",
+      "shop_id": "ĐĐD.SP21-07"
+    }
+  ],
+  "source_detail_rows": 601,
+  "totals_vnd": {
+    "actual": "2756829159",
+    "kpi": "7452678498.4788169442",
+    "ps_collected": "2484816811",
+    "ps_debt": "3538854269"
+  },
+  "unmapped_totals_vnd": {
+    "actual": "0",
+    "kpi": "0",
+    "ps_collected": "0",
+    "ps_debt": "0"
+  }
+}

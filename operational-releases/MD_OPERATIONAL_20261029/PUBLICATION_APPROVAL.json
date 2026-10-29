@@ -1,0 +1,40 @@
+{
+  "approved_prepared_index_sha256": "a20ff0fe1dd3bc522361207b305fc4fa09a8c69c802039945cb9c2da634faaa3",
+  "approved_prepared_manifest_sha256": "134b41bd3df876f714aed7f960c27a36ebc2f635e84461bb264915f6301130c1",
+  "authority": "HUMAN_AUTHORITY_DIRECTOR",
+  "branch": "main",
+  "classification": "MD_OPERATIONAL_RESULT / NOT_NEW_ACTUAL_CERTIFICATE",
+  "decision": "DIRECTOR APPROVAL — ONE-TIME MD OPERATIONAL DASHBOARD RELEASE",
+  "does_not_grant": [
+    "ACTUAL_CERTIFICATION",
+    "SOURCE_CONTRACT_ACTIVATION",
+    "SUPABASE_WRITE",
+    "AIOS_ACCEPT_OR_PROMOTE",
+    "OTHER_REPOSITORIES",
+    "FUTURE_RUN_PUBLICATION"
+  ],
+  "entrypoint": "index.html",
+  "grants_standing_publication": false,
+  "instruction_record": "DIRECTOR APPROVAL — ONE-TIME MD OPERATIONAL DASHBOARD RELEASE\nGiám đốc phê duyệt một lần việc phát hành Dashboard vận hành ngày 29/10/2026,\nthay thế trang chính tại https://khaduyadv.github.io/Dashboard-thuno/.\nBản phát hành MD_OPERATIONAL_20261029. Phân loại MD_OPERATIONAL_RESULT /\nNOT_NEW_ACTUAL_CERTIFICATE. Tổng kết quả MD 2.756.829.159 VND; 588 Shop theo\nAssignment 27/10/2026. STT 252 QUẢNG TRƯỜNG VENICE 47.850.000 VND nằm ngoài\nphạm vi phân bổ nhân sự, không cộng trùng tổng MD. Giữ nguyên Staff Plan và\nActual Certificate. Dùng đúng artifact 39 kiểm thử delta PASS; kiểm tra SHA và\nnguồn; ghi phê duyệt; hiển thị nhãn tiếng Việt được yêu cầu; Push main bằng quyền\nhợp lệ; bảo vệ HEAD, không force-push; kiểm tra Pages, số liệu, nhân sự, Shop,\ntrạng thái và SHA. Không sửa Certificate, Source Contract, MD hoặc Staff Plan.\nChỉ áp dụng bản này, không tạo quyền mặc định cho RUN khác.",
+  "md_result_total_vnd": 2756829159,
+  "outside_scope_export_only_vnd": 47850000,
+  "permitted_label_delta": "Kết quả vận hành theo MD — chưa cấp Actual Certificate mới",
+  "predecessor_commit": "29b3f54ba00113317ac8e27723ce3a7fe76439cd",
+  "preserved_certificate_sha256": "48ffa258e654d2bf5495221c8177c01c609efedcb612929e6ad2eba7335f9292",
+  "preserved_plan_sha256": "fb87835cc16633e093cf247c5e30fe32c4452fe01b9843ce0457ce054e3a1346",
+  "recorded_at_utc": "2026-10-29T11:36:58.215604+00:00",
+  "recorded_by": "GPT_CONG_NO_PRIMARY_AUDIT_RECORDER_NOT_AUTHORITY_ISSUER",
+  "release_id": "MD_OPERATIONAL_20261029",
+  "released_index_sha256": "9f87249be5b502fa4ed0ed93ba7676161f1613526e50befb4bf62e8ec9f8e5d7",
+  "repository": "Khaduyadv/Dashboard-thuno",
+  "schema": "DIRECT_HUMAN_ONE_TIME_OPERATIONAL_DISPLAY_APPROVAL_V1",
+  "shops_with_md_result": 588,
+  "signature_claim": "NONE; direct Human instruction, not an Owner cryptographic signature",
+  "single_release_only": true,
+  "source_sha256": {
+    "assignment": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
+    "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
+    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c"
+  },
+  "status": "APPROVED_BY_DIRECT_USER_INSTRUCTION"
+}
