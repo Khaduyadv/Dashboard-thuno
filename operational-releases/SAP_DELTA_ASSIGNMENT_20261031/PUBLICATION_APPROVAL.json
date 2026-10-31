@@ -1,0 +1,51 @@
+{
+  "approval_model": "SCOPED_IMPLEMENTATION_APPROVAL; NOT_A_CLAIM_THAT_DIRECTOR_PREAPPROVED_COMPUTED_HASH_BYTES",
+  "approval_scope_verbatim": [
+    "Tôi phê duyệt về mặt nghiệp vụ việc cập nhật Dashboard theo chế độ **OPERATIONAL / PARTIAL VERIFIED**, không yêu cầu cấp Actual Certificate mới.",
+    "Cho phép Primary chuẩn bị và triển khai một bản phát hành cập nhật tiền thu và Staff Assignment, với điều kiện hoàn tất kiểm soát nguồn, tính toán và xác minh quyền phát hành hợp lệ trước khi Push.",
+    "Khi authority hợp lệ, Primary được thực hiện Push đúng một lần lên `Dashboard-thuno/main`, sau đó kiểm tra GitHub Pages và rollback nếu không đạt."
+  ],
+  "authority": "HUMAN_AUTHORITY_DIRECTOR",
+  "bound_artifacts_sha256": {
+    "current-assignment-actual-v1.html": "5f2f7f12b8cdf70c1496db961c14b7c969f8cb1e5be8b079e1e35f2379e6938a",
+    "current-assignment-actual-v1.json": "e9d4feee95441dfff0143439df45a9ac8a8fca7cd7aeac0ce1891ac0c50deaec",
+    "current-assignment-ps-v1.json": "2f149c2f5a39be91213446df86a8ecfcfd757606ad6ef8e8a552ef5c7b1fc226",
+    "index.html": "d629e50f1c48ebb645171e0b34a9cdf5a4e7ef79487ea0a83b1909e52ef8dba3",
+    "md-operational-result-v1.json": "febe050016aa93071ed1af9817b5d44ce1af532649bf1bdd17e95a65000302cf",
+    "operational-partial-verification-v1.json": "52fd5866437973ae2e7458f2ad667509d55a4f89082f10f0c81b8bacabc2adda",
+    "operational-sap-delta-v1.json": "17ec10a5f36ce9b0e9e1fab72293e8aeee666ad59dcea1ffe13496bf61f55195"
+  },
+  "branch": "main",
+  "decision": "DIRECTOR ORDER — CÔNG NỢ DASHBOARD UPDATE & GITHUB PUSH",
+  "does_not_grant": [
+    "ENGINE_ACTIVATION",
+    "ACTUAL_CERTIFICATE",
+    "SOURCE_CONTRACT_CHANGE",
+    "SUPABASE_WRITE",
+    "AIOS_ACCEPT",
+    "OTHER_REPOSITORIES",
+    "FUTURE_OPERATIONAL_RELEASES"
+  ],
+  "entrypoint": "index.html",
+  "financial_after_vnd": "2923532121.3599999845",
+  "financial_before_vnd": "2756829159",
+  "grants_standing_publication": false,
+  "predecessor_commit": "60198608ece2bf7d13055c1e0174d468355dce76",
+  "previous_consumed_approvals_reused": false,
+  "recorded_at_utc": "2026-10-31T10:44:40.670300+00:00",
+  "recorded_by": "PRIMARY_AUDIT_RECORDER_NOT_AUTHORITY_ISSUER",
+  "release_id": "SAP_DELTA_ASSIGNMENT_20261031",
+  "repository": "Khaduyadv/Dashboard-thuno",
+  "schema": "DIRECT_HUMAN_ONE_TIME_OPERATIONAL_DISPLAY_APPROVAL_V1",
+  "signature_claim": "NONE_DIRECT_HUMAN_INSTRUCTION; NOT_OWNER_CRYPTOGRAPHIC_SIGNATURE",
+  "single_release_only": true,
+  "sources_sha256": {
+    "assignment": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
+    "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
+    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
+    "zre31a2": "aadab28406d3d707103fb7887db6b90a664d8ea9bcebec94634957084bf95fb1",
+    "zre56n": "5f735fe90ab2c595ba0f8e93aac28262b2c9187500eedfd0290b979f921d040e"
+  },
+  "status": "APPROVED_BY_DIRECT_USER_SCOPED_EXECUTION_ORDER",
+  "ui_policy": "EXISTING_UI_CSS_AND_INTERACTION_LOGIC_UNCHANGED; DATA_ONLY"
+}

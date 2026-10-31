@@ -1,0 +1,46 @@
+{
+  "after_vnd": "2923532121.3599999845",
+  "assignment_delta": [
+    {
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "shop_id": "K1"
+    },
+    {
+      "cbld": "Chu Thị Hoài Phương",
+      "cskh": "Nguyễn Thị Quỳnh Hoa",
+      "shop_id": "K2"
+    }
+  ],
+  "before_vnd": "2756829159",
+  "credited_delta_vnd": "166702962.3599999845",
+  "customer_document_details": "INTERNAL_ONLY",
+  "document_number_only_changes": 1,
+  "new_certificate_issued": false,
+  "new_transactions": 11,
+  "outside_kpi_cap_vnd": "9609048.6400000155",
+  "plan_current_assignment_comparison": {
+    "matched_amount_vnd": 2690979518,
+    "matched_rows": 266,
+    "mismatched_amount_vnd": 3361230644,
+    "mismatched_rows": 178
+  },
+  "raw_cash_delta_vnd": "90030391",
+  "raw_offset_delta_vnd": "86281620",
+  "release_id": "SAP_DELTA_ASSIGNMENT_20261031",
+  "removed_transactions": 0,
+  "sap_posting_date_range": [
+    "2026-10-01",
+    "2026-10-30"
+  ],
+  "sap_report_as_of": "NOT_PROVEN",
+  "schema": "OPERATIONAL_SAP_DELTA_PUBLIC_SUMMARY/1",
+  "sources_sha256": {
+    "assignment": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
+    "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
+    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
+    "zre31a2": "aadab28406d3d707103fb7887db6b90a664d8ea9bcebec94634957084bf95fb1",
+    "zre56n": "5f735fe90ab2c595ba0f8e93aac28262b2c9187500eedfd0290b979f921d040e"
+  },
+  "unchanged_transactions": 251
+}

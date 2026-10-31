@@ -11,7 +11,7 @@
 <body>
   <main class="panel">
     <h2>Actual phân bổ theo CBLĐ → CSKH → Shop</h2>
-    <div class="muted">Assignment có hiệu lực 27/10/2026 · SHA-256 5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2</div>
+    <div class="muted">Assignment có hiệu lực 27/10/2026 · SHA-256 e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643</div>
     <div class="notice"><strong>Lớp hiển thị dẫn xuất, không phải nội dung được Actual Certificate chứng nhận.</strong> Tổng kết quả thu theo Shop được phân nhóm lại bằng Assignment 27/10 và đối chiếu khớp 2.379.345.224 VND của RUN_ID CN_20261027T024948_08d8549f87. Certificate, Actual artifact và cách phân nhóm gốc không bị sửa. Phân công 27/10 không được suy diễn thành phân công lịch sử tại kỳ Actual.</div>
     <div class="cards">
       <article class="card"><div class="label">Tổng kết quả thu theo Shop, phân công 27/10</div><div class="value" id="total">Đang tải…</div><div class="muted">Tiền thu SAP + bù trừ; tổng dẫn xuất đối chiếu với Actual đã chứng nhận.</div></article>
@@ -38,8 +38,8 @@
   </main>
   <script>
   (()=>{
-    const ACTUAL_SHA='94e5a3ccb3741234701f16df5cc645c68e411ef7ecf0bda92641175e920c673f';
-    const PS_SHA='1299843640b575fa4824f31521e47fa062772829b1f29441849f0feb1dcccce6';
+    const ACTUAL_SHA='e9d4feee95441dfff0143439df45a9ac8a8fca7cd7aeac0ce1891ac0c50deaec';
+    const PS_SHA='2f149c2f5a39be91213446df86a8ecfcfd757606ad6ef8e8a552ef5c7b1fc226';
     const $=id=>document.getElementById(id),fmt=new Intl.NumberFormat('vi-VN'),money=n=>fmt.format(Number(n||0))+' VND',pct=n=>n==null?'—':new Intl.NumberFormat('vi-VN',{style:'percent',maximumFractionDigits:1}).format(n);
     const add=(tr,v,cls='')=>{const td=document.createElement('td');td.textContent=v==null?'':String(v);if(cls)td.className=cls;tr.append(td);return td};
     async function verified(path,expected){const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error('DATA_UNAVAILABLE:'+path);const b=await r.arrayBuffer(),sha=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');if(sha!==expected)throw Error('DATA_SHA_MISMATCH:'+path);return JSON.parse(new TextDecoder().decode(b))}

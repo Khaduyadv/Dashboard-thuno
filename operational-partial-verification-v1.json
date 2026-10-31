@@ -3,11 +3,16 @@
   "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
   "classification": "OPERATIONAL_PARTIAL_VERIFIED",
   "collection": {
-    "cash_vnd": "2477531678",
-    "offset_vnd": "279297481",
+    "before_vnd": "2756829159",
+    "cash_offset_scope": "RAW_SAP_MD_SHOP_CUSTOMER_CONTRACT_SCOPE_NOT_CAPPED_KPI",
+    "cash_vnd": "2567562069",
+    "credited_delta_vnd": "166702962.3599999845",
+    "offset_vnd": "365579101",
+    "outside_kpi_cap_vnd": "9609048.6400000155",
+    "sap_scope_total_vnd": "2933141170",
     "shop_coverage": 588,
     "status": "SOURCE_RECONCILED_OPERATIONAL_NOT_CERTIFIED",
-    "total_vnd": "2756829159"
+    "total_vnd": "2923532121.3599999845"
   },
   "coverage": {
     "coverage_is_not_certificate_or_full_source_verification": true,
@@ -39,7 +44,7 @@
     {
       "amount_semantics": "Classification only; not additional collection",
       "cbld": "Chu Thị Hoài Phương",
-      "confirmed_collection_impact": "NO_AMOUNT_CHANGE_IN_SCOPED_DEPENDENCY_REVIEW",
+      "confirmed_collection_impact": "SAP_OFFSET_DELTA_RECONCILED; DF_CLASSIFICATION_STILL_UNVERIFIED",
       "cskh": "Nguyễn Thị Quỳnh Hoa",
       "exception": "DF_IN_TERM_CLASSIFICATION",
       "kpi_denominator_status": "NO_CHANGE_IN_SCOPED_DEPENDENCY_REVIEW",
@@ -279,24 +284,30 @@
     "run_id": "CN_20261027T024948_08d8549f87"
   },
   "kpi": {
-    "conditional_completion_percent": "36.99111882476484973440310069",
+    "conditional_completion_percent": "39.22793827691250514439976864",
     "confirmed_full_kpi_percent": null,
     "denominator_correction_vnd": null,
     "denominator_policy": "KEEP_FULL_MD_NO_SILENT_EXCLUSION",
     "full_denominator_vnd": "7452678498.4788169442",
-    "numerator_vnd": "2756829159",
+    "numerator_vnd": "2923532121.3599999845",
     "status": "PROVISIONAL_CONDITIONAL"
   },
   "kpi_period": "2026-10",
   "new_certificate_issued": false,
-  "release_id": "MD_PARTIAL_VERIFIED_20261031",
+  "release_id": "SAP_DELTA_ASSIGNMENT_20261031",
   "report_label_date": "2026-10-29",
+  "sap_posting_date_range": [
+    "2026-10-01",
+    "2026-10-30"
+  ],
   "sap_report_as_of": "NOT_PROVEN",
   "schema": "CONG_NO_VALUE_FIRST_OPERATIONAL_PARTIAL_VERIFIED/1",
   "source_sha256": {
-    "assignment": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
+    "assignment": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
     "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
-    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c"
+    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
+    "zre31a2": "aadab28406d3d707103fb7887db6b90a664d8ea9bcebec94634957084bf95fb1",
+    "zre56n": "5f735fe90ab2c595ba0f8e93aac28262b2c9187500eedfd0290b979f921d040e"
   },
   "staff_plan": {
     "included_in_collection": false,

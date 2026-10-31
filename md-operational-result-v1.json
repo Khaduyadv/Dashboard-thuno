@@ -1,20 +1,21 @@
 {
   "assigned_totals_vnd": {
-    "actual": "2756829159",
+    "actual": "2923532121.3599999845",
     "kpi": "7452678498.4788169442",
-    "ps_collected": "2484816811",
+    "ps_collected": "2591396596.3599999845",
     "ps_debt": "3538854269"
   },
   "assignment_effective_date": "2026-10-27",
-  "assignment_sha256": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
+  "assignment_sha256": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
   "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
-  "classification": "MD_OPERATIONAL_RESULT",
+  "classification": "OPERATIONAL_PARTIAL_VERIFIED",
+  "collection_basis": "MD_BASELINE_PLUS_RECONCILED_SAP_DELTA_SAME_CAPPING_AND_ALLOCATION",
   "export_extracted_at": "NOT_PROVEN",
-  "export_scope_cash_vnd": 2477531678,
-  "export_scope_offset_vnd": 279297481,
+  "export_scope_cash_vnd": "2567562069",
+  "export_scope_offset_vnd": "365579101",
   "kpi_period": "2026-10",
   "md_sha256": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
-  "operational_release_id": "MD_OPERATIONAL_20261029_5e1442792a",
+  "operational_release_id": "SAP_DELTA_ASSIGNMENT_20261031",
   "outside_scope_export_only": [
     {
       "cash": "47850000",
@@ -25,6 +26,11 @@
   ],
   "outside_scope_within_md_vnd": 0,
   "report_label": "2026-10-29",
+  "sap_posting_date_range": [
+    "2026-10-01",
+    "2026-10-30"
+  ],
+  "sap_receipts_outside_kpi_cap_vnd": "9609048.6400000155",
   "sap_report_as_of": "NOT_PROVEN",
   "schema": "MD_OPERATIONAL_DISPLAY_V1",
   "shop_count": 588,
@@ -350,22 +356,22 @@
       "shop_id": "CX1C.SP1-40"
     },
     {
-      "actual": "0",
+      "actual": "769896",
       "cbld": "Phạm Thị Hoài Anh",
       "cskh": "Vũ Hương Giang",
       "detail_rows": 1,
       "kpi": "769896",
-      "ps_collected": "0",
+      "ps_collected": "769896",
       "ps_debt": "769896",
       "shop_id": "CX1C.SP1-42"
     },
     {
-      "actual": "0",
+      "actual": "16500000",
       "cbld": "Phạm Thị Hoài Anh",
       "cskh": "Võ Thị Nga",
       "detail_rows": 1,
       "kpi": "145000000",
-      "ps_collected": "0",
+      "ps_collected": "16500000",
       "ps_debt": "16500000",
       "shop_id": "GRANDWORLDHN.MACHINE.KTOWN.21"
     },
@@ -1930,12 +1936,12 @@
       "shop_id": "PT2.TV-185"
     },
     {
-      "actual": "0",
+      "actual": "10009326",
       "cbld": "Chu Thị Hoài Phương",
       "cskh": "Nguyễn Thị Quỳnh Hoa",
       "detail_rows": 1,
       "kpi": "10009326",
-      "ps_collected": "0",
+      "ps_collected": "10009326",
       "ps_debt": "10009326",
       "shop_id": "PT2.TV-189"
     },
@@ -3240,12 +3246,12 @@
       "shop_id": "PĐ7.KT-01"
     },
     {
-      "actual": "0",
+      "actual": "8015070.3599999845",
       "cbld": "Phạm Thị Hoài Anh",
       "cskh": "Phạm Thị Ngọc Duyên",
       "detail_rows": 1,
       "kpi": "8015070.3599999845",
-      "ps_collected": "0",
+      "ps_collected": "8015070.3599999845",
       "ps_debt": "8015072",
       "shop_id": "PĐ7.KT-02"
     },
@@ -4510,12 +4516,12 @@
       "shop_id": "VTĐ8.TV-89"
     },
     {
-      "actual": "0",
+      "actual": "10000000",
       "cbld": "Chu Thị Hoài Phương",
       "cskh": "Phạm Thị Hoài Anh",
       "detail_rows": 1,
       "kpi": "25475511",
-      "ps_collected": "0",
+      "ps_collected": "10000000",
       "ps_debt": "13561300",
       "shop_id": "ĐD1.SP21-01"
     },
@@ -4580,12 +4586,12 @@
       "shop_id": "ĐD1.SP21-07"
     },
     {
-      "actual": "0",
+      "actual": "2237400",
       "cbld": "Chu Thị Hoài Phương",
       "cskh": "Phạm Thị Hoài Anh",
       "detail_rows": 1,
       "kpi": "2237400",
-      "ps_collected": "0",
+      "ps_collected": "2237400",
       "ps_debt": "2237400",
       "shop_id": "ĐD1.SP21-08"
     },
@@ -4920,12 +4926,12 @@
       "shop_id": "ĐLBM.TV-14"
     },
     {
-      "actual": "5404200",
+      "actual": "91685820",
       "cbld": "Chu Thị Hoài Phương",
       "cskh": "Nguyễn Thị Quỳnh Hoa",
       "detail_rows": 1,
       "kpi": "96178116",
-      "ps_collected": "5404200",
+      "ps_collected": "31562643",
       "ps_debt": "31562643",
       "shop_id": "ĐLBM.TV-16"
     },
@@ -5000,12 +5006,12 @@
       "shop_id": "ĐLNT.SP14-01"
     },
     {
-      "actual": "0",
+      "actual": "15863550",
       "cbld": "Chu Thị Hoài Phương",
       "cskh": "Phạm Thị Hoài Anh",
       "detail_rows": 1,
       "kpi": "15863550",
-      "ps_collected": "0",
+      "ps_collected": "15863550",
       "ps_debt": "15863550",
       "shop_id": "ĐLNT.SP14-02"
     },
@@ -5380,12 +5386,12 @@
       "shop_id": "ĐLSH.KT-15"
     },
     {
-      "actual": "0",
+      "actual": "3026100",
       "cbld": "Phạm Thị Hoài Anh",
       "cskh": "Võ Thị Nga",
       "detail_rows": 1,
       "kpi": "3026100",
-      "ps_collected": "0",
+      "ps_collected": "3026100",
       "ps_debt": "3026100",
       "shop_id": "ĐLSH.KT-16"
     },
@@ -5430,12 +5436,12 @@
       "shop_id": "ĐLSH.KT-21"
     },
     {
-      "actual": "0",
+      "actual": "14000000",
       "cbld": "Phạm Thị Hoài Anh",
       "cskh": "Võ Thị Nga",
       "detail_rows": 1,
       "kpi": "24254046.75",
-      "ps_collected": "0",
+      "ps_collected": "14000000",
       "ps_debt": "14346337",
       "shop_id": "ĐLSH.KT-22"
     },
@@ -5911,10 +5917,17 @@
     }
   ],
   "source_detail_rows": 601,
+  "source_sha256": {
+    "assignment": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
+    "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
+    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
+    "zre31a2": "aadab28406d3d707103fb7887db6b90a664d8ea9bcebec94634957084bf95fb1",
+    "zre56n": "5f735fe90ab2c595ba0f8e93aac28262b2c9187500eedfd0290b979f921d040e"
+  },
   "totals_vnd": {
-    "actual": "2756829159",
+    "actual": "2923532121.3599999845",
     "kpi": "7452678498.4788169442",
-    "ps_collected": "2484816811",
+    "ps_collected": "2591396596.3599999845",
     "ps_debt": "3538854269"
   },
   "unmapped_totals_vnd": {
