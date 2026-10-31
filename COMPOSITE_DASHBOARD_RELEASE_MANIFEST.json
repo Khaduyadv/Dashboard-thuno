@@ -16,7 +16,7 @@
     "total_vnd": 2379345224,
     "workbook_sha256": "45482ad10dd7d16f0b42920f57f7b059c1d6bf61d06bc0dcaa13ca28d92ac685"
   },
-  "authority_basis": "DIRECTOR_APPROVAL_ONE_TIME_MD_OPERATIONAL_DASHBOARD_RELEASE_20261029",
+  "authority_basis": "PENDING_EXACT_ONE_TIME_PARTIAL_VERIFIED_PUBLICATION_APPROVAL",
   "composite": {
     "actual_assignment_sha256": "4467165de04dfd4d24a7ce2330b265be10efb04d129320beb26b02b3a0163cb0",
     "actual_total_reconciliation": "HISTORICAL_CERTIFIED_LAYER_UNCHANGED; NEW_MD_NOT_CERTIFIED",
@@ -29,30 +29,31 @@
       "current-assignment-actual-v1.html": "e3f5299ad2a7aa8356608bf07e21042f8c61e583f6d22c8e64cf2fc0f1fea71b",
       "current-assignment-actual-v1.json": "94e5a3ccb3741234701f16df5cc645c68e411ef7ecf0bda92641175e920c673f",
       "current-assignment-ps-v1.json": "1299843640b575fa4824f31521e47fa062772829b1f29441849f0feb1dcccce6",
-      "index.html": "9f87249be5b502fa4ed0ed93ba7676161f1613526e50befb4bf62e8ec9f8e5d7",
+      "index.html": "80eeb6004b6293bf9f917de106038ccccea6ab3b8a50b45c6d4e595bb4803d1b",
       "md-operational-result-v1.json": "98d1e33709c6ae3183cf4dcc14788cb55c4034c6b1696776e12433d5934eb7e6",
+      "operational-partial-verification-v1.json": "4eb617ae65e303db1966326e27eec951febd9da648d153f460791c5b09afd9bf",
       "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
       "shop-debt-reference.json": "6d77ee94ffa26932f6645e313d9f43040334d044d6ffefaefad10c8a189c6202",
       "staff-plan-v1.html": "b94e9c1000464b8a21deb465716a4851869d51ff9e017582da17d767ed25634a"
     },
     "homepage_actual_artifact_sha256": null,
-    "homepage_mode": "MD_OPERATIONAL_RESULT_NOT_NEW_ACTUAL_CERTIFICATE",
-    "html_sha256": "9f87249be5b502fa4ed0ed93ba7676161f1613526e50befb4bf62e8ec9f8e5d7",
+    "homepage_mode": "OPERATIONAL_PARTIAL_VERIFIED_CONDITIONAL_KPI",
+    "html_sha256": "80eeb6004b6293bf9f917de106038ccccea6ab3b8a50b45c6d4e595bb4803d1b",
     "integrity_rule": "CERTIFICATE_BINDS_ACTUAL_ARTIFACT_ONLY; COMPOSITE_AND_DERIVED_LAYER_HASHES_ARE_SEPARATE",
     "operational_md_total_reconciliation": "PASS"
   },
-  "created_at": "2026-10-28T10:58:54.120603+00:00",
+  "created_at": "2026-10-31T05:48:58.116867+00:00",
   "current_display": {
-    "assignment_sha256": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
     "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
-    "classification": "MD_OPERATIONAL_RESULT",
-    "html_sha256": "9f87249be5b502fa4ed0ed93ba7676161f1613526e50befb4bf62e8ec9f8e5d7",
-    "md_sha256": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
-    "operational_release_id": "MD_OPERATIONAL_20261029_5e1442792a",
-    "payload_sha256": "98d1e33709c6ae3183cf4dcc14788cb55c4034c6b1696776e12433d5934eb7e6",
-    "previous_certified_manifest_path": "certified-actual/CN_20261027T024948_08d8549f87/COMPOSITE_DASHBOARD_RELEASE_MANIFEST.json",
-    "source_report_label": "2026-10-29; MD label, not SAP_REPORT_AS_OF",
-    "visible_status_label": "Kết quả vận hành theo MD — chưa cấp Actual Certificate mới"
+    "classification": "OPERATIONAL_PARTIAL_VERIFIED",
+    "exception_overlay_sha256": "4eb617ae65e303db1966326e27eec951febd9da648d153f460791c5b09afd9bf",
+    "html_sha256": "80eeb6004b6293bf9f917de106038ccccea6ab3b8a50b45c6d4e595bb4803d1b",
+    "release_id": "MD_PARTIAL_VERIFIED_20261031",
+    "sources_sha256": {
+      "assignment": "5b0bd780b9c9f928d670556f460529b2d9376ccea5c20f0fe230a3a2d8eb79f2",
+      "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
+      "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c"
+    }
   },
   "derived_actual_by_assignment": {
     "payload_sha256": "94e5a3ccb3741234701f16df5cc645c68e411ef7ecf0bda92641175e920c673f",
@@ -74,7 +75,7 @@
     "status": "DISPLAY_ONLY_NOT_CERTIFICATE"
   },
   "display_revision": 4,
-  "display_revision_reason": "ONE_TIME_MD_OPERATIONAL_RESULT; HISTORICAL_CERTIFICATE_AND_STAFF_PLAN_UNCHANGED",
+  "display_revision_reason": "Value-first disclosure of unresolved inputs; full MD denominator preserved; no new Actual certificate.",
   "does_not_grant": [
     "AIOS_ACCEPT_OR_PROMOTE",
     "DEBT_CURRENT_PROMOTION",
@@ -92,6 +93,7 @@
     "current-assignment-ps-v1.json",
     "index.html",
     "md-operational-result-v1.json",
+    "operational-partial-verification-v1.json",
     "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json",
     "shop-debt-reference.json",
     "staff-plan-v1.html"
@@ -102,22 +104,19 @@
     "current-assignment-actual-v1.html": "e3f5299ad2a7aa8356608bf07e21042f8c61e583f6d22c8e64cf2fc0f1fea71b",
     "current-assignment-actual-v1.json": "94e5a3ccb3741234701f16df5cc645c68e411ef7ecf0bda92641175e920c673f",
     "current-assignment-ps-v1.json": "1299843640b575fa4824f31521e47fa062772829b1f29441849f0feb1dcccce6",
-    "index.html": "9f87249be5b502fa4ed0ed93ba7676161f1613526e50befb4bf62e8ec9f8e5d7",
+    "index.html": "80eeb6004b6293bf9f917de106038ccccea6ab3b8a50b45c6d4e595bb4803d1b",
     "md-operational-result-v1.json": "98d1e33709c6ae3183cf4dcc14788cb55c4034c6b1696776e12433d5934eb7e6",
+    "operational-partial-verification-v1.json": "4eb617ae65e303db1966326e27eec951febd9da648d153f460791c5b09afd9bf",
     "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
     "shop-debt-reference.json": "6d77ee94ffa26932f6645e313d9f43040334d044d6ffefaefad10c8a189c6202",
     "staff-plan-v1.html": "b94e9c1000464b8a21deb465716a4851869d51ff9e017582da17d767ed25634a"
   },
   "historical_actual_reference_only": true,
   "operational_publication_prepared_at_utc": "2026-10-29T11:36:58.215604+00:00",
-  "predecessor_commit": "29b3f54ba00113317ac8e27723ce3a7fe76439cd",
+  "predecessor_commit": "bd24b57906932e5a89e9e5e3b6eeb3631ebd99b4",
   "publication_authority": {
-    "grants_standing_authority": false,
-    "record_path": "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json",
-    "record_sha256": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
-    "release_id": "MD_OPERATIONAL_20261029",
-    "single_release_only": true,
-    "type": "DIRECT_HUMAN_ONE_TIME_APPROVAL"
+    "old_20261029_approval_reused": false,
+    "status": "NOT_GRANTED_FOR_THIS_RELEASE"
   },
   "publication_target": {
     "branch": "main",
