@@ -3,21 +3,21 @@
   "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
   "classification": "OPERATIONAL_PARTIAL_VERIFIED",
   "collection": {
-    "before_vnd": "2756829159",
+    "before_vnd": "2923532121.3599999845",
     "cash_offset_scope": "RAW_SAP_MD_SHOP_CUSTOMER_CONTRACT_SCOPE_NOT_CAPPED_KPI",
-    "cash_vnd": "2567562069",
-    "credited_delta_vnd": "166702962.3599999845",
-    "offset_vnd": "365579101",
-    "outside_kpi_cap_vnd": "9609048.6400000155",
-    "sap_scope_total_vnd": "2933141170",
+    "cash_vnd": "2705630375",
+    "credited_delta_vnd": "151437294.6400000155",
+    "offset_vnd": "369339041",
+    "outside_kpi_cap_vnd": "0",
+    "sap_scope_total_vnd": "3074969416",
     "shop_coverage": 588,
     "status": "SOURCE_RECONCILED_OPERATIONAL_NOT_CERTIFIED",
-    "total_vnd": "2923532121.3599999845"
+    "total_vnd": "3074969416"
   },
   "coverage": {
     "coverage_is_not_certificate_or_full_source_verification": true,
     "dg_affected_shops": 15,
-    "dg_shop_kpi_base_share_percent": "1.230330048702833112031914230",
+    "dg_shop_kpi_base_share_percent": "1.179959871478821438484303711",
     "dg_shop_kpi_base_vnd": "91692543",
     "dg_unverified_balance_vnd": null,
     "known_exception_shop_percent": "3.231292517006802721088435374",
@@ -36,10 +36,12 @@
       "exception": "DF_IN_TERM_CLASSIFICATION",
       "kpi_denominator_status": "NO_CHANGE_IN_SCOPED_DEPENDENCY_REVIEW",
       "shop_id": "ĐLBM.TV-02",
-      "source_cell": "Chi tiết!DF188",
+      "source_cell": "Chi tiết!DD188",
       "source_value_vnd": "1520640",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": "1520640"
+      "unverified_amount_vnd": "1520640",
+      "historical_source_cell": "Chi tiết!DF188",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Classification only; not additional collection",
@@ -49,10 +51,12 @@
       "exception": "DF_IN_TERM_CLASSIFICATION",
       "kpi_denominator_status": "NO_CHANGE_IN_SCOPED_DEPENDENCY_REVIEW",
       "shop_id": "ĐLBM.TV-16",
-      "source_cell": "Chi tiết!DF189",
+      "source_cell": "Chi tiết!DD189",
       "source_value_vnd": "1015200",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": "1015200"
+      "unverified_amount_vnd": "1015200",
+      "historical_source_cell": "Chi tiết!DF189",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Classification only; not additional collection",
@@ -62,10 +66,12 @@
       "exception": "DF_IN_TERM_CLASSIFICATION",
       "kpi_denominator_status": "NO_CHANGE_IN_SCOPED_DEPENDENCY_REVIEW",
       "shop_id": "PT2.TV-02",
-      "source_cell": "Chi tiết!DF79",
+      "source_cell": "Chi tiết!DD79",
       "source_value_vnd": "2767392",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": "2767392"
+      "unverified_amount_vnd": "2767392",
+      "historical_source_cell": "Chi tiết!DF79",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -75,10 +81,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "PT1.TV-180",
-      "source_cell": "Chi tiết!DG153",
+      "source_cell": "Chi tiết!DE153",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG153",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -88,10 +96,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "GRANDWORLDHN.MACHINE.VENICE1.01",
-      "source_cell": "Chi tiết!DG193",
+      "source_cell": "Chi tiết!DE193",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG193",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -101,10 +111,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "SH1.KT-03",
-      "source_cell": "Chi tiết!DG308",
+      "source_cell": "Chi tiết!DE308",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG308",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -114,10 +126,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "SH1.KT-04",
-      "source_cell": "Chi tiết!DG309",
+      "source_cell": "Chi tiết!DE309",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG309",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -127,10 +141,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "SH1.KT-05",
-      "source_cell": "Chi tiết!DG310",
+      "source_cell": "Chi tiết!DE310",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG310",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -140,10 +156,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "SH8A.SP9-48",
-      "source_cell": "Chi tiết!DG356",
+      "source_cell": "Chi tiết!DE356",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG356",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -153,10 +171,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "TĐ15A.SP12-11",
-      "source_cell": "Chi tiết!DG401",
+      "source_cell": "Chi tiết!DE401",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG401",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -166,10 +186,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "TĐ15B.SP12-09",
-      "source_cell": "Chi tiết!DG411",
+      "source_cell": "Chi tiết!DE411",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG411",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -179,10 +201,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "PB19.TV-31",
-      "source_cell": "Chi tiết!DG418",
+      "source_cell": "Chi tiết!DE418",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG418",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -192,10 +216,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "PT.TV-176",
-      "source_cell": "Chi tiết!DG423",
+      "source_cell": "Chi tiết!DE423",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG423",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -205,10 +231,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "ĐLSH.KT-19",
-      "source_cell": "Chi tiết!DG433",
+      "source_cell": "Chi tiết!DE433",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG433",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -218,10 +246,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "ĐLSH.KT-20",
-      "source_cell": "Chi tiết!DG434",
+      "source_cell": "Chi tiết!DE434",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG434",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -231,10 +261,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "ĐLSH.KT-01",
-      "source_cell": "Chi tiết!DG455",
+      "source_cell": "Chi tiết!DE455",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG455",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -244,10 +276,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "ĐLSH.KT-09",
-      "source_cell": "Chi tiết!DG458",
+      "source_cell": "Chi tiết!DE458",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG458",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Source zero retained; actual unverified balance UNKNOWN, not zero",
@@ -257,10 +291,12 @@
       "exception": "DG_ZERO_BALANCE_SCOPE",
       "kpi_denominator_status": "CONDITIONAL_UNCHANGED_FULL_MD_DENOMINATOR",
       "shop_id": "ĐD1.SP21-03",
-      "source_cell": "Chi tiết!DG465",
+      "source_cell": "Chi tiết!DE465",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": null
+      "unverified_amount_vnd": null,
+      "historical_source_cell": "Chi tiết!DG465",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     },
     {
       "amount_semantics": "Approved net refund, not proven paid/cleared",
@@ -270,10 +306,12 @@
       "exception": "KGS_REFUND_EXECUTION",
       "kpi_denominator_status": "NO_CHANGE_IN_SCOPED_DEPENDENCY_REVIEW",
       "shop_id": "SH.KT-01",
-      "source_cell": "Chi tiết!AI339",
+      "source_cell": "Chi tiết!AG339",
       "source_value_vnd": "0",
       "status": "UNVERIFIED",
-      "unverified_amount_vnd": "303258517"
+      "unverified_amount_vnd": "303258517",
+      "historical_source_cell": "Chi tiết!AI339",
+      "current_md_source_sha256": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144"
     }
   ],
   "financial_source_mutation": false,
@@ -284,30 +322,28 @@
     "run_id": "CN_20261027T024948_08d8549f87"
   },
   "kpi": {
-    "conditional_completion_percent": "39.22793827691250514439976864",
+    "conditional_completion_percent": "39.57072623566200596120841917",
     "confirmed_full_kpi_percent": null,
     "denominator_correction_vnd": null,
-    "denominator_policy": "KEEP_FULL_MD_NO_SILENT_EXCLUSION",
-    "full_denominator_vnd": "7452678498.4788169442",
-    "numerator_vnd": "2923532121.3599999845",
+    "denominator_policy": "EXISTING_ACCOUNTING_FORMULA_NATIVE_EXCEL_RECALCULATED_NO_MANUAL_EDIT",
+    "full_denominator_vnd": "7770818755.4788169447",
+    "numerator_vnd": "3074969416",
     "status": "PROVISIONAL_CONDITIONAL"
   },
   "kpi_period": "2026-10",
   "new_certificate_issued": false,
-  "release_id": "SAP_DELTA_ASSIGNMENT_20261031",
+  "release_id": "CL_FORMULA_20261103",
   "report_label_date": "2026-10-29",
   "sap_posting_date_range": [
     "2026-10-01",
-    "2026-10-30"
+    "2026-10-31"
   ],
   "sap_report_as_of": "NOT_PROVEN",
   "schema": "CONG_NO_VALUE_FIRST_OPERATIONAL_PARTIAL_VERIFIED/1",
   "source_sha256": {
-    "assignment": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
-    "export": "9fc84c24af299cb6e4aa168dd6e1d8e24c0c00ad50f1821e3b5028b8af2cd755",
-    "md": "5e1442792aeffc521b4aebd38cf6588fd064a8d6e62cb8cb19ed0259c22a3b1c",
-    "zre31a2": "aadab28406d3d707103fb7887db6b90a664d8ea9bcebec94634957084bf95fb1",
-    "zre56n": "5f735fe90ab2c595ba0f8e93aac28262b2c9187500eedfd0290b979f921d040e"
+    "C:\\Users\\gd.vcooceancity\\Pictures\\Screenshots\\MIT\\Master Shared\\Công nợ\\INPUT\\MD_Update.xlsx": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144",
+    "C:\\Users\\gd.vcooceancity\\Pictures\\Screenshots\\MIT\\Master Shared\\Công nợ\\INPUT\\ZRE56N_1-31.10.2026.XLSX": "20f0a261305aa20a625da9130263c2b130ed0b4ed588401255d0216b82fcee7c",
+    "C:\\Users\\gd.vcooceancity\\Pictures\\Screenshots\\MIT\\Master Shared\\Staff_Assignment_20261027.xlsx": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643"
   },
   "staff_plan": {
     "included_in_collection": false,
@@ -318,5 +354,6 @@
     "rows": 444,
     "status": "RECORDED_PLAN_NOT_RECONFIRMED",
     "total_vnd": "6052210162"
-  }
+  },
+  "exception_source_coordinates_basis": "Historical original-MD coordinates retained as historical_source_cell; current shifted-column coordinates are source_cell."
 }

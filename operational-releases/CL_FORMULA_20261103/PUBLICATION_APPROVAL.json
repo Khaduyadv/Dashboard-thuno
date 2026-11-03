@@ -1,0 +1,27 @@
+{
+  "schema": "DIRECT_HUMAN_ONE_TIME_OPERATIONAL_DISPLAY_APPROVAL_V1",
+  "status": "APPROVED_BY_DIRECT_USER_SCOPED_EXECUTION_ORDER",
+  "authority": "HUMAN_AUTHORITY_DIRECTOR",
+  "recorded_by": "PRIMARY_AUDIT_RECORDER_NOT_AUTHORITY_ISSUER",
+  "signature_claim": "NONE_DIRECT_HUMAN_INSTRUCTION_NOT_CRYPTOGRAPHIC_SIGNATURE",
+  "approval_scope_verbatim": "chuẩn bị Dashboard từ sheet Chi tiết + Staff Assignment và push Github Dasboard-Thuno",
+  "release_id": "CL_FORMULA_20261103",
+  "repository": "Khaduyadv/Dashboard-thuno",
+  "branch": "main",
+  "single_release_only": true,
+  "grants_standing_publication": false,
+  "previous_consumed_approvals_reused": false,
+  "predecessor_commit": "901bf1bb30acd91748a6f68a1851aba198b880e6",
+  "sources_sha256": {
+    "C:\\Users\\gd.vcooceancity\\Pictures\\Screenshots\\MIT\\Master Shared\\Công nợ\\INPUT\\MD_Update.xlsx": "f39c21a37ac7fb103a9f39dffe25651b2725a5991f742182462901ca33bb3144",
+    "C:\\Users\\gd.vcooceancity\\Pictures\\Screenshots\\MIT\\Master Shared\\Công nợ\\INPUT\\ZRE56N_1-31.10.2026.XLSX": "20f0a261305aa20a625da9130263c2b130ed0b4ed588401255d0216b82fcee7c",
+    "C:\\Users\\gd.vcooceancity\\Pictures\\Screenshots\\MIT\\Master Shared\\Staff_Assignment_20261027.xlsx": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643"
+  },
+  "bound_artifacts_sha256": {
+    "index.html": "fa1eec05f976351cfc74e1b24d872ad42a1826729fdc67de582fa4e6883ff1f2",
+    "md-operational-result-v1.json": "58ddc911501bd0c58b8a41e687459fa299544301cd16d1020b99bb0bef7bfb0a",
+    "operational-partial-verification-v1.json": "b4b4546117ce92a813bcc272710b7a255b506d821f5062d915bc735c831ac3bb",
+    "operational-sap-delta-v1.json": "268f41c2a00f2db75b532444b0388f1124dc0d91400f00e3cf5b069b468ae99d"
+  },
+  "recorded_at_utc": "2026-11-03T03:05:12.367597+00:00"
+}
