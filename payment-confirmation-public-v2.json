@@ -1,0 +1,12 @@
+{
+  "expected_sap_source_sha256": "2bdc55b100fe60339934548baf8b0f6991ef4da8af7da0d97c81641ffb266bab",
+  "input_label": "PAYMENT_CONFIRMATION_PENDING_SAP",
+  "is_actual": false,
+  "observed_sap_source_sha256": "5f735fe90ab2c595ba0f8e93aac28262b2c9187500eedfd0290b979f921d040e",
+  "pending_total_vnd": null,
+  "ps_methods": "UNAVAILABLE_FOR_THIS_MD_PACKAGE",
+  "read_at": "2026-11-05T13:57:30.867537+00:00",
+  "record_count": null,
+  "schema": "PAYMENT_CONFIRMATION_PUBLIC_SIGNAL/2",
+  "status": "SOURCE_BINDING_MISMATCH_UNAVAILABLE"
+}
