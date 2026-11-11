@@ -31,8 +31,8 @@
       "current-assignment-actual-v1.html": "5f2f7f12b8cdf70c1496db961c14b7c969f8cb1e5be8b079e1e35f2379e6938a",
       "current-assignment-actual-v1.json": "e9d4feee95441dfff0143439df45a9ac8a8fca7cd7aeac0ce1891ac0c50deaec",
       "current-assignment-ps-v1.json": "2f149c2f5a39be91213446df86a8ecfcfd757606ad6ef8e8a552ef5c7b1fc226",
-      "index.html": "544f9d78e9374d7160cfcc8c57df6a183987f8b0b9b4e86e64610bb3d4e9520b",
-      "md-operational-result-v1.json": "547f5ef44263400bb6618e5456ca47dd57a10593c801f0b1bba06f75fff6fb3c",
+      "index.html": "ffcbdd90d9c0156a8183491f19821793c348766ad7e4968e994611c03cdc868c",
+      "md-operational-result-v1.json": "fece193588d352bfbb8733bdf736d48dd5a1ea656b86cd39dd0aa2e093f11f6a",
       "operational-partial-verification-v1.json": "b4b4546117ce92a813bcc272710b7a255b506d821f5062d915bc735c831ac3bb",
       "operational-releases/CL_FORMULA_20261103/PUBLICATION_APPROVAL.json": "345c258e2cd879ae628c890cf9766ae7d0258b2b4698e628059bd03499fe939a",
       "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
@@ -45,26 +45,28 @@
     },
     "homepage_actual_artifact_sha256": null,
     "homepage_mode": "OPERATIONAL_PARTIAL_VERIFIED",
-    "html_sha256": "544f9d78e9374d7160cfcc8c57df6a183987f8b0b9b4e86e64610bb3d4e9520b",
+    "html_sha256": "ffcbdd90d9c0156a8183491f19821793c348766ad7e4968e994611c03cdc868c",
     "integrity_rule": "CERTIFICATE_BINDS_ACTUAL_ARTIFACT_ONLY; COMPOSITE_AND_DERIVED_LAYER_HASHES_ARE_SEPARATE",
-    "operational_md_total_reconciliation": "483984749"
+    "operational_md_total_reconciliation": "733872360"
   },
   "created_at": "2026-11-03T03:05:12.367597+00:00",
   "current_display": {
     "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
     "classification": "OPERATIONAL_PARTIAL_VERIFIED",
-    "html_sha256": "544f9d78e9374d7160cfcc8c57df6a183987f8b0b9b4e86e64610bb3d4e9520b",
-    "md_label": "2026-11-06",
-    "payload_sha256": "547f5ef44263400bb6618e5456ca47dd57a10593c801f0b1bba06f75fff6fb3c",
+    "html_sha256": "ffcbdd90d9c0156a8183491f19821793c348766ad7e4968e994611c03cdc868c",
+    "md_label": "2026-11-10",
+    "original_md_sha256": "a3417c7f2ae0774d22a1368cf59fb722e7cfc6f10519086095695242005cab91",
+    "payload_sha256": "fece193588d352bfbb8733bdf736d48dd5a1ea656b86cd39dd0aa2e093f11f6a",
     "publication_permission": "OPERATIONAL_DATA_PUBLICATION",
-    "release_id": "CN_EVAL_T11_20261109_a3417c7f",
-    "release_manifest_sha256": "62ee4b739c25a81a4c21c8cc7f0820d607539a22a7263cb3b6cfcff85edd18c4",
+    "release_id": "CN_OP_202611_T11_SAP_20261111_567d08d5",
+    "release_manifest_sha256": "6c907063d131739c4c9289ba45960278951632e913d53ce6dd0c6e4a7568279e",
     "reporting_period": "2026-11",
+    "same_period_revision": 1,
     "sap_balance_as_of": "NOT_PROVEN",
     "source_sha256": {
       "assignment": "e8a84ff980423ec6cd901cbf81594bf81e4e4456d5d8adaacc94e44f06150643",
-      "md": "a3417c7f2ae0774d22a1368cf59fb722e7cfc6f10519086095695242005cab91",
-      "sap": "39ca70a934a2ad36df3824c16e1ebbf48b8414b39be2d9169952c0dde31ba09f"
+      "md": "567d08d5315044f8128872a468b9c05a0e7190c5b3cceef2af9e9c62285e35b9",
+      "sap": "7823c998c2dba41a55c1255e9a9444e60fcda75716303c75f245a82d441c9b28"
     }
   },
   "derived_actual_by_assignment": {
@@ -123,8 +125,8 @@
     "current-assignment-actual-v1.html": "5f2f7f12b8cdf70c1496db961c14b7c969f8cb1e5be8b079e1e35f2379e6938a",
     "current-assignment-actual-v1.json": "e9d4feee95441dfff0143439df45a9ac8a8fca7cd7aeac0ce1891ac0c50deaec",
     "current-assignment-ps-v1.json": "2f149c2f5a39be91213446df86a8ecfcfd757606ad6ef8e8a552ef5c7b1fc226",
-    "index.html": "544f9d78e9374d7160cfcc8c57df6a183987f8b0b9b4e86e64610bb3d4e9520b",
-    "md-operational-result-v1.json": "547f5ef44263400bb6618e5456ca47dd57a10593c801f0b1bba06f75fff6fb3c",
+    "index.html": "ffcbdd90d9c0156a8183491f19821793c348766ad7e4968e994611c03cdc868c",
+    "md-operational-result-v1.json": "fece193588d352bfbb8733bdf736d48dd5a1ea656b86cd39dd0aa2e093f11f6a",
     "operational-partial-verification-v1.json": "b4b4546117ce92a813bcc272710b7a255b506d821f5062d915bc735c831ac3bb",
     "operational-releases/CL_FORMULA_20261103/PUBLICATION_APPROVAL.json": "345c258e2cd879ae628c890cf9766ae7d0258b2b4698e628059bd03499fe939a",
     "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
@@ -141,10 +143,10 @@
     "path": "operational-sap-delta-v1.json",
     "sha256": "268f41c2a00f2db75b532444b0388f1124dc0d91400f00e3cf5b069b468ae99d"
   },
-  "predecessor_commit": "5212bd50c3758d6f58e8372c39a6398741e72b0a",
+  "predecessor_commit": "2131b53ff2eec999278763fd3c87ace46275b3b8",
   "publication_authority": {
     "certificate_grants_publication": false,
-    "policy_sha256": "3adc241c0686c631fb088d06a8f1497a9ac2fcf0a3197f78623afc13db1de192",
+    "policy_sha256": "cc64679f95efb6765125ae8f00001ec74514b5e3758145b27a43c356e609b897",
     "type": "OWNER_SIGNED_OPERATIONAL_DATA_PUBLICATION"
   },
   "publication_authority_state": "OWNER_SIGNED_ACTIVATION_VERIFIED",
