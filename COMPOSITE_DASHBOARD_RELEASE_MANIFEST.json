@@ -16,7 +16,7 @@
     "total_vnd": 2379345224,
     "workbook_sha256": "45482ad10dd7d16f0b42920f57f7b059c1d6bf61d06bc0dcaa13ca28d92ac685"
   },
-  "authority_basis": "DIRECTOR_CURRENT_SCOPED_ONE_TIME_OPERATIONAL_DISPLAY_ORDER",
+  "authority_basis": "OWNER_AUTHORIZED_DIRECTOR_ON_DEMAND_COMMAND",
   "composite": {
     "actual_assignment_sha256": "4467165de04dfd4d24a7ce2330b265be10efb04d129320beb26b02b3a0163cb0",
     "actual_total_reconciliation": "HISTORICAL_CERTIFIED_LAYER_UNCHANGED; NEW_MD_NOT_CERTIFIED",
@@ -31,8 +31,8 @@
       "current-assignment-actual-v1.html": "5f2f7f12b8cdf70c1496db961c14b7c969f8cb1e5be8b079e1e35f2379e6938a",
       "current-assignment-actual-v1.json": "e9d4feee95441dfff0143439df45a9ac8a8fca7cd7aeac0ce1891ac0c50deaec",
       "current-assignment-ps-v1.json": "2f149c2f5a39be91213446df86a8ecfcfd757606ad6ef8e8a552ef5c7b1fc226",
-      "index.html": "959374a024e8340ba3263d1140fb9776a8f9f8252fbae76db134286ad3288a27",
-      "md-operational-result-v1.json": "25270cf419ea3b8622ded2ed5946fdd3eed9c2b8547d6aaf426ae162ece00e92",
+      "index.html": "1149564295f90efda0133f4a0af023ecd32b8ddfd6add3bc940269fc77820fad",
+      "md-operational-result-v1.json": "287859f30a21b56e035f09cdd5f55bfa99b10e6dd943fae8e767743e6bfd6980",
       "operational-partial-verification-v1.json": "b4b4546117ce92a813bcc272710b7a255b506d821f5062d915bc735c831ac3bb",
       "operational-releases/CL_FORMULA_20261103/PUBLICATION_APPROVAL.json": "345c258e2cd879ae628c890cf9766ae7d0258b2b4698e628059bd03499fe939a",
       "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
@@ -45,31 +45,27 @@
     },
     "homepage_actual_artifact_sha256": null,
     "homepage_mode": "OPERATIONAL_PARTIAL_VERIFIED",
-    "html_sha256": "959374a024e8340ba3263d1140fb9776a8f9f8252fbae76db134286ad3288a27",
+    "html_sha256": "1149564295f90efda0133f4a0af023ecd32b8ddfd6add3bc940269fc77820fad",
     "integrity_rule": "CERTIFICATE_BINDS_ACTUAL_ARTIFACT_ONLY; COMPOSITE_AND_DERIVED_LAYER_HASHES_ARE_SEPARATE",
-    "operational_md_total_reconciliation": "1636247924"
+    "operational_md_total_reconciliation": "1979640562"
   },
   "created_at": "2026-11-03T03:05:12.367597+00:00",
   "current_display": {
+    "assignment_effective_date": "2026-11-18",
     "certificate_status": "NOT_NEW_ACTUAL_CERTIFICATE",
     "classification": "OPERATIONAL_PARTIAL_VERIFIED",
-    "dynamic_transition_consumed": true,
-    "html_sha256": "494b18ed2d3f911a7172fef30d9f0e85f1cc2247e35cbb7b34b4a2d2bd4c649b",
-    "management_effective_from": "2026-11-18",
-    "md_label": "2026-11-19",
+    "html_sha256": "1149564295f90efda0133f4a0af023ecd32b8ddfd6add3bc940269fc77820fad",
     "old_sap_continuity": "NOT_PROVEN",
-    "original_md_sha256": "14a9f156a40a6f3450a140310469663a7caafde49267f326b8994ec4a12acf46",
-    "payload_sha256": "25270cf419ea3b8622ded2ed5946fdd3eed9c2b8547d6aaf426ae162ece00e92",
-    "publication_permission": "OPERATIONAL_DATA_PUBLICATION",
-    "release_id": "CN_OP_202611_DYNAMIC_f4f1bbf560c3",
-    "release_manifest_sha256": "810624fe6025152dc9bb820cd30a604153716df39bb9feba55155117a9f8a4b9",
+    "payload_sha256": "287859f30a21b56e035f09cdd5f55bfa99b10e6dd943fae8e767743e6bfd6980",
+    "publication_permission": "OPERATIONAL_ON_DEMAND_PUBLICATION",
+    "release_id": "CN_OP_202611_ONDEMAND_e9bcca9210517c5e",
+    "release_manifest_sha256": "33b8e45eda3feb4b383c8c65e065971340f98a955a4467605c53a68cf7cc5264",
     "reporting_period": "2026-11",
-    "same_period_revision": 3,
     "sap_balance_as_of": "NOT_PROVEN",
     "source_sha256": {
       "assignment": "ec1cd96b180a0088981ad8765a011062963046b8b41440ff5ceba33432d955f5",
-      "md": "86892192116b8e874abd38db201fc1df22e652dc3cf5bb134fa91d1040fc096e",
-      "sap": "5cc29e847d58be2183064fff566f8bc854b5467afdaf9848df681f0ee71e53d4"
+      "md": "0d4cfed56ca020fdb7a85fd8cb66c7ff943533f001cb3bf013e527868222f96c",
+      "sap": "8d1b9475ddf600d70d2976c0950b3fbc21a12f77b1df08ea8f3a7b408e2a39bc"
     }
   },
   "derived_actual_by_assignment": {
@@ -128,8 +124,8 @@
     "current-assignment-actual-v1.html": "5f2f7f12b8cdf70c1496db961c14b7c969f8cb1e5be8b079e1e35f2379e6938a",
     "current-assignment-actual-v1.json": "e9d4feee95441dfff0143439df45a9ac8a8fca7cd7aeac0ce1891ac0c50deaec",
     "current-assignment-ps-v1.json": "2f149c2f5a39be91213446df86a8ecfcfd757606ad6ef8e8a552ef5c7b1fc226",
-    "index.html": "959374a024e8340ba3263d1140fb9776a8f9f8252fbae76db134286ad3288a27",
-    "md-operational-result-v1.json": "25270cf419ea3b8622ded2ed5946fdd3eed9c2b8547d6aaf426ae162ece00e92",
+    "index.html": "1149564295f90efda0133f4a0af023ecd32b8ddfd6add3bc940269fc77820fad",
+    "md-operational-result-v1.json": "287859f30a21b56e035f09cdd5f55bfa99b10e6dd943fae8e767743e6bfd6980",
     "operational-partial-verification-v1.json": "b4b4546117ce92a813bcc272710b7a255b506d821f5062d915bc735c831ac3bb",
     "operational-releases/CL_FORMULA_20261103/PUBLICATION_APPROVAL.json": "345c258e2cd879ae628c890cf9766ae7d0258b2b4698e628059bd03499fe939a",
     "operational-releases/MD_OPERATIONAL_20261029/PUBLICATION_APPROVAL.json": "2dc39eefdd5d17e6809edfe0e4b01597b40f662d32e4901a423a60d6e5d0a908",
@@ -141,12 +137,13 @@
     "staff-plan-v1.html": "b94e9c1000464b8a21deb465716a4851869d51ff9e017582da17d767ed25634a"
   },
   "historical_actual_reference_only": true,
+  "on_demand_request_id": "975675adaa054762a8207e642670fa17",
   "operational_publication_prepared_at_utc": "2026-10-29T11:36:58.215604+00:00",
   "operational_sap_delta": {
     "path": "operational-sap-delta-v1.json",
     "sha256": "268f41c2a00f2db75b532444b0388f1124dc0d91400f00e3cf5b069b468ae99d"
   },
-  "predecessor_commit": "3e217d8620850e38f876ad9324981582ce18512e",
+  "predecessor_commit": "ef3dbf1120da6b8342a92cbd28bea75b316e6449",
   "presentation_correction": {
     "correction_id": "CN-REV14-PRESENTATION-MANIFEST-FIX-20261119-001",
     "financial_manifest_sha256": "810624fe6025152dc9bb820cd30a604153716df39bb9feba55155117a9f8a4b9",
@@ -166,8 +163,8 @@
   },
   "publication_authority": {
     "certificate_grants_publication": false,
-    "policy_sha256": "6afad737b03e2452b4fc5ba9e9579b8f81dbefeca6c51da7e3f6ff6448dfebd4",
-    "type": "OWNER_SIGNED_OPERATIONAL_DATA_PUBLICATION"
+    "policy_sha256": "02c09b345f264f2900a54e7448150d062dbad4a2ef799c1516deb60b2c317dd7",
+    "type": "OWNER_AUTHORIZED_PRIMARY_ON_DEMAND"
   },
   "publication_authority_state": "OWNER_SIGNED_ACTIVATION_VERIFIED",
   "publication_target": {
