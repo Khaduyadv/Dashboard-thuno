@@ -11822,6 +11822,7 @@
 (() => {
   const DATA = JSON.parse(document.getElementById('reviewedData').textContent);
   const META = JSON.parse(document.getElementById('displayMetadata').textContent);
+  const hasVerifiedStaff = s => s.cbld !== 'CHƯA GÁN' && s.cskh !== 'CHƯA GÁN';
   const $ = id => document.getElementById(id);
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const number = (n, digits = 0) => new Intl.NumberFormat('vi-VN', {minimumFractionDigits:digits,maximumFractionDigits:digits}).format(n);
@@ -11855,10 +11856,10 @@
     return {elapsed,days,percent:elapsed/days*100,today};
   }
   $('monthFilter').add(new Option(`Tháng ${String(month).padStart(2,'0')}/${year}`,DATA.kpi_period));
-  options($('leaderFilter'),unique(DATA.shops.map(s=>s.cbld)),'Tất cả CBLĐ','');
+  options($('leaderFilter'),unique(DATA.shops.filter(hasVerifiedStaff).map(s=>s.cbld)),'Tất cả CBLĐ','');
   function staffOptions() {
     const leader=$('leaderFilter').value;
-    options($('staffFilter'),unique(DATA.shops.filter(s=>!leader || s.cbld===leader).map(s=>s.cskh)),'Tất cả CSKH',$('staffFilter').value);
+    options($('staffFilter'),unique(DATA.shops.filter(s=>hasVerifiedStaff(s) && (!leader || s.cbld===leader)).map(s=>s.cskh)),'Tất cả CSKH',$('staffFilter').value);
   }
   staffOptions();
   function group(shops, key) {
@@ -11960,7 +11961,7 @@
     }).sort((a,b)=>b.kpiGap-a.kpiGap);
   }
   function directorActions() {
-    directionPlans=buildDirectionPlans(visible);
+    directionPlans=buildDirectionPlans(visible.filter(hasVerifiedStaff));
     const host=$('directorActionBoard');host.replaceChildren();
     directionPlans.forEach((g,index)=>{
       const card=document.createElement('article');card.className='director-action-card';card.dataset.leader=g.cbld;
@@ -11990,7 +11991,7 @@
   }
   function leaders() {
     const host=$('leaderCards');host.replaceChildren();
-    group(visible,'cbld').sort((a,b)=>b.actual-a.actual).forEach(g=>{
+    group(visible.filter(hasVerifiedStaff),'cbld').sort((a,b)=>b.actual-a.actual).forEach(g=>{
       const card=document.createElement('button');card.className='leader-card';
       card.dataset.leader=g.cbld;
       card.innerHTML=`<div class="leader-name">${esc(g.cbld)}</div><div class="leader-rates"><span>KPI tổng <b class="leader-kpi-rate">${rateText(g.rate)}</b></span><span>Thu nợ PS <b class="leader-ps-rate">${rateText(g.psrate)}</b></span></div><div class="leader-metrics"><span>Đã thu · triệu<b>${million(g.actual)}</b></span><span>KPI · triệu<b>${million(g.kpi)}</b></span></div><div class="leader-foot">${g.count} Shop · ${unique(g.shops.map(s=>s.cskh)).length} CSKH</div>`;
@@ -12044,7 +12045,7 @@
     const leader=$('leaderFilter').value,staff=$('staffFilter').value;
     visible=DATA.shops.filter(s=>(!leader||s.cbld===leader)&&(!staff||s.cskh===staff));
     currentTotals=!leader&&!staff?Object.fromEntries(metrics.map(k=>[k,Number(DATA.totals_vnd[k])])):sum(visible);
-    grouped=group(visible,'cskh');
+    grouped=group(visible.filter(hasVerifiedStaff),'cskh');
     $('actualMetric').textContent=million(currentTotals.actual);$('kpiMetric').textContent=million(currentTotals.kpi);
     const rate=percent(currentTotals.actual,currentTotals.kpi);$('rateMetric').textContent=rateText(rate);
     $('completionBar').style.width=Math.max(0,Math.min(100,rate??0))+'%';
@@ -12053,7 +12054,7 @@
     $('psRateMetric').textContent=rateText(psRate);
     $('psCompletionBar').style.width=Math.max(0,Math.min(100,psRate??0))+'%';
     $('psAmountMetric').textContent=`${million(currentTotals.ps_collected)} / ${million(currentTotals.ps_debt)} triệu đồng`;
-    $('scopeSummary').textContent=`Phạm vi: ${number(visible.length)} Shop · ${unique(visible.map(s=>s.cbld)).length} CBLĐ · ${grouped.length} CSKH`;
+    $('scopeSummary').textContent=`Phạm vi: ${number(visible.length)} Shop · ${unique(visible.filter(hasVerifiedStaff).map(s=>s.cbld)).length} CBLĐ · ${grouped.length} CSKH${visible.filter(s=>!hasVerifiedStaff(s)).length ? ' · '+number(visible.filter(s=>!hasVerifiedStaff(s)).length)+' Shop chưa xác minh phân công (không tính vào nhân sự)' : ''}`;
     $('directionScope').textContent=`${leader?directionName(leader):'Toàn bộ CBLĐ'}${staff?' · '+directionName(staff):''} · Nguồn MD cập nhật 26/11 · SAP as-of chưa xác minh`;
     dailyChart(currentTotals);psChart(grouped);leaders();staffTable();directorActions();shopTable();
   }
